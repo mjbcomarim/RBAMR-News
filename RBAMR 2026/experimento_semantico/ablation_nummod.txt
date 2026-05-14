@@ -1,0 +1,4680 @@
+# ::tok Tem que voltar já .
+(o / obligate.01
+    :ARG0 (e / ele)
+    :ARG2 (v / voltar.01
+        :mod (j / já)))
+
+# ::tok Não se trata de liberdade ?
+(t / tratar.01
+    :polarity -
+    :ARG0 (e / ele))
+
+# ::tok Até me ameaçaram de morte .
+(a2 / ameaçar.01
+    :ARG0 (e / eles)
+    :mod (a / até)
+    :ARG1 (m / me))
+
+# ::tok Sei todas as dificuldades .
+(s / saber.01
+    :ARG0 (e / eu)
+    :ARG1 (d / dificuldade))
+
+# ::tok Mas não com essa dimensão .
+(c / contrast-01)
+
+# ::tok Por que não ?
+(q / que
+    :mode amr-unknown)
+
+# ::tok Boa parte está na mídia .
+(m / mídia
+    :ARG0 (p / parte
+        :mod (b / bom)))
+
+# ::tok Outros com processo caminhando .
+(o / outro
+    :ARG1 (p / processo))
+
+# ::tok Mas há algo de semelhante .
+(c / contrast-01)
+
+# ::tok Lula nunca foi comunista .
+(c / comunista
+    :polarity -
+    :ARG0 (p / person
+        :name (n / name
+            :op1 "Lula")))
+
+# ::tok Esse é um ponto .
+(p / ponto
+    :ARG0 (e / esse))
+
+# ::tok Isso foi tudo .
+(t / tudo
+    :ARG0 (i / isso))
+
+# ::tok Por que não agora ?
+(a / agora
+    :polarity -)
+
+# ::tok Aquilo não tinha coordenação nenhuma .
+(t / ter.01
+    :polarity -
+    :ARG0 (a / aquilo)
+    :ARG1 (c / coordenação))
+
+# ::tok Seu papel mudou .
+(m / mudar.01
+    :ARG0 (p / papel))
+
+# ::tok Edson Fachin reconheceu a ironia .
+(r / reconhecer.01
+    :ARG0 (p / person
+        :name (n / name
+            :op1 "Edson"))
+    :ARG1 (i / ironia))
+
+# ::tok Ao todo , 367 responderam .
+(r / responder.01
+    :ARG0 (x / 367))
+
+# ::tok Quem não envelhece morre .
+(m / morrer.01
+    :ARG0 (q / quem))
+
+# ::tok Tem que ser assim .
+(o / obligate.01
+    :ARG0 (e / ele)
+    :ARG2 (a / assim))
+
+# ::tok Não , preguiça .
+(p / preguiça
+    :polarity -)
+
+# ::tok Não pode , pô .
+(p / poder.01
+    :polarity -
+    :ARG0 (e / ele))
+
+# ::tok Sou de Santos .
+(c / city
+    :name (n / name
+        :op1 "Santos"))
+
+# ::tok Tem baixa capacidade de sustentação .
+(t / ter.01
+    :ARG0 (e / ele)
+    :ARG1 (c / capacidade
+        :mod (b / baixo)
+        :ARG1 (s / sustentação)))
+
+# ::tok Ela será feita ?
+(f / fazer.01
+    :ARG1 (e / ele))
+
+# ::tok Nós temos independência funcional .
+(t / ter.01
+    :ARG0 (n / nós)
+    :ARG1 (i / independência
+        :mod (f / funcional)))
+
+# ::tok Mas não temos dinheiro ?
+(c / contrast-01)
+
+# ::tok E um mundo problemático . ''.
+(m / mundo
+    :op (e / e)
+    :mod (p / problemático))
+
+# ::tok Não seria novidade .
+(n / novidade
+    :polarity -)
+
+# ::tok Isso é tudo .
+(t / tudo
+    :ARG0 (i / isso))
+
+# ::tok Pode ter voto .
+(p / possible.01
+    :ARG0 (e / ele)
+    :ARG2 (t / ter.01
+        :ARG1 (v / voto)))
+
+# ::tok Eu apostava nele .
+(a / apostar.01
+    :ARG0 (e / eu))
+
+# ::tok E a partir de agora ?
+(p / partir.01
+    :op (e / e)
+    :mod (a / agora))
+
+# ::tok Por que não eu ?
+(e / eu
+    :polarity -
+    :ARG1 (q / que
+        :mode amr-unknown))
+
+# ::tok Passou para regime domiciliar .
+(p / passar.01
+    :ARG0 (e / ele))
+
+# ::tok Assad está solto desde outubro .
+(s / solto
+    :ARG0 (p / person
+        :name (n / name
+            :op1 "Assad")))
+
+# ::tok A greve acabou .
+(a / acabar.01
+    :ARG0 (g / greve))
+
+# ::tok Não é um projeto pessoal .
+(p / projeto
+    :polarity -
+    :mod (p2 / pessoal))
+
+# ::tok A advocacia perdeu protagonismo ?
+(p / perder.01
+    :ARG0 (a / advocacia)
+    :ARG1 (p2 / protagonismo))
+
+# ::tok São críticas eleitoreiras ?
+(c / crítico
+    :mod (e / eleitoreiro))
+
+# ::tok Foi a OAB-SP .
+(p / person
+    :name (n / name
+        :op1 "OAB-SP"))
+
+# ::tok Foi o Fernando , FHC .
+(p / person
+    :name (n / name
+        :op1 "Fernando"))
+
+# ::tok Havia o vazio na Alemanha .
+(h / haver.01
+    :ARG1 (v / vazio))
+
+# ::tok Você é virtualmente um genocida .
+(g / genocida
+    :ARG0 (v / você)
+    :mod (v2 / virtualmente))
+
+# ::tok Antes de tudo isso .
+(a / antes)
+
+# ::tok A sociedade que precisa resolver .
+(s / sociedade)
+
+# ::tok Acha que não é verdade ?
+(a / achar.01
+    :ARG0 (e / ele))
+
+# ::tok No PSDB foi assim .
+(a / assim)
+
+# ::tok E o MDB ?
+(p / person
+    :name (n / name
+        :op1 "MDB")
+    :op (e / e))
+
+# ::tok Seria o PT ?
+(p / person
+    :name (n / name
+        :op1 "PT"))
+
+# ::tok Vejo um quadro rigorosamente diferente .
+(v / ver.01
+    :ARG0 (e / eu)
+    :ARG1 (q / quadro
+        :mod (d / diferente
+            :mod (r / rigorosamente))))
+
+# ::tok Não temos nenhuma intelectualidade pronta .
+(t / ter.01
+    :polarity -
+    :ARG0 (n / nós)
+    :ARG1 (i / intelectualidade
+        :mod (p / pronto)))
+
+# ::tok Não diga em reticências .
+(d / dizer.01
+    :polarity -
+    :ARG0 (e / ele))
+
+# ::tok Certamente não era um reacionário .
+(r / reacionário
+    :polarity -
+    :mod (c / certamente))
+
+# ::tok Conversamos por duas horas .
+(c / conversar.01
+    :ARG0 (n / nós))
+
+# ::tok E qual é a próxima ?
+(e / e)
+
+# ::tok Músico : Ricardo Pesce.
+(m / músico
+    :ARG1 (p / person
+        :name (n / name
+            :op1 "Ricardo")))
+
+# ::tok Operação de Som – Viviane Barbosa.
+(p / person
+    :name (n / name
+        :op1 "Operação"))
+
+# ::tok Cartas de amor aos livros.
+(c / carta
+    :ARG1 (a / amor
+        :ARG1 (l / livro)))
+
+# ::tok Av . Paulista , 1578.
+(a / av
+    :ARG1 (t / thing
+        :name (n / name
+            :op1 ".")))
+
+# ::tok Vão me acusar de incoerência .
+(a / acusar.01
+    :ARG1 (m / me))
+
+# ::tok No virado à paulista .
+(v / virado
+    :ARG1 (p / paulista))
+
+# ::tok Dá um trabalhão .
+(d / dar.01
+    :ARG0 (e / ele)
+    :ARG1 (t / trabalhão))
+
+# ::tok Dia Nacional do Samba.
+(p / person
+    :name (n / name
+        :op1 "Dia"))
+
+# ::tok DUAS dicas para enfrentar 2019.
+(d2 / dica)
+
+# ::tok UM drink para encerrar 2018.
+(d / drink)
+
+# ::tok A turnê segue até fevereiro .
+(s / seguir.01
+    :ARG0 (t / turnê))
+
+# ::tok Seus pais preferem Abraham .
+(p2 / preferir.01
+    :ARG0 (p / pai)
+    :ARG1 (p3 / person
+        :name (n / name
+            :op1 "Abraham")))
+
+# ::tok Por que acreditar em mim ?
+(a / acreditar.01)
+
+# ::tok Palestras prometidas eram canceladas .
+(c / cancelar.01
+    :ARG1 (p / palestra))
+
+# ::tok Mas ainda não era eu .
+(c / contrast-01)
+
+# ::tok Outros dois morreram .
+(m / morrer.01
+    :ARG0 (d / dois))
+
+# ::tok Academias especializadas estão na moda .
+(m / moda
+    :ARG0 (a / academia
+        :mod (e / especializado)))
+
+# ::tok Devo mesmo dizer alguma coisa ?
+(d / dever.01
+    :ARG0 (e / eu)
+    :mod (m / mesmo)
+    :ARG2 (d2 / dizer.01
+        :ARG1 (c / coisa)))
+
+# ::tok Jornalista e roteirista de TV .
+(j / jornalista
+    :op (r / roteirista
+        :op (e / e)
+        :ARG1 (t / televisão)))
+
+# ::tok Isso não é revolucionário ?
+(r / revolucionário
+    :polarity -
+    :ARG0 (i / isso))
+
+# ::tok Elisabeth morreu em 2004 .
+(m / morrer.01
+    :ARG0 (p / person
+        :name (n / name
+            :op1 "Elisabeth")))
+
+# ::tok Não foi um estudo randomizado .
+(e / estudo
+    :polarity -
+    :mod (r / randomizado))
+
+# ::tok A equação não é fácil .
+(f / fácil
+    :polarity -
+    :ARG0 (e / equação))
+
+# ::tok Foram brutalmente assassinadas .
+(a / assassinar.01
+    :mod (b / brutalmente))
+
+# ::tok Veja os anúncios de mortes.
+(v / ver.01
+    :ARG0 (e / ele)
+    :ARG1 (a / anúncio
+        :ARG1 (m / morte)))
+
+# ::tok Não houve sobreviventes .
+(h / haver.01
+    :polarity -
+    :ARG1 (s / sobrevivente))
+
+# ::tok Leia a coluna completa aqui .
+(l / ler.01
+    :ARG0 (e / ele)
+    :ARG1 (c / coluna
+        :mod (c2 / completo))
+    :mod (a / aqui))
+
+# ::tok Fazenda de SP pratica agricultura regenerativa.
+(p2 / praticar.01
+    :ARG0 (f / fazenda
+        :ARG1 (p / person
+            :name (n / name
+                :op1 "SP")))
+    :ARG1 (a / agricultura
+        :mod (r / regenerativo)))
+
+# ::tok Mas hoje faria mais rápido .
+(c / contrast-01)
+
+# ::tok Agrotóxico é perigoso .
+(p / perigoso
+    :ARG0 (a / agrotóxico))
+
+# ::tok Não é bem assim .
+(a / assim
+    :polarity -
+    :mod (b / bem))
+
+# ::tok Lucas Veloso é correspondente de Guaianases.
+(c / correspondente
+    :ARG0 (p / person
+        :name (n / name
+            :op1 "Lucas"))
+    :ARG1 (p3 / person
+        :name (n3 / name
+            :op1 "Guaianases")))
+
+# ::tok Outros dois morreram .
+(m / morrer.01
+    :ARG0 (d / dois))
+
+# ::tok Após amistoso no super star soccer.
+(a / amistoso
+    :ARG1 (s2 / star
+        :mod (s / super)))
+
+# ::tok Veja mais fotos do casório :
+(v / ver.01
+    :ARG0 (e / ele)
+    :ARG1 (f / foto
+        :ARG1 (c / casório)))
+
+# ::tok Mas de humanidades ?
+(c / contrast-01)
+
+# ::tok Veja os anúncios de missas.
+(v / ver.01
+    :ARG0 (e / ele)
+    :ARG1 (a / anúncio
+        :ARG1 (m / missa)))
+
+# ::tok Isso era previsível .
+(p / previsível
+    :ARG0 (i / isso))
+
+# ::tok Tradução de Paulo Migliacci.
+(t / tradução
+    :ARG1 (p / person
+        :name (n / name
+            :op1 "Paulo")))
+
+# ::tok Inclui traslados .
+(i / incluir.01
+    :ARG0 (e / ele)
+    :ARG1 (t / traslado))
+
+# ::tok Valor por pessoa.
+(v / valor
+    :ARG1 (p / pessoa))
+
+# ::tok Sem passagem aérea.
+(p / passagem
+    :mod (a / aéreo))
+
+# ::tok Preço por pessoa.
+(p / preço
+    :ARG1 (p2 / pessoa))
+
+# ::tok Nada demais ?
+(d / demais)
+
+# ::tok Arranje !
+(a / arranjar.01
+    :ARG0 (e / ele))
+
+# ::tok R $ 9.931.
+(r / r)
+
+# ::tok Não há entrega no Brasil .
+(h / haver.01
+    :polarity -
+    :ARG1 (e / entrega))
+
+# ::tok ele escreveu .
+(e2 / escrever.01
+    :ARG0 (e / ele))
+
+# ::tok Karol Conka.
+(p / person
+    :name (n / name
+        :op1 "Karol"))
+
+# ::tok folha.lineup@gmail.com.
+(f / folha.lineup@gmail.com)
+
+# ::tok Aventura clássica.
+(a / aventura
+    :mod (c / clássico))
+
+# ::tok Maria Fernanda Cândido.
+(p / person
+    :name (n / name
+        :op1 "Maria"))
+
+# ::tok Concerto histórico.
+(c / concerto
+    :mod (h / histórico))
+
+# ::tok folha.lineup@gmail.com.
+(f / folha.lineup@gmail.com)
+
+# ::tok E bebe-se .
+(b / beber.01
+    :ARG0 (e2 / ele)
+    :op (e / e))
+
+# ::tok Albin Michel .
+(p / person
+    :name (n / name
+        :op1 "Albin"))
+
+# ::tok Konstantin Kilimnik.
+(p / person
+    :name (n / name
+        :op1 "Konstantin"))
+
+# ::tok Escócia.
+(p / person
+    :name (n / name
+        :op1 "Escócia"))
+
+# ::tok Singapur.
+(p / person
+    :name (n / name
+        :op1 "Singapur"))
+
+# ::tok Ou médio ?
+(m / médio
+    :op (o / ou))
+
+# ::tok Imaginem .
+(i / imaginar.01
+    :ARG0 (e / eles))
+
+# ::tok Nada disso .
+(i / isso)
+
+# ::tok Editora Cobogó .
+(p / person
+    :name (n / name
+        :op1 "Editora"))
+
+# ::tok Não sabemos .
+(s / saber.01
+    :polarity -
+    :ARG0 (n / nós))
+
+# ::tok Grátis .
+(g / grátis)
+
+# ::tok a dívida.
+(d / dívida)
+
+# ::tok Mas não só .
+(c / contrast-01)
+
+# ::tok Nada disso se provou verdadeiro .
+(p / provar.01
+    :ARG2 (v / verdadeiro))
+
+# ::tok Primeiro os pobres . ”.
+(p2 / pobre
+    :mod (p / primeiro))
+
+# ::tok Trata-se de uma declaração política .
+(t / tratar.01
+    :ARG0 (e / ele))
+
+# ::tok Reuters e Associated Press.
+(p / person
+    :name (n / name
+        :op1 "Reuters")
+    :op (p2 / person
+        :name (n2 / name
+            :op1 "Associated")
+        :op (e / e)))
+
+# ::tok Bolsonaro a devorou .
+(d / devorar.01
+    :ARG0 (p / person
+        :name (n / name
+            :op1 "Bolsonaro")))
+
+# ::tok O que é 'brexit ' ?
+(q / que
+    :mode amr-unknown)
+
+# ::tok Judith Chesang , 22 , Quênia.
+(p / person
+    :name (n / name
+        :op1 "Judith"))
+
+# ::tok Trump é um dos suspeitos ?
+(p / person
+    :name (n / name
+        :op1 "Trump"))
+
+# ::tok Duas pessoas foram presas .
+(p2 / prender.01
+    :ARG1 (p / pessoa))
+
+# ::tok Não me sinto triste .
+(s / sentir.01
+    :polarity -
+    :ARG0 (e / eu)
+    :ARG2 (t / triste))
+
+# ::tok Espero que arranjem trabalho logo .
+(e / esperar.01
+    :ARG0 (e2 / eu))
+
+# ::tok Houve briga e pedradas .
+(h / haver.01
+    :ARG1 (b / briga
+        :op (p / pedrada
+            :op (e / e))))
+
+# ::tok Populismo e liberalismo raramente combinam .
+(c / combinar.01
+    :ARG0 (p / populismo
+        :op (l / liberalismo
+            :op (e / e)))
+    :mod (r / raramente))
+
+# ::tok Trump é um dos suspeitos ?
+(p / person
+    :name (n / name
+        :op1 "Trump"))
+
+# ::tok Como tudo começou ?
+(c2 / começar.01
+    :mod (c / como
+        :mode amr-unknown)
+    :ARG0 (t / tudo))
+
+# ::tok Quem cuida da investigação ?
+(c / cuidar.01
+    :ARG0 (q / quem
+        :mode amr-unknown))
+
+# ::tok O que está sob investigação ?
+(i / investigação)
+
+# ::tok Moram nele hoje 280 trabalhadoras .
+(m / morar.01
+    :mod (h / hoje)
+    :ARG0 (t / trabalhador))
+
+# ::tok De quanto é ?
+(q / quanto)
+
+# ::tok Há várias opções gastronômicas .
+(h / haver.01
+    :ARG1 (o / opção
+        :mod (g / gastronômico)))
+
+# ::tok Não tinha supermercado .
+(t / ter.01
+    :polarity -
+    :ARG0 (e / ele)
+    :ARG1 (s / supermercado))
+
+# ::tok Os horários são locais .
+(l / local
+    :ARG0 (h / horário))
+
+# ::tok Envolve milho e ervilha .
+(e / envolver.01
+    :ARG0 (e2 / ele)
+    :ARG1 (m / milho
+        :op (e4 / ervilha
+            :op (e3 / e))))
+
+# ::tok Preço para duas pessoas .
+(p / preço
+    :ARG1 (p2 / pessoa))
+
+# ::tok Esta ficará preservada .
+(f / ficar.01
+    :ARG0 (e / este)
+    :ARG2 (p / preservado))
+
+# ::tok Luanda era nossa segunda escala .
+(e / escala
+    :ARG0 (c / city
+        :name (n / name
+            :op1 "Luanda"))
+    :mod (s2 / segundo))
+
+# ::tok O de emergência não abriu .
+(a / abrir.01
+    :polarity -)
+
+# ::tok Mas isso nunca acontece nos tribunais . ”.
+(c / contrast-01)
+
+# ::tok Não há foro privilegiado para juízes e desembargadores .
+(h / haver.01
+    :polarity -
+    :ARG1 (f / foro
+        :mod (p / privilegiado)))
+
+# ::tok Não se fala de sexo com crianças .
+(f / falar.01
+    :polarity -
+    :ARG0 (e / ele))
+
+# ::tok Alguns são indicados para membros do partido .
+(i / indicar.01
+    :ARG1 (a / algum))
+
+# ::tok Há jardins semanais em todo distrito .
+(h / haver.01
+    :ARG1 (j / jardim
+        :mod (s / semanal)))
+
+# ::tok E se perderem , podem ganhar outro ?
+(p2 / possible.01
+    :ARG0 (e3 / eles)
+    :op (e / e)
+    :ARG2 (g / ganhar.01
+        :ARG1 (o / outro)))
+
+# ::tok Só voltam para casa aos domingos .
+(v / voltar.01
+    :ARG0 (e / eles)
+    :mod (s / só))
+
+# ::tok Mas poucos acompanham rigorosamente seus resultados .
+(c / contrast-01)
+
+# ::tok Harmanto nunca mudou sua visão linha dura .
+(m / mudar.01
+    :polarity -
+    :ARG0 (p / person
+        :name (n / name
+            :op1 "Harmanto"))
+    :ARG1 (v / visão
+        :ARG1 (l / linha
+            :mod (d / duro))))
+
+# ::tok E não têm fama de navegantes .
+(t / ter.01
+    :polarity -
+    :ARG0 (e2 / eles)
+    :op (e / e)
+    :ARG1 (f / fama
+        :ARG1 (n / navegante)))
+
+# ::tok Trabalhamos juntos em anos de muitas mudanças .
+(t / trabalhar.01
+    :ARG0 (n / nós))
+
+# ::tok Realizou dezenas de missões como piloto no Pacífico .
+(r / realizar.01
+    :ARG0 (e / ele)
+    :ARG1 (d / dezena
+        :ARG1 (m / missão
+            :ARG1 (p / piloto)))
+    :ARG1 (p2 / person
+        :name (n / name
+            :op1 "Pacífico")))
+
+# ::tok Mais de 40 foram presos nos EUA .
+(p / prender.01
+    :ARG1 (x / 40
+        :mod (m / mais)))
+
+# ::tok Hoje ela está fora do jogo . ”.
+(f / fora
+    :mod (h / hoje)
+    :ARG0 (e / ele))
+
+# ::tok Reuters , Associated Press , e AFP.
+(p / person
+    :name (n / name
+        :op1 "Reuters")
+    :op (p2 / person
+        :name (n2 / name
+            :op1 "Associated"))
+    :op (p4 / person
+        :name (n4 / name
+            :op1 "AFP")
+        :op (e / e)))
+
+# ::tok Há ainda a questão do espaço .
+(h / haver.01
+    :mod (a / ainda)
+    :ARG1 (q / questão
+        :ARG1 (e / espaço)))
+
+# ::tok Todos são médicos sem CRM ” .
+(m / médico
+    :ARG0 (t / todo)
+    :ARG1 (p / person
+        :name (n / name
+            :op1 "CRM")
+        :mod (t2 / thing
+            :name (n2 / name
+                :op1 "”"))))
+
+# ::tok Com eles escrevi meu primeiro livro .
+(e2 / escrever.01
+    :ARG0 (e3 / eu)
+    :ARG1 (l / livro
+        :mod (p / primeiro)))
+
+# ::tok Trujillo comemorou o feito de seus agentes .
+(c2 / comemorar.01
+    :ARG0 (c / city
+        :name (n / name
+            :op1 "Trujillo"))
+    :ARG1 (f / feito
+        :ARG1 (a / agente)))
+
+# ::tok Foram presas diversas vezes , torturadas .
+(p / prender.01
+    :op (t / torturar.01))
+
+# ::tok O município não é atendido pelo Mais Médicos .
+(a / atender.01
+    :polarity -
+    :ARG1 (m / município))
+
+# ::tok A porção sai por R $ 7 .
+(s / sair.01
+    :ARG0 (p / porção))
+
+# ::tok O trono pet fica disponível até dia 24 .
+(f / ficar.01
+    :ARG0 (t / trono
+        :ARG1 (p / pet))
+    :ARG2 (d / disponível))
+
+# ::tok Alguns pontos , porém , extrapolaram essa porcentagem .
+(c / contrast-01)
+
+# ::tok O que ela fez de tão radical ?
+(f / fazer.01
+    :ARG0 (e / ele))
+
+# ::tok As maquetes dos projetos já estão prontas .
+(p2 / pronto
+    :ARG0 (m / maquete
+        :ARG1 (p / projeto))
+    :mod (j / já))
+
+# ::tok A cobrança em Jambeiro , não sofreu modificações .
+(s / sofrer.01
+    :polarity -
+    :ARG0 (c / cobrança
+        :ARG1 (p / person
+            :name (n / name
+                :op1 "Jambeiro")))
+    :ARG1 (m / modificação))
+
+# ::tok O Comandante-Geral da PM está na região .
+(r / região
+    :ARG0 (p / person
+        :name (n / name
+            :op1 "Comandante-Geral")
+        :ARG1 (p2 / person
+            :name (n2 / name
+                :op1 "PM"))))
+
+# ::tok O treino é dividido em duas partes .
+(d / dividir.01
+    :ARG1 (t / treino))
+
+# ::tok Os dois bebês seriam os primeiros geneticamente modificados .
+(d / dois)
+
+# ::tok Pessoas e veículos de vários estados .
+(p / pessoa
+    :op (v / veículo
+        :op (e / e))
+    :ARG1 (e2 / estado))
+
+# ::tok Eles trabalharam juntos em Catanduvas ( PR ) .​.
+(t / trabalhar.01
+    :ARG0 (e / ele))
+
+# ::tok Aquele mesmo .
+(a / aquele)
+
+# ::tok Eu sei .
+(s / saber.01
+    :ARG0 (e / eu))
+
+# ::tok Como assim ?
+(a / assim)
+
+# ::tok Mentira .
+(m / mentira)
+
+# ::tok lucasveloso@agenciamural.org.br.
+(l / lucasveloso@agenciamural.org.br)
+
+# ::tok O motivo ?
+(m / motivo)
+
+# ::tok CONFLITOS E DECADÊNCIA.
+(c / conflito
+    :op (d / decadência
+        :op (e / e)))
+
+# ::tok coluna.obituario@grupofolha.com.br.
+(c / coluna.obituario@grupofolha.com.br)
+
+# ::tok MÚSICA.
+(m / música)
+
+# ::tok Setor agrícola.
+(s / setor
+    :mod (a / agrícola))
+
+# ::tok SÃO PAULO.
+(p / person
+    :name (n / name
+        :op1 "SÃO"))
+
+# ::tok Ele entendeu .
+(e2 / entender.01
+    :ARG0 (e / ele))
+
+# ::tok Não entendo .
+(e / entender.01
+    :polarity -
+    :ARG0 (e2 / eu))
+
+# ::tok Parabéns !
+(p / parabéns)
+
+# ::tok Um avanço !
+(a / avanço)
+
+# ::tok João Farias.
+(p / person
+    :name (n / name
+        :op1 "João"))
+
+# ::tok 42 % !
+(x2 / %)
+
+# ::tok Isso aconteceu ?
+(a / acontecer.01
+    :ARG0 (i / isso))
+
+# ::tok Brasil x Canadá.
+(c / country
+    :name (n / name
+        :op1 "Brasil")
+    :ARG1 (c2 / country
+        :name (n2 / name
+            :op1 "Canadá")))
+
+# ::tok Não existe .
+(e / existir.01
+    :polarity -)
+
+# ::tok José Dirceu.
+(p / person
+    :name (n / name
+        :op1 "José"))
+
+# ::tok Meio ambiente ?
+(m / meio
+    :ARG1 (a / ambiente))
+
+# ::tok Não cumpriu .
+(c / cumprir.01
+    :polarity -
+    :ARG0 (e / ele))
+
+# ::tok Quem é ?
+(q / quem
+    :mode amr-unknown)
+
+# ::tok Agora acabou .
+(a2 / acabar.01
+    :ARG0 (e / ele)
+    :mod (a / agora))
+
+# ::tok Sim .
+(s / sim)
+
+# ::tok Palavras dele .
+(p / palavra
+    :ARG1 (e / ele))
+
+# ::tok O Bolsonaro .
+(p / person
+    :name (n / name
+        :op1 "Bolsonaro"))
+
+# ::tok Teve voto .
+(t / ter.01
+    :ARG0 (e / ele)
+    :ARG1 (v / voto))
+
+# ::tok Não sei .
+(s / saber.01
+    :polarity -
+    :ARG0 (e / eu))
+
+# ::tok Joesley Batista .
+(p / person
+    :name (n / name
+        :op1 "Joesley"))
+
+# ::tok Não pretendo .
+(p / pretender.01
+    :polarity -
+    :ARG0 (e / eu))
+
+# ::tok Tá ok ?
+(o / ok)
+
+# ::tok E hoje ?
+(h / hoje
+    :op (e / e))
+
+# ::tok Nenhuma .
+(n / nenhum)
+
+# ::tok Constatando .
+(c / constatar.01)
+
+# ::tok E acabou .
+(a / acabar.01
+    :ARG0 (e2 / ele)
+    :op (e / e))
+
+# ::tok Digo com o coração .
+(d / dizer.01
+    :ARG0 (e / eu))
+
+# ::tok Hoffenheim 2 x 3 Donetsk.
+(p / person
+    :name (n / name
+        :op1 "Hoffenheim")
+    :ARG1 (x / 2
+        :ARG1 (c / city
+            :name (n2 / name
+                :op1 "Donetsk"))))
+
+# ::tok O número atual é assustador .
+(a2 / assustador
+    :ARG0 (n / número
+        :mod (a / atual)))
+
+# ::tok Também não elogia .
+(e / elogiar.01
+    :polarity -
+    :ARG0 (e2 / ele)
+    :mod (t / também))
+
+# ::tok Disse que sim .
+(d / dizer.01
+    :ARG0 (e / ele))
+
+# ::tok Merecem ser convocados .
+(m / merecer.01
+    :ARG0 (e / eles)
+    :ARG2 (c / convocar.01))
+
+# ::tok São 54 no total .
+(x / 54
+    :ARG1 (t / total))
+
+# ::tok Confundem simplicidade com fácil execução .
+(c / confundir.01
+    :ARG0 (e / eles)
+    :ARG1 (s / simplicidade))
+
+# ::tok CSKA 1 x 2 Vitoria Pilsen.
+(p / person
+    :name (n / name
+        :op1 "CSKA")
+    :ARG1 (x / 1
+        :ARG1 (p2 / person
+            :name (n2 / name
+                :op1 "Vitoria"))))
+
+# ::tok Juventus 1 x 0 Valência.
+(p / person
+    :name (n / name
+        :op1 "Juventus"))
+
+# ::tok Roma 0 x 2 Real Madrid.
+(p / person
+    :name (n / name
+        :op1 "Roma")
+    :ARG1 (x / 0
+        :ARG1 (p2 / person
+            :name (n2 / name
+                :op1 "Real"))))
+
+# ::tok Esse partido é o Jobbik .
+(p2 / person
+    :name (n / name
+        :op1 "Jobbik")
+    :ARG0 (p / partido))
+
+# ::tok E Olavo sabe disso .
+(s / saber.01
+    :op (e / e)
+    :ARG0 (p / person
+        :name (n / name
+            :op1 "Olavo")))
+
+# ::tok Cínicos e safados .
+(c / cínico
+    :op (s / safado
+        :op (e / e)))
+
+# ::tok Impulsos nada resolvem .
+(r / resolver.01
+    :ARG0 (i / impulso))
+
+# ::tok Mencionei Tainá Medina .
+(m / mencionar.01
+    :ARG0 (e / eu)
+    :ARG1 (p / person
+        :name (n / name
+            :op1 "Tainá")))
+
+# ::tok Era uma vingança .
+(v / vingança)
+
+# ::tok Não foi um caso isolado .
+(c / caso
+    :polarity -
+    :mod (i / isolado))
+
+# ::tok Isso gerou um certo desconforto '' , resumiu .
+(r / resumir.01
+    :ARG0 (e / ele))
+
+# ::tok Os crimes teriam acontecido a partir de 2008 .
+(a / acontecer.01
+    :ARG0 (c / crime))
+
+# ::tok Citá-lo só atrai simpatias '' , diz .
+(d / dizer.01
+    :ARG0 (e2 / ele))
+
+# ::tok Ele teria força para conter essa onda .
+(t / ter.01
+    :ARG0 (e / ele)
+    :ARG1 (f / força))
+
+# ::tok Tem mantido contato com o presidente eleito ?
+(m / manter.01
+    :ARG1 (c / contato
+        :ARG1 (p / presidente)))
+
+# ::tok O novo ministro apoia o Escola sem Partido .
+(a / apoiar.01
+    :ARG0 (m / ministro
+        :mod (n / novo))
+    :ARG1 (p / person
+        :name (n2 / name
+            :op1 "Escola")))
+
+# ::tok Pretende aconselhá-lo de alguma forma sobre a questão ?
+(p / pretender.01
+    :ARG0 (e / ele)
+    :ARG2 (a / aconselhar.01
+        :ARG1 (l / lo)))
+
+# ::tok Como o sr. classificaria Jair Bolsonaro ?
+(c2 / classificar.01
+    :mod (c / como
+        :mode amr-unknown)
+    :ARG0 (s / senhor)
+    :ARG1 (p / person
+        :name (n / name
+            :op1 "Jair")))
+
+# ::tok Agora ele pode fazer muito mais coisas .
+(p / possible.01
+    :mod (a / agora)
+    :ARG0 (e / ele)
+    :ARG2 (f / fazer.01
+        :ARG1 (c / coisa)))
+
+# ::tok Na tribuna , fiz por pura intuição .
+(f / fazer.01
+    :ARG0 (e / eu))
+
+# ::tok Eles querem dizer que a sociedade é homofóbica .
+(q / querer.01
+    :ARG0 (e / ele)
+    :ARG2 (d / dizer.01))
+
+# ::tok A própria campanha do Bolsonaro foi um caos .
+(c2 / caos
+    :ARG0 (c / campanha
+        :ARG1 (p2 / person
+            :name (n / name
+                :op1 "Bolsonaro"))))
+
+# ::tok O senhor não acredita aquecimento global ?
+(a / acreditar.01
+    :polarity -
+    :ARG0 (s / senhor)
+    :ARG1 (a2 / aquecimento
+        :mod (g / global)))
+
+# ::tok O sr. disse que liberalismo virou extrema direita .
+(d / dizer.01
+    :ARG0 (s / senhor))
+
+# ::tok Malta , contudo , declinou o convite .
+(c4 / contrast-01)
+
+# ::tok Creio que assumir esses desafios seja importantíssimo .
+(c / crer.01
+    :ARG0 (e / eu))
+
+# ::tok Foram gastos R $ 21,8 mil .
+(g / gastar.01
+    :ARG1 (x / $))
+
+# ::tok Isso foi entre 2013 e 2015 .
+(x / 2013
+    :ARG0 (i / isso)
+    :op (x2 / 2015
+        :op (e / e)))
+
+# ::tok Vim a São Paulo pensando em como ajudá-lo .
+(v / vir.01
+    :ARG0 (e / eu))
+
+# ::tok O que houve foi uma revolução de verdade .
+(r / revolução
+    :ARG1 (v / verdade))
+
+# ::tok Terceiro lugar , lei e ordem .
+(l / lugar
+    :mod (t / terceiro))
+
+# ::tok Por isso , o clima pacífico .
+(c / clima
+    :ARG1 (i / isso)
+    :mod (p / pacífico))
+
+# ::tok O relatório montado pelos dirigentes tem 46 páginas .
+(t / ter.01
+    :ARG0 (r / relatório)
+    :ARG1 (p / página))
+
+# ::tok Na primeira temporada , foram 25 reforços .
+(r / reforço
+    :ARG1 (t / temporada
+        :mod (p / primeiro)))
+
+# ::tok Ao recebê-los , Oliveira se surpreendeu .
+(s2 / surpreender.01
+    :ARG0 (p / person
+        :name (n / name
+            :op1 "Oliveira")))
+
+# ::tok Tite responde : “ As duas coisas . ”.
+(r / responder.01
+    :ARG0 (p / person
+        :name (n / name
+            :op1 "Tite")))
+
+# ::tok Neste ano , a frase mudou , felizmente .
+(m / mudar.01
+    :ARG0 (f / frase)
+    :mod (f2 / felizmente))
+
+# ::tok Vidros foram quebrados por pedras e garrafas .
+(q / quebrar.01
+    :ARG1 (v / vidro))
+
+# ::tok Tapia deverá estar presente na reunião .
+(o / obligate.01
+    :ARG0 (p / person
+        :name (n / name
+            :op1 "Tapia"))
+    :ARG2 (p2 / presente))
+
+# ::tok Atletas precisam de orientação e cuidado .
+(p / precisar.01
+    :ARG0 (a / atleta))
+
+# ::tok Isso pode prejudicar sua formação ” , conclui .
+(c / concluir.01
+    :ARG0 (e / ele))
+
+# ::tok A Conmebol o puniu com um jogo .
+(p2 / punir.01
+    :ARG0 (p / person
+        :name (n / name
+            :op1 "Conmebol")))
+
+# ::tok Se não contratar reforços , nada adianta .
+(a / adiantar.01)
+
+# ::tok Mas tem alguma graça futebol sem torcida ?
+(c / contrast-01)
+
+# ::tok A partida , então , foi adiada novamente .
+(a / adiar.01
+    :ARG1 (p / partida)
+    :mod (e / então)
+    :mod (n / novamente))
+
+# ::tok Houve uma série de coincidências muito positivas .
+(h / haver.01
+    :ARG1 (s / série
+        :ARG1 (c / coincidência
+            :mod (p / positivo
+                :mod (m / muito)))))
+
+# ::tok Mas o Palmeiras é gigante e sempre sobreviveu .
+(c / contrast-01)
+
+# ::tok Felipão tem histórico positivo nas duas competições .
+(t / ter.01
+    :ARG0 (p / person
+        :name (n / name
+            :op1 "Felipão"))
+    :ARG1 (h / histórico
+        :mod (p2 / positivo)
+        :ARG1 (c / competição)))
+
+# ::tok Há reuniões periódicas para discutir tarefas e fazer autocríticas e reparações .
+(h / haver.01
+    :ARG1 (r / reunião
+        :mod (p / periódico)))
+
+# ::tok Vai contra a lei , a moral e a religião .
+(i / ir.01
+    :ARG0 (e / ele))
+
+# ::tok O clima é de cansaço , espera e tensão .
+(c2 / cansaço
+    :ARG0 (c / clima)
+    :op (e / espera)
+    :op (t / tensão
+        :op (e2 / e)))
+
+# ::tok Que há uma onda populista em curso não dá para negar .
+(d / dar.01
+    :polarity -
+    :ARG0 (e / ele))
+
+# ::tok Antes de Franco , o galego vivia um momento de renascimento .
+(v / viver.01
+    :mod (a / antes)
+    :ARG0 (g / galego)
+    :ARG1 (m / momento
+        :ARG1 (r / renascimento)))
+
+# ::tok Desde a faculdade , ela decidiu usar só a língua local .
+(d / decidir.01
+    :ARG0 (e / ele)
+    :ARG2 (u / usar.01
+        :ARG1 (l / língua
+            :mod (s / só)
+            :mod (l2 / local))))
+
+# ::tok A epidemia de overdose não afeta todo o país .
+(a / afetar.01
+    :polarity -
+    :ARG0 (e / epidemia
+        :ARG1 (o / overdose))
+    :ARG1 (p / país))
+
+# ::tok Hoje há ainda mais caos que antes ” , afirma ela .
+(a3 / afirmar.01
+    :ARG0 (e / ele))
+
+# ::tok A estatal Taedonggang é uma das cervejarias mais populares .
+(e / estatal)
+
+# ::tok Com amigos , tirava fotos em frente aos equipamentos .
+(t / tirar.01
+    :ARG0 (e / ele)
+    :ARG1 (f / foto))
+
+# ::tok Segundo a guia , estavam trocando a água naquele dia .
+(t / trocar.01
+    :ARG1 (á / água))
+
+# ::tok No México , o mandato presidencial é de seis anos .
+(a / ano
+    :ARG1 (c / country
+        :name (n / name
+            :op1 "México"))
+    :ARG0 (m / mandato
+        :mod (p / presidencial)))
+
+# ::tok O acordo tem um item longo sobre as mulheres .
+(t / ter.01
+    :ARG0 (a / acordo)
+    :ARG1 (i / item
+        :mod (l / longo)
+        :ARG1 (m / mulher)))
+
+# ::tok Em 1918 , a expectativa de vida era de 39 anos .
+(a / ano
+    :ARG1 (x / 1918)
+    :ARG0 (e / expectativa
+        :ARG1 (v / vida)))
+
+# ::tok Foi a eleição que marcou o fim da ditadura .
+(e / eleição)
+
+# ::tok O atraso complicará a agenda de Merkel no G20 .
+(c / complicar.01
+    :ARG0 (a / atraso)
+    :ARG1 (a2 / agenda
+        :ARG1 (p / person
+            :name (n / name
+                :op1 "Merkel"))
+        :ARG1 (p2 / person
+            :name (n2 / name
+                :op1 "G20"))))
+
+# ::tok E logo se viram lutando contra as tribos locais .
+(v / viram.01
+    :ARG0 (e2 / eles)
+    :op (e / e)
+    :mod (l / logo)
+    :ARG2 (l2 / lutar.01))
+
+# ::tok Por que o Reino Unido está deixando o bloco ?
+(d / deixar.01
+    :ARG0 (p / person
+        :name (n / name
+            :op1 "Reino"))
+    :ARG1 (b / bloco))
+
+# ::tok O banheiro é fedorento , com chuveiros alagados ao ar livre .
+(f / fedorento
+    :ARG0 (b / banheiro))
+
+# ::tok As filas ficaram longas e os níveis de ruído cresceram .
+(f2 / ficar.01
+    :ARG0 (f / fila)
+    :ARG2 (l / longo)
+    :op (c / crescer.01
+        :op (e / e)
+        :ARG0 (n / nível
+            :ARG1 (r / ruído))))
+
+# ::tok A reportagem original completa pode ser lida no site da organização .
+(p / possible.01
+    :ARG0 (r / reportagem
+        :mod (o / original)
+        :mod (c / completo))
+    :ARG2 (l / ler.01))
+
+# ::tok Ele deixou claro que eu não era bem-vindo . ''.
+(d / deixar.01
+    :ARG0 (e / ele)
+    :ARG2 (c / claro))
+
+# ::tok Nas duas administrações de Reagan , Bush foi discreto vice-presidente .
+(v / vice-presidente
+    :ARG1 (a / administração
+        :ARG1 (p / person
+            :name (n / name
+                :op1 "Reagan")))
+    :ARG0 (p2 / person
+        :name (n2 / name
+            :op1 "Bush"))
+    :mod (d2 / discreto))
+
+# ::tok A plena recuperação só ocorreu com Clinton na Casa Branca .
+(o / ocorrer.01
+    :ARG0 (r / recuperação
+        :mod (p / pleno))
+    :mod (s / só))
+
+# ::tok Também deve passar por Nova York e por Miami .
+(o / obligate.01
+    :ARG0 (e / ele)
+    :mod (t / também)
+    :ARG2 (p / passar.01))
+
+# ::tok O governo britânico desenhou diversos cenários para contabilizar todas as variáveis .
+(d / desenhar.01
+    :ARG0 (g / governo
+        :mod (b / britânico))
+    :ARG1 (c / cenário))
+
+# ::tok Para Molina , a possibilidade de rompimento já era esperada .
+(e / esperar.01
+    :ARG1 (p2 / possibilidade
+        :ARG1 (r / rompimento))
+    :mod (j / já))
+
+# ::tok E as que estavam ocupadas eram de forma parcial .
+(f / forma
+    :op (e / e)
+    :mod (p / parcial))
+
+# ::tok Na última década , o crescimento foi de 21,7 % .
+(x2 / %
+    :ARG1 (d / década
+        :mod (ú / último))
+    :ARG0 (c / crescimento))
+
+# ::tok Foi difícil acompanhar com fidelidade os movimentos vistosos do professor .
+(d / difícil)
+
+# ::tok Eles foram ao quartel e trocaram tiros com a polícia .
+(f / foram.01
+    :ARG0 (e / ele)
+    :op (t / trocar.01
+        :ARG0 (e3 / eles)
+        :op (e2 / e)
+        :ARG1 (t2 / tiro)))
+
+# ::tok Segundo o Corpo de Bombeiros , não há sobreviventes .
+(h / haver.01
+    :polarity -
+    :ARG1 (s / sobrevivente))
+
+# ::tok com BRUNA NARCIZO , BRUNO B. SORAGGI e VICTORIA AZEVEDO.
+(p / person
+    :name (n / name
+        :op1 "BRUNA")
+    :op (p3 / person
+        :name (n3 / name
+            :op1 "BRUNO"))
+    :op (c / city
+        :name (n6 / name
+            :op1 "VICTORIA")
+        :op (e / e)))
+
+# ::tok O processo inclui ainda burburinhos sobre as casas dos outros .
+(i / incluir.01
+    :ARG0 (p / processo)
+    :mod (a / ainda)
+    :ARG1 (b / burburinho
+        :ARG1 (c / casa
+            :ARG1 (o / outro))))
+
+# ::tok O filme aponta uma recente conquista social que se mostra ameaçada .
+(a / apontar.01
+    :ARG0 (f / filme)
+    :ARG1 (c / conquista
+        :mod (r / recente)
+        :mod (s / social)))
+
+# ::tok No espaço , cabem até 45 pessoas por vez .
+(c / caber.01
+    :ARG0 (e2 / eles))
+
+# ::tok O consumidor tem o direito de saber que ele é tóxico .
+(t / ter.01
+    :ARG0 (c / consumidor)
+    :ARG1 (d / direito))
+
+# ::tok Muitos terão que fazer as duas coisas : trabalhar e estudar .
+(o / obligate.01
+    :ARG0 (m / muito)
+    :ARG2 (f / fazer.01
+        :ARG1 (c / coisa)))
+
+# ::tok Quanto vale um galinheiro e quanto vale uma piscina ?
+(v / valer.01
+    :mod (q / quanto)
+    :ARG0 (g / galinheiro)
+    :op (v2 / valer.01
+        :op (e / e)
+        :mod (q2 / quanto)
+        :ARG0 (p / piscina)))
+
+# ::tok A também empresária Costanza Pascolato e a atriz Carolina Ferraz compareceram .
+(c2 / comparecer.01
+    :ARG0 (e / empresário
+        :mod (t / também)
+        :ARG1 (p / person
+            :name (n / name
+                :op1 "Costanza"))
+        :op (a / atriz
+            :op (e2 / e)
+            :ARG1 (c / city
+                :name (n3 / name
+                    :op1 "Carolina")))))
+
+# ::tok Nas próximas semanas , os moradores começam a visitar os lotes .
+(c / começar.01
+    :ARG0 (m / morador)
+    :ARG2 (v / visitar.01
+        :ARG1 (l / lote)))
+
+# ::tok Desarmadas e num território desconhecido , não conseguiram escapar .
+(c / conseguir.01
+    :polarity -
+    :ARG0 (e2 / eles)
+    :ARG2 (e3 / escapar.01))
+
+# ::tok Essa inversão permitiu a entrada dos Cuidados Paliativos nos Estados Unidos .
+(p / permitir.01
+    :ARG0 (i / inversão)
+    :ARG1 (e2 / entrada
+        :ARG1 (p2 / person
+            :name (n / name
+                :op1 "Cuidados"))
+        :ARG1 (p4 / person
+            :name (n3 / name
+                :op1 "Estados"))))
+
+# ::tok O que ela fez foi uma mudança de paradigma .
+(m / mudança
+    :ARG1 (p / paradigma))
+
+# ::tok Viu o irmão do meio ser entregue aos alemães .
+(v / ver.01
+    :ARG0 (e / ele)
+    :ARG1 (i / irmão
+        :ARG1 (m / meio))
+    :ARG2 (e2 / entregar.01))
+
+# ::tok Juntas , elas representam 68 empresas e 87 % do mercado .
+(r / representar.01
+    :ARG0 (e / ele)
+    :ARG1 (e2 / empresa
+        :op (x3 / %
+            :op (e3 / e)
+            :ARG1 (m / mercado))))
+
+# ::tok Nós queríamos menos preço e técnica ” , disse .
+(d / dizer.01
+    :ARG0 (e2 / ele))
+
+# ::tok Em São Paulo , virou professora em escolas judaicas .
+(v / virar.01
+    :ARG0 (e / ele)
+    :ARG2 (p3 / professor
+        :ARG1 (e2 / escola
+            :mod (j / judaico))))
+
+# ::tok Mata vespa , lagarta , cigarrinha , pulgão , ácaro .
+(m / matar.01
+    :ARG0 (e / ele)
+    :ARG1 (v / vespa
+        :op (l / lagarto)
+        :op (c / cigarrinho)
+        :op (p / pulgão)
+        :op (á / ácaro)))
+
+# ::tok Não separo as imagens das palavras .
+(s / separar.01
+    :polarity -
+    :ARG0 (e / eu)
+    :ARG1 (i / imagem))
+
+# ::tok Fiquemos com o modelo básico , sem acessórios .
+(f / ficar.01
+    :ARG0 (n / nós))
+
+# ::tok A gangorra de músicas novas e antigas prosseguiu .
+(p / prosseguir.01
+    :ARG0 (g / gangorra
+        :ARG1 (m / música
+            :mod (n / novo
+                :op (a / antigo
+                    :op (e / e))))))
+
+# ::tok Os materiais eram prosaicos : industriais e pré-fabricados .
+(p / prosaico
+    :ARG0 (m / material))
+
+# ::tok Mas a minha agenda estava enorme .
+(c / contrast-01)
+
+# ::tok O meu caso acho que é eterno .
+(a / achar.01
+    :ARG0 (c / caso))
+
+# ::tok O que explica a permanência das duas obras ?
+(e / explicar.01
+    :ARG1 (p / permanência
+        :ARG1 (o / obra)))
+
+# ::tok Direção de Produção – Andrea Caruso Saturnino.
+(p / person
+    :name (n / name
+        :op1 "Direção"))
+
+# ::tok Nada de escrever coisas incômodas ao presidente .
+(e / escrever.01
+    :ARG1 (c / coisa
+        :mod (i / incômodo)))
+
+# ::tok Pôs a mão nas escolas e nas universidades .
+(p / pôr.01
+    :ARG0 (e / ele)
+    :ARG1 (m / mão))
+
+# ::tok uma a uma suas dívidas no ouvido.
+(d / dívida
+    :ARG1 (o / ouvido))
+
+# ::tok da caixa que as registra e sorri.
+(c / caixa
+    :op (s / sorrir.01
+        :ARG0 (e2 / ele)
+        :op (e / e)))
+
+# ::tok A internacional comunista morreu há muito tempo .
+(m / morrer.01
+    :ARG0 (i / internacional
+        :mod (c / comunista)))
+
+# ::tok Acho que sou uma privilegiada , mesmo .
+(a / achar.01
+    :ARG0 (e / eu))
+
+# ::tok E são estas que ele de fato combate .
+(e2 / este
+    :op (e / e))
+
+# ::tok Sei que é muito importante denunciar .
+(s / saber.01
+    :ARG0 (e / eu))
+
+# ::tok Na descida , é tudo no automático .
+(t / tudo
+    :ARG1 (d / descido)
+    :ARG1 (a / automático))
+
+# ::tok O Brasil sempre contribuiu muito na área espacial .
+(c2 / contribuir.01
+    :ARG0 (c / country
+        :name (n / name
+            :op1 "Brasil"))
+    :mod (s / sempre)
+    :mod (m / muito))
+
+# ::tok O Xingu foi criado em 1961 .
+(c / criar.01
+    :ARG1 (p / person
+        :name (n / name
+            :op1 "Xingu")))
+
+# ::tok O desmatamento e fogo cresceram muito no entorno .
+(c / crescer.01
+    :ARG0 (d / desmatamento
+        :op (f / fogo
+            :op (e / e)))
+    :mod (m / muito))
+
+# ::tok Retire os sachês depois de dois dias .
+(r / retirar.01
+    :ARG0 (e / ele)
+    :ARG1 (s / sachê)
+    :mod (d / depois))
+
+# ::tok Nem todas as empresas do ramo planejam competir .
+(p / planejar.01
+    :ARG0 (e / empresa
+        :mod (n / nem)
+        :ARG1 (r / ramo))
+    :ARG2 (c / competir.01))
+
+# ::tok Foi a primeira vez que isso aconteceu .
+(v / vez
+    :mod (p / primeiro))
+
+# ::tok O preço da segurança é a privacidade .
+(p2 / privacidade
+    :ARG0 (p / preço
+        :ARG1 (s / segurança)))
+
+# ::tok A principal recomendação é a ingestão moderada .
+(i / ingestão
+    :ARG0 (r / recomendação
+        :mod (p / principal))
+    :mod (m / moderado))
+
+# ::tok O quadro clínico é conhecido como selenose .
+(c2 / conhecer.01
+    :ARG1 (q / quadro
+        :mod (c / clínico)))
+
+# ::tok O entusiasmo dos investidores tem motivo .
+(t / ter.01
+    :ARG0 (e / entusiasmo
+        :ARG1 (i / investidor))
+    :ARG1 (m / motivo))
+
+# ::tok Seguindo o script , joguei lá embaixo .
+(j / jogar.01
+    :ARG0 (e / eu)
+    :mod (l / lá)
+    :mod (e2 / embaixo))
+
+# ::tok Leia mais na revista Volta ao Mundo.
+(l / ler.01
+    :ARG0 (e / ele)
+    :mod (m / mais))
+
+# ::tok estados de São Paulo e do Rio .
+(e / estado
+    :ARG1 (p / person
+        :name (n / name
+            :op1 "São")
+        :op (p3 / person
+            :name (n3 / name
+                :op1 "Rio")
+            :op (e2 / e))))
+
+# ::tok Nova Veneza tem ainda um atrativo quase exclusivo .
+(t / ter.01
+    :ARG0 (p / person
+        :name (n / name
+            :op1 "Nova"))
+    :mod (a / ainda)
+    :ARG1 (a2 / atrativo
+        :mod (e / exclusivo
+            :mod (q / quase))))
+
+# ::tok Com passagens a partir de São Paulo.
+(p / passagem)
+
+# ::tok De Gravatal a Nova Veneza são 80 km .
+(q / quilômetro
+    :ARG1 (p / person
+        :name (n / name
+            :op1 "Gravatal")
+        :ARG1 (p2 / person
+            :name (n2 / name
+                :op1 "Nova"))))
+
+# ::tok Compartilhe .
+(c / compartilhar.01
+    :ARG0 (e / ele))
+
+# ::tok Boa leitura !
+(l / leitura
+    :mod (b / bom))
+
+# ::tok Ia ser lindo .
+(l / lindo)
+
+# ::tok Jogar online também .
+(j / jogar.01
+    :mod (o / online)
+    :mod (t / também))
+
+# ::tok Da fazenda à mesa ?
+(f / fazenda
+    :ARG1 (m / mesa))
+
+# ::tok O que é orgânico ?
+(q / que
+    :mode amr-unknown)
+
+# ::tok Precavido , Murici já adotou todas as medidas para afastar qualquer suspeita inicial .
+(a / adotar.01
+    :ARG0 (p2 / person
+        :name (n / name
+            :op1 "Murici"))
+    :mod (j / já)
+    :ARG1 (m / medida))
+
+# ::tok Ambos diziam ontem que nenhuma medida adotada até agora por Fernando Henrique Cardoso teve caráter eleitoreiro .
+(d / dizer.01
+    :ARG0 (a / ambos)
+    :mod (o / ontem))
+
+# ::tok Ele contou que conseguiu adquirir 20 entradas porque ofereceu Cr $ 5.000 a o bilheteiro .
+(c / contar.01
+    :ARG0 (e / ele))
+
+# ::tok ' Ele não devia ter agido assim ' , disse .
+(d / dizer.01
+    :ARG0 (e2 / ele))
+
+# ::tok Ao todo , 13 cidades de a Grande São Paulo devem ser afetadas com a greve .
+(o / obligate.01
+    :ARG0 (c / cidade
+        :ARG1 (p / person
+            :name (n / name
+                :op1 "Grande")))
+    :ARG2 (a / afetar.01))
+
+# ::tok Os diferentes sobrepesos de as cargas tributárias afetam diretamente a competitividade .
+(a / afetar.01
+    :ARG0 (s / sobrepeso
+        :mod (d / diferente)
+        :ARG1 (c / carga
+            :mod (t / tributário)))
+    :mod (d2 / diretamente)
+    :ARG1 (c2 / competitividade))
+
+# ::tok Atualmente , a estabilidade é adquirida depois de dois anos .
+(a2 / adquirir.01
+    :mod (a / atualmente)
+    :ARG1 (e / estabilidade)
+    :mod (d / depois))
+
+# ::tok A maneira como Emerson administra sua imagem pública sempre me impressionou .
+(i2 / impressionar.01
+    :ARG0 (m / maneira)
+    :mod (s2 / sempre)
+    :ARG1 (m2 / me))
+
+# ::tok Vamos verificar o que houve com essas matérias-primas . ».
+(v / verificar.01)
+
+# ::tok Murici espera que o Inter não tenha a mesma atitude .
+(e / esperar.01
+    :ARG0 (p / person
+        :name (n / name
+            :op1 "Murici")))
+
+# ::tok Eles ficaram aguardando o resultado de a negociação .
+(f / ficar.01
+    :ARG0 (e / ele)
+    :ARG2 (a / aguardar.01
+        :ARG1 (r / resultado
+            :ARG1 (n / negociação))))
+
+# ::tok Preços sobem 3,12 % em Belo Horizonte.
+(s / subir.01
+    :ARG0 (p / preço)
+    :ARG1 (x2 / %))
+
+# ::tok Aguardem o próximo lançamento .
+(a / aguardar.01
+    :ARG0 (e / eles)
+    :ARG1 (l / lançamento
+        :mod (p / próximo)))
+
+# ::tok Norte-iemenitas tomam base do sul.
+(t / tomar.01
+    :ARG0 (n / norte-iemenita)
+    :ARG1 (b / base
+        :ARG1 (s / sul)))
+
+# ::tok Cingapura acusa mais um americano.
+(a / acusar.01
+    :ARG0 (c / country
+        :name (n / name
+            :op1 "Cingapura"))
+    :ARG1 (a2 / americano))
+
+# ::tok Palmeiras e Corinthians treinam hoje.
+(t / treinar.01
+    :ARG0 (p / person
+        :name (n / name
+            :op1 "Palmeiras")
+        :op (p2 / person
+            :name (n2 / name
+                :op1 "Corinthians")
+            :op (e / e)))
+    :mod (h / hoje))
+
+# ::tok Seria demais .
+(d / demais)
+
+# ::tok Sustentável ?
+(s / sustentável)
+
+# ::tok Mas como funciona ?
+(c2 / contrast-01)
+
+# ::tok Nada funcionou .
+(f / funcionar.01)
+
+# ::tok Gostou ?
+(g / gostar.01
+    :ARG0 (e / ele))
+
+# ::tok Esses são os que as pessoas gostam de levar !
+(e / esse)
+
+# ::tok A família chegou a Pedra Azul no final dos anos 1980 .
+(c / chegar.01
+    :ARG0 (f / família))
+
+# ::tok Camarões , lulas , mexilhões , siri , bacalhau .
+(c / camarão
+    :op (l / lula)
+    :op (m / mexilhão)
+    :op (s / siri)
+    :op (b / bacalhau))
+
+# ::tok O YouTube Premium custa R $ 20,90 por mês no Brasil .
+(c / custar.01
+    :ARG0 (p / person
+        :name (n / name
+            :op1 "YouTube"))
+    :ARG1 (r / r
+        :ARG1 (x / $)))
+
+# ::tok Fazia 15 anos que ele não atuava em um folhetim .
+(f / fazer.01
+    :ARG0 (e / ele)
+    :ARG1 (a / ano))
+
+# ::tok A agenda de Bolsonaro no Rio ainda não foi divulgada .
+(d / divulgar.01
+    :polarity -
+    :ARG1 (a / agenda
+        :ARG1 (p / person
+            :name (n / name
+                :op1 "Bolsonaro"))
+        :ARG1 (p2 / person
+            :name (n2 / name
+                :op1 "Rio")))
+    :mod (a2 / ainda))
+
+# ::tok O PSDB tem uma corresponsabilidade muito grande por esse quadro negativo .
+(t / ter.01
+    :ARG0 (p / person
+        :name (n / name
+            :op1 "PSDB"))
+    :ARG1 (c / corresponsabilidade
+        :mod (g / grande
+            :mod (m / muito))
+        :ARG1 (q / quadro
+            :mod (n2 / negativo))))
+
+# ::tok Outros três mandatários já haviam sido presos no exercício do cargo .
+(p / prender.01
+    :ARG1 (m / mandatário)
+    :mod (j / já))
+
+# ::tok Muito mais gentil do que esse Rio de hoje .
+(g / gentil
+    :mod (m2 / mais
+        :mod (m / muito)))
+
+# ::tok A Satiagraha brasileira foi uma ação espetaculosa que deu em nada .
+(a / ação
+    :ARG0 (p / person
+        :name (n / name
+            :op1 "Satiagraha")
+        :mod (b / brasileiro))
+    :mod (e / espetaculoso))
+
+# ::tok Quero comemorar meus 90 anos sabendo qual é o projeto .
+(q / querer.01
+    :ARG0 (e / eu)
+    :ARG2 (c / comemorar.01
+        :ARG1 (a / ano)))
+
+# ::tok A forma de ler o mundo é sempre muito subjetiva .
+(s3 / subjetivo
+    :ARG0 (f / forma)
+    :mod (s2 / sempre)
+    :mod (m2 / muito))
+
+# ::tok Li algumas críticas de nariz torcido para os dois filmes .
+(l / ler.01
+    :ARG0 (e / eu)
+    :ARG1 (c / crítico
+        :ARG1 (n / nariz
+            :mod (t / torcido)
+            :ARG1 (f / filme))))
+
+# ::tok Pão na chapa é um café da manhã bem mequetrefe .
+(c2 / café
+    :ARG0 (p / pão
+        :ARG1 (c / chapa))
+    :ARG1 (m / manhã)
+    :mod (m2 / mequetrefe
+        :mod (b / bem)))
+
+# ::tok Ele fala de um menino em busca de sua identidade . ”.
+(f / falar.01
+    :ARG0 (e / ele))
+
+# ::tok Ela alega que não pode falar sobre seus clientes .
+(a / alegar.01
+    :ARG0 (e / ele))
+
+# ::tok Quero mudar o ritmo de jogo ” , afirmou .
+(a / afirmar.01
+    :ARG0 (e2 / ele))
+
+# ::tok O primeiro texto da série pode ser conferido aqui .
+(p2 / possible.01
+    :ARG0 (t / texto
+        :mod (p / primeiro)
+        :ARG1 (s / série))
+    :ARG2 (c / conferir.01
+        :mod (a / aqui)))
+
+# ::tok Sinto isso .
+(s / sentir.01
+    :ARG0 (e / eu)
+    :ARG1 (i / isso))
+
+# ::tok A ordem é independente .
+(i / independente
+    :ARG0 (o / ordem))
+
+# ::tok Culpa pessoal do Alckmin ?
+(c / culpa
+    :mod (p / pessoal)
+    :ARG1 (p2 / person
+        :name (n / name
+            :op1 "Alckmin")))
+
+# ::tok Eu mesmo fiz .
+(f / fazer.01
+    :ARG0 (e / eu))
+
+# ::tok O Brasil precisa acumular experiência .
+(p / precisar.01
+    :ARG0 (c / country
+        :name (n / name
+            :op1 "Brasil"))
+    :ARG2 (a / acumular.01
+        :ARG1 (e / experiência)))
+
+# ::tok Essa é uma ideia pueril .
+(i / ideia
+    :ARG0 (e / esse)
+    :mod (p / pueril))
+
+# ::tok Claro que são doidos .
+(c / claro)
+
+# ::tok Ou não percebem ?
+(p / perceber.01
+    :polarity -
+    :ARG0 (e / eles)
+    :op (o / ou))
+
+# ::tok O povo precisa acumular experiência .
+(p2 / precisar.01
+    :ARG0 (p / povo)
+    :ARG2 (a / acumular.01
+        :ARG1 (e / experiência)))
+
+# ::tok Vai ser diferente .
+(d / diferente)
+
+# ::tok Por que não assume ?
+(a / assumir.01
+    :polarity -
+    :ARG0 (e / ele))
+
+# ::tok Não quer ” .
+(q / querer.01
+    :polarity -
+    :ARG0 (e / ele)
+    :ARG1 (x / ”))
+
+# ::tok Eu rejeitei os dois .
+(r / rejeitar.01
+    :ARG0 (e / eu)
+    :ARG1 (d / dois))
+
+# ::tok Há maioria para fechar acordo .
+(h / haver.01
+    :ARG1 (m / maioria))
+
+# ::tok E o vazio se ocupa .
+(o / ocupar.01
+    :op (e / e)
+    :ARG0 (v / vazio))
+
+# ::tok Ele ficou literalmente só .
+(f / ficar.01
+    :ARG0 (e / ele)
+    :ARG2 (s / só
+        :mod (l / literalmente)))
+
+# ::tok Era uma agenda de ninguém .
+(a / agenda
+    :ARG1 (n / ninguém))
+
+# ::tok A temperatura sobe e desce .
+(s / subir.01
+    :ARG0 (t / temperatura)
+    :op (d / descer.01
+        :ARG0 (e2 / ele)
+        :op (e / e)))
+
+# ::tok Quero preservar o Meio Ambiente .
+(q / querer.01
+    :ARG0 (e / eu)
+    :ARG2 (p / preservar.01
+        :ARG1 (p2 / person
+            :name (n / name
+                :op1 "Meio"))))
+
+# ::tok Com Lula , venceríamos .
+(v / vencer.01
+    :ARG0 (n2 / nós))
+
+# ::tok Mas esse discurso voltou .
+(c / contrast-01)
+
+# ::tok Não há periculosidade nessa pessoa .
+(h / haver.01
+    :polarity -
+    :ARG1 (p / periculosidade))
+
+# ::tok O STF pode barrá-lo .
+(p2 / possible.01
+    :ARG0 (p / person
+        :name (n / name
+            :op1 "STF"))
+    :ARG2 (b / barrar.01
+        :ARG1 (l / lo)))
+
+# ::tok O vazio se ocupa .
+(o / ocupar.01
+    :ARG0 (v / vazio))
+
+# ::tok Não há debate interno .
+(h / haver.01
+    :polarity -
+    :ARG1 (d / debate
+        :mod (i / interno)))
+
+# ::tok Coloca em suspeição suas decisões ?
+(c / colocar.01
+    :ARG0 (e / ele)
+    :ARG1 (d / decisão))
+
+# ::tok Nem o Lula .
+(p / person
+    :name (n2 / name
+        :op1 "Lula")
+    :op (n / nem))
+
+# ::tok Leia mais notas do Painel .
+(l / ler.01
+    :ARG0 (e / ele)
+    :ARG1 (n / nota
+        :ARG1 (p / person
+            :name (n2 / name
+                :op1 "Painel"))))
+
+# ::tok A Ordem tem transparência .
+(t / ter.01
+    :ARG0 (p / person
+        :name (n / name
+            :op1 "Ordem"))
+    :ARG1 (t2 / transparência))
+
+# ::tok Não especificamente a favor dele .
+(f / favor
+    :polarity -
+    :mod (e / especificamente)
+    :ARG1 (e2 / ele))
+
+# ::tok Isso me preocupa .
+(p / preocupar.01
+    :ARG0 (i / isso)
+    :ARG1 (m / me))
+
+# ::tok Estaria sendo leviano .
+(l / leviano)
+
+# ::tok Não sei nada do Bolsonaro .
+(s / saber.01
+    :polarity -
+    :ARG0 (e / eu))
+
+# ::tok O que aconteceu ?
+(a / acontecer.01)
+
+# ::tok A opinião conservadora foi banida .
+(b / banir.01
+    :ARG1 (o / opinião
+        :mod (c / conservador)))
+
+# ::tok Sonoplastia : André Luis Omote.
+(s / sonoplastia)
+
+# ::tok A manteiga queima .
+(q / queimar.01
+    :ARG0 (m / manteiga))
+
+# ::tok E fui que fui . ''.
+(i2 / ir.01
+    :ARG0 (e2 / eu)
+    :op (e / e))
+
+# ::tok QUATRO músicas para ouvir na virada.
+(m / música)
+
+# ::tok Auditório do Masp – SP.
+(a / auditório
+    :ARG1 (p / person
+        :name (n / name
+            :op1 "Masp")))
+
+# ::tok Por que filmar GH ?
+(f / filmar.01
+    :ARG1 (p / person
+        :name (n / name
+            :op1 "GH")))
+
+# ::tok Direção : Sacha Gervasi .
+(d / direção
+    :ARG1 (p / person
+        :name (n / name
+            :op1 "Sacha")))
+
+# ::tok Sigo com essa opinião .
+(s / seguir.01
+    :ARG0 (e / eu))
+
+# ::tok Direção de Arte : Bianca Turner.
+(d / direção
+    :ARG1 (p / person
+        :name (n / name
+            :op1 "Arte")))
+
+# ::tok Rodrigo não é psicanalista .
+(p2 / psicanalista
+    :polarity -
+    :ARG0 (p / person
+        :name (n / name
+            :op1 "Rodrigo")))
+
+# ::tok Esse pacote foi um sucesso .
+(s2 / sucesso
+    :ARG0 (p / pacote))
+
+# ::tok Por que diferença estratosférica ?
+(d / diferença
+    :ARG1 (q / que
+        :mode amr-unknown)
+    :mod (e / estratosférico))
+
+# ::tok A resposta foi imediata .
+(i / imediato
+    :ARG0 (r / resposta))
+
+# ::tok Falo sobre acordar às nove.
+(f / falar.01
+    :ARG0 (e / eu)
+    :ARG2 (a / acordar.01))
+
+# ::tok Isso há já alguns anos .
+(i / isso)
+
+# ::tok Academias especializadas estão na moda .
+(m / moda
+    :ARG0 (a / academia
+        :mod (e / especializado)))
+
+# ::tok Da comunidade de Bento .
+(c / comunidade
+    :ARG1 (p / person
+        :name (n / name
+            :op1 "Bento")))
+
+# ::tok Nem adianta chorar . ”.
+(a / adiantar.01
+    :ARG0 (e / ele)
+    :mod (n / nem))
+
+# ::tok Ele deixa duas filhas .
+(d / deixar.01
+    :ARG0 (e / ele)
+    :ARG1 (f / filho))
+
+# ::tok Eu sofro de depressão .
+(s / sofrer.01
+    :ARG0 (e / eu))
+
+# ::tok Eram pura tenacidade .
+(t / tenacidade
+    :mod (p / puro))
+
+# ::tok De quem é a culpa ?
+(c / culpa
+    :ARG1 (q / quem
+        :mode amr-unknown))
+
+# ::tok Não há previsão do próximo .
+(h / haver.01
+    :polarity -
+    :ARG1 (p / previsão
+        :ARG1 (p2 / próximo)))
+
+# ::tok Não podem fazer eufemismo .
+(p / possible.01
+    :polarity -
+    :ARG0 (e / eles)
+    :ARG2 (f / fazer.01
+        :ARG1 (e2 / eufemismo)))
+
+# ::tok $ 754.
+(x / $)
+
+# ::tok Sem aéreo.
+(a / aéreo)
+
+# ::tok San Sebastián .
+(p / person
+    :name (n / name
+        :op1 "San"))
+
+# ::tok São Paulo.
+(p / person
+    :name (n / name
+        :op1 "São"))
+
+# ::tok Alvise Camozzi.
+(p / person
+    :name (n / name
+        :op1 "Alvise"))
+
+# ::tok Está certíssimo .
+(c / certíssimo)
+
+# ::tok Sem violência.
+(v / violência)
+
+# ::tok Todo dia .
+(d / dia)
+
+# ::tok Russos.
+(r / russo)
+
+# ::tok Tolice .
+(p / person
+    :name (n / name
+        :op1 "Tolice"))
+
+# ::tok Instituto Goethe .
+(p / person
+    :name (n / name
+        :op1 "Instituto"))
+
+# ::tok Amém .
+(a / amém)
+
+# ::tok O que aconteceu desde então ?
+(a / acontecer.01
+    :mod (e / então))
+
+# ::tok Não há nada a esconder .
+(h / haver.01
+    :polarity -)
+
+# ::tok Vamos compartilhar algumas dessas histórias .
+(c / compartilhar.01
+    :ARG1 (a / algum
+        :ARG1 (h / história)))
+
+# ::tok Quem foi acusado ?
+(a / acusar.01
+    :ARG1 (q / quem
+        :mode amr-unknown))
+
+# ::tok Marie-Amélie Vaillat , 36 , França.
+(p / person
+    :name (n / name
+        :op1 "Marie-Amélie"))
+
+# ::tok Jornalista e colunista .
+(j / jornalista
+    :op (c / colunista
+        :op (e / e)))
+
+# ::tok Come-se , canta-se e dança-se .
+(c / comer.01
+    :ARG0 (e / ele)
+    :op (c2 / cantar.01
+        :ARG0 (e2 / ele))
+    :op (d / dançar.01
+        :ARG0 (e4 / ele)
+        :op (e3 / e)))
+
+# ::tok O que vai acontecer agora ?
+(a / acontecer.01
+    :mod (a2 / agora))
+
+# ::tok Pais , nem um dia .
+(d / dia)
+
+# ::tok Mas o movimento exibe resiliência .
+(c / contrast-01)
+
+# ::tok Foram 20 mil em 2017 .
+(b / be-03
+    :ARG0 (x / 20))
+
+# ::tok A missão ficou mais difícil .
+(f / ficar.01
+    :ARG0 (m / missão)
+    :ARG2 (d / difícil
+        :mod (m2 / mais)))
+
+# ::tok Outro problema tem fundo político .
+(t / ter.01
+    :ARG0 (p / problema)
+    :ARG1 (f / fundo
+        :mod (p2 / político)))
+
+# ::tok Não há totem no aeroporto .
+(h / haver.01
+    :polarity -
+    :ARG1 (t / totem))
+
+# ::tok Churrasco dispensa formalidades e salamaleques .
+(d / dispensar.01
+    :ARG0 (c / churrasco)
+    :ARG1 (f / formalidade
+        :op (s / salamaleque
+            :op (e / e))))
+
+# ::tok Não tem coragem ?
+(t / ter.01
+    :polarity -
+    :ARG0 (e / ele)
+    :ARG1 (c / coragem))
+
+# ::tok Carne não poderia faltar .
+(p / possible.01
+    :polarity -
+    :ARG0 (c / carne)
+    :ARG2 (f / faltar.01))
+
+# ::tok A ideologia é menos importante que a lealdade .
+(i2 / importante
+    :ARG0 (i / ideologia)
+    :mod (m / menos))
+
+# ::tok A imprensa circula livremente no acampamento .
+(c / circular.01
+    :ARG0 (i / imprensa)
+    :mod (l / livremente))
+
+# ::tok Ainda há os arranjados , mas são minoria .
+(c / contrast-01)
+
+# ::tok Não vamos ‘ soltar ’ ninguém nos EUA .
+(s / soltar.01
+    :polarity -)
+
+# ::tok Eles não visitam áreas próximas e causam problemas .
+(v / visitar.01
+    :polarity -
+    :ARG0 (e / ele)
+    :ARG1 (á / área
+        :mod (p / próximo))
+    :op (c / causar.01
+        :ARG0 (e3 / eles)
+        :op (e2 / e)
+        :ARG1 (p2 / problema)))
+
+# ::tok Ele veio com a mulher e três filhos .
+(v / vir.01
+    :ARG0 (e / ele))
+
+# ::tok O som dos acordeão soa longe e claro.
+(s2 / soar.01
+    :ARG0 (s / som
+        :ARG1 (a / acordeão))
+    :mod (l / longe
+        :op (c / claro
+            :op (e / e))))
+
+# ::tok Camaradas , vamos todos cantar em uníssono.
+(c2 / cantar.01
+    :ARG0 (t / todo))
+
+# ::tok Entre homens , 51 % foram para republicanos .
+(f / foram.01
+    :ARG0 (x2 / %))
+
+# ::tok Diante da morte , somos todos aprendizes ” .
+(a / aprendiz
+    :mod (d / diante)
+    :mod (x / ”))
+
+# ::tok A advocacia está de luto ” , diz .
+(d / dizer.01
+    :ARG0 (e2 / ele))
+
+# ::tok Para Heidegger a morte dá sentido à vida .
+(d / dar.01
+    :ARG0 (m / morte)
+    :ARG1 (s / sentido))
+
+# ::tok As temperaturas variam entre 18°C e 23°C .
+(v / variar.01
+    :ARG0 (t / temperatura))
+
+# ::tok Os alemães vão matar vocês todos !
+(m / matar.01
+    :ARG0 (a / alemão)
+    :ARG1 (v / você)
+    :ARG1 (t / todo))
+
+# ::tok A situação foi vista por Lins no bairro .
+(v / ver.01
+    :ARG1 (s / situação))
+
+# ::tok Conheça a história de vida de Elisabeth Kübler-Ross.
+(c / conhecer.01
+    :ARG0 (e / ele)
+    :ARG1 (h / história
+        :ARG1 (v / vida)
+        :ARG1 (p / person
+            :name (n / name
+                :op1 "Elisabeth"))))
+
+# ::tok A média de preços é de R $ 100.
+(r / r
+    :ARG0 (m / média
+        :ARG1 (p / preço))
+    :ARG1 (x / $))
+
+# ::tok A cobrança em Jambeiro , não sofreu modificações .
+(s / sofrer.01
+    :polarity -
+    :ARG0 (c / cobrança
+        :ARG1 (p / person
+            :name (n / name
+                :op1 "Jambeiro")))
+    :ARG1 (m / modificação))
+
+# ::tok Havia uma poética madura e profundidade ” .
+(h / haver.01
+    :ARG1 (p / poético
+        :mod (m / maduro)
+        :op (p2 / profundidade
+            :op (e / e)
+            :mod (x / ”))))
+
+# ::tok por inocente engano.
+(e / engano
+    :mod (i / inocente))
+
+# ::tok Giacomo Vicenzo.
+(p / person
+    :name (n / name
+        :op1 "Giacomo"))
+
+# ::tok Muito ?
+(m / muito)
+
+# ::tok REGIÃO CENTRAL.
+(r / região
+    :mod (p / person
+        :name (n / name
+            :op1 "CENTRAL")))
+
+# ::tok giacomovicenzo@agenciamural.org.br.
+(g / giacomovicenzo@agenciamural.org.br)
+
+# ::tok pensando ser doze.
+(p / pensar.01
+    :ARG2 (d / doze))
+
+# ::tok https://ekrbrasil.com/historia-de-vida/.
+(h / https://ekrbrasil.com/historia-de-vida)
+
+# ::tok Centenas .
+(c / centena)
+
+# ::tok E conseguiu .
+(c / conseguir.01
+    :ARG0 (e2 / ele)
+    :op (e / e))
+
+# ::tok Não conseguiu .
+(c / conseguir.01
+    :polarity -
+    :ARG0 (e / ele))
+
+# ::tok República Dominicana.
+(p / person
+    :name (n / name
+        :op1 "República"))
+
+# ::tok Canadá.
+(c / country
+    :name (n / name
+        :op1 "Canadá"))
+
+# ::tok Depende dele .
+(d / depender.01
+    :ARG0 (e / ele))
+
+# ::tok Assuma .
+(a / assumir.01
+    :ARG0 (e / ele))
+
+# ::tok Cuidado , Moro.
+(c / cuidado)
+
+# ::tok Perdeu .
+(p / perder.01
+    :ARG0 (e / ele))
+
+# ::tok Há espaço .
+(h / haver.01
+    :ARG1 (e / espaço))
+
+# ::tok Concordamos .
+(c / concordar.01
+    :ARG0 (n / nós))
+
+# ::tok Lula quer .
+(q / querer.01
+    :ARG0 (p / person
+        :name (n / name
+            :op1 "Lula")))
+
+# ::tok Venezuela.
+(c / country
+    :name (n / name
+        :op1 "Venezuela"))
+
+# ::tok Engano .
+(e / engano)
+
+# ::tok O quê ?
+(q / quê)
+
+# ::tok Foi algo inédito !
+(a / algo
+    :mod (i / inédito))
+
+# ::tok Lyon 2 x 2 Manchester City.
+(c / city
+    :name (n / name
+        :op1 "Lyon")
+    :ARG1 (x / 2
+        :ARG1 (c2 / city
+            :name (n2 / name
+                :op1 "Manchester"))))
+
+# ::tok Poderia não ter sido assim .
+(p / poder.01
+    :ARG0 (e / ele)
+    :ARG2 (a / assim
+        :polarity -))
+
+# ::tok Mudo de assunto .
+(m / mudar.01
+    :ARG0 (e / eu))
+
+# ::tok Começou com Paulo Nobre .
+(c / começar.01
+    :ARG0 (e / ele))
+
+# ::tok Renato Gaúcho continua no Grêmio .
+(c / continuar.01
+    :ARG0 (p / person
+        :name (n / name
+            :op1 "Renato")))
+
+# ::tok Ficamos amigos muito rápido .
+(f / ficar.01
+    :ARG0 (n / nós)
+    :ARG1 (a / amigo)
+    :mod (r / rápido
+        :mod (m / muito)))
+
+# ::tok O ano era 1938 .
+(x / 1938
+    :ARG0 (a / ano))
+
+# ::tok Qual foi a saída ?
+(s2 / saída
+    :ARG0 (q / qual
+        :mode amr-unknown))
+
+# ::tok Infelizmente , acho que não .
+(a / achar.01
+    :polarity -
+    :ARG0 (e / eu)
+    :mod (i / infelizmente))
+
+# ::tok Onyx vai ser o comandante dessa área .
+(c / comandante
+    :ARG0 (p / person
+        :name (n / name
+            :op1 "Onyx"))
+    :ARG1 (á / área))
+
+# ::tok Como é sua a relação com ele ?
+(s2 / seu
+    :mod (c / como
+        :mode amr-unknown)
+    :ARG0 (r / relação
+        :ARG1 (e / ele)))
+
+# ::tok O que aconteceu foi colaboração popular espontânea .
+(c / colaboração
+    :mod (p / popular)
+    :mod (e / espontâneo))
+
+# ::tok Ditadura e democracia eram conceitos bem definidos .
+(c / conceito
+    :ARG0 (d / ditadura
+        :op (d2 / democracia
+            :op (e / e))))
+
+# ::tok A reforma política foi o nosso maior problema .
+(p2 / problema
+    :ARG0 (r / reforma
+        :mod (p / político))
+    :mod (m / maior))
+
+# ::tok Se pudesse fazer sozinho já teria feito .
+(f2 / fazer.01
+    :mod (j / já))
+
+# ::tok Evidente que só psicopata fará um negócio desse .
+(e / evidente)
+
+# ::tok O caso aguarda análise no Supremo .
+(a / aguardar.01
+    :ARG0 (c / caso)
+    :ARG1 (a2 / análise))
+
+# ::tok Valeu pessoal , o Brasil é nosso . ''.
+(v / valeu)
+
+# ::tok Nem lembro mais do que conversamos .
+(l / lembrar.01
+    :ARG0 (e / eu)
+    :mod (n / nem)
+    :mod (m / mais))
+
+# ::tok Eu respeito as subjetividades '' , concluiu .
+(c / concluir.01
+    :ARG0 (e2 / ele))
+
+# ::tok Essa é minha visão de fora .
+(v / visão
+    :ARG0 (e / esse)
+    :mod (f / fora))
+
+# ::tok O presidente eleito já escolheu 19 ministros .
+(e2 / escolher.01
+    :ARG0 (p / presidente
+        :mod (e / eleger.01))
+    :mod (j / já)
+    :ARG1 (m / ministro))
+
+# ::tok Mas a temporada ainda não acabou .
+(c / contrast-01)
+
+# ::tok A cidade favorita é Doha , no Qatar .
+(c2 / city
+    :name (n / name
+        :op1 "Doha")
+    :ARG0 (c / cidade
+        :mod (f / favorito))
+    :ARG1 (c3 / country
+        :name (n2 / name
+            :op1 "Qatar")))
+
+# ::tok O lucro fica com o Palmeiras .
+(f / ficar.01
+    :ARG0 (l / lucro))
+
+# ::tok Trabalhávamos junto com os diretores do Palmeiras .
+(t / trabalhar.01
+    :ARG0 (n / nós)
+    :mod (j / junto))
+
+# ::tok Primeiro , a violência nos gramados .
+(v / violência
+    :mod (p / primeiro)
+    :ARG1 (g / gramado))
+
+# ::tok Duas equipes locais completavam o quadrangular .
+(c / completar.01
+    :ARG0 (e / equipe
+        :mod (l / local))
+    :ARG1 (q / quadrangular))
+
+# ::tok Quero ver o Palmeiras campeão mundial .
+(q / querer.01
+    :ARG0 (e / eu)
+    :ARG2 (v / ver.01
+        :ARG1 (p / person
+            :name (n / name
+                :op1 "Palmeiras"))
+        :ARG2 (c / campeão
+            :mod (m / mundial))))
+
+# ::tok Quando : segunda ( 3 ) , às 20h.
+(q / quando)
+
+# ::tok Algo semelhante aconteceu no sub-17 e sub-20 .
+(a2 / acontecer.01
+    :ARG0 (a / algo
+        :mod (s / semelhante)))
+
+# ::tok Ambos disputavam uma bola pelo alto .
+(d / disputar.01
+    :ARG0 (a / ambos)
+    :ARG1 (b / bola))
+
+# ::tok Quando a Folha visitou a fábrica , ninguém usava o local .
+(u / usar.01
+    :ARG0 (n2 / ninguém)
+    :ARG1 (l / local))
+
+# ::tok Também só haverá uma novata no Senado do lado conservador .
+(h / haver.01
+    :mod (t / também)
+    :mod (s / só)
+    :ARG1 (n / novato))
+
+# ::tok Na realidade , a economia cresceu 2,8 % no período .
+(c / crescer.01
+    :ARG0 (e / economia)
+    :ARG1 (x2 / %))
+
+# ::tok A cerimônia oficial de assinatura demorou uma hora e meia .
+(d / demorar.01
+    :ARG0 (c / cerimônia
+        :mod (o / oficial)
+        :ARG1 (a / assinatura))
+    :ARG1 (h / hora
+        :op (m / meio
+            :op (e / e))))
+
+# ::tok A crise na Venezuela foi um assunto que permeou as reuniões .
+(a / assunto
+    :ARG0 (c / crise
+        :ARG1 (c2 / country
+            :name (n / name
+                :op1 "Venezuela"))))
+
+# ::tok Autos judiciais e processos em andamento também são abertos ao público .
+(a3 / aberto
+    :ARG1 (a / auto
+        :mod (j / judicial)
+        :op (p / processo
+            :op (e / e)
+            :ARG1 (a2 / andamento)))
+    :mod (t / também))
+
+# ::tok Segundo os norte-coreanos ouvidos pela Folha , ele vem caindo .
+(c / cair.01
+    :ARG0 (e / ele))
+
+# ::tok Ficou no cargo de janeiro a agosto , quando renunciou .
+(f / ficar.01
+    :ARG0 (e / ele))
+
+# ::tok A paixão por Buenos Aires foi à primeira vista .
+(v / vista
+    :ARG0 (p / paixão
+        :ARG1 (p2 / person
+            :name (n / name
+                :op1 "Buenos")))
+    :mod (p4 / primeiro))
+
+# ::tok O que o Brasil ganharia se de fato saísse do acordo ?
+(g / ganhar.01
+    :ARG0 (c / country
+        :name (n / name
+            :op1 "Brasil")))
+
+# ::tok Na fábrica de calçados Ryuwon , essas forças-tarefa duram dez dias .
+(d / durar.01
+    :ARG0 (f2 / forças-tarefa)
+    :ARG1 (d3 / dia))
+
+# ::tok O que vai acontecer se o parlamento rejeitar o acordo ?
+(a / acontecer.01)
+
+# ::tok Eu não estava tentando esconder nada ” , acrescentou .
+(a / acrescentar.01
+    :ARG0 (e4 / ele))
+
+# ::tok E ele se saiu tremendamente bem ao longo do caminho ”.
+(s2 / sair.01
+    :op (e / e)
+    :ARG0 (e2 / ele)
+    :mod (b / bem
+        :mod (t / tremendamente)))
+
+# ::tok Voltar não é opção para o hondurenho Edgardo Garcia , 44 .
+(o / opção
+    :polarity -
+    :ARG1 (h / hondurenho
+        :ARG1 (p / person
+            :name (n / name
+                :op1 "Edgardo"))))
+
+# ::tok Shannon evitou comentar as credenciais direitistas do presidente eleito do Brasil .
+(e / evitar.01
+    :ARG0 (p / person
+        :name (n / name
+            :op1 "Shannon"))
+    :ARG2 (c / comentar.01
+        :ARG1 (c2 / credenciai
+            :mod (d / direitista)
+            :ARG1 (p2 / presidente
+                :mod (e2 / eleger.01)
+                :ARG1 (c3 / country
+                    :name (n2 / name
+                        :op1 "Brasil"))))))
+
+# ::tok As mariposas inspiraram a resistência nacional e a insistência internacional .
+(i / inspirar.01
+    :ARG0 (m / mariposa)
+    :ARG1 (r / resistência
+        :mod (n / nacional)
+        :op (i2 / insistência
+            :op (e / e)
+            :mod (i3 / internacional))))
+
+# ::tok No meio do trajeto , a aeronave perdeu contato e caiu .
+(p / perder.01
+    :ARG0 (a / aeronave)
+    :ARG1 (c / contato)
+    :op (c2 / cair.01
+        :ARG0 (e2 / ele)
+        :op (e / e)))
+
+# ::tok Alexandra Loras promove a 1ª edição do Fórum Diversifique .
+(p2 / promover.01
+    :ARG0 (c / city
+        :name (n / name
+            :op1 "Alexandra"))
+    :ARG1 (e / edição
+        :mod (o / ordinal-entity
+            :value "1ª")
+        :ARG1 (p3 / person
+            :name (n3 / name
+                :op1 "Fórum"))))
+
+# ::tok A lista é divulgada no dia 10 de dezembro .
+(d / divulgar.01
+    :ARG1 (l / lista))
+
+# ::tok O anúncio dos nascimentos recebeu muitas críticas em todo o mundo .
+(r / receber.01
+    :ARG0 (a / anúncio
+        :ARG1 (n / nascimento))
+    :ARG1 (c / crítico
+        :mod (m / muito)))
+
+# ::tok Deixá-los assumir esse compromisso parece ser o atual vestibular dos pais .
+(p / parecer.01
+    :ARG0 (e2 / ele)
+    :ARG2 (v / vestibular
+        :mod (a2 / atual)
+        :ARG1 (p2 / pai)))
+
+# ::tok Ele afirma não ter dados de quantos médicos pediram para continuar .
+(a / afirmar.01
+    :ARG0 (e / ele)
+    :ARG2 (t / ter.01
+        :polarity -
+        :ARG1 (d / dado
+            :ARG1 (m / médico))))
+
+# ::tok Ao longo dos anos , a coleção foi ganhando corpo .
+(g / ganhar.01
+    :ARG0 (c / coleção)
+    :ARG1 (c2 / corpo))
+
+# ::tok E como fica o Mais Médicos com a saída dos cubanos ?
+(f / ficar.01
+    :op (e / e)
+    :mod (c / como
+        :mode amr-unknown)
+    :ARG0 (p / person
+        :name (n / name
+            :op1 "Mais")))
+
+# ::tok O vestibular da Fuvest traz uma novidade neste ano .
+(t / trazer.01
+    :ARG0 (v / vestibular
+        :ARG1 (p / person
+            :name (n / name
+                :op1 "Fuvest")))
+    :ARG1 (n2 / novidade))
+
+# ::tok Em geral , isso ocorre em situações de emergência ou simbólicas .
+(o / ocorrer.01
+    :ARG0 (i / isso))
+
+# ::tok Marielle e as Mirabal estarão eternamente presentes porque as perpetuaremos .
+(p3 / presente
+    :ARG0 (p / person
+        :name (n / name
+            :op1 "Marielle")
+        :op (p2 / person
+            :name (n2 / name
+                :op1 "Mirabal")
+            :op (e / e)))
+    :mod (e3 / eternamente))
+
+# ::tok Conheça seis propriedades que se destacam por suas práticas sustentáveis .
+(c / conhecer.01
+    :ARG0 (e / ele)
+    :ARG1 (p / propriedade))
+
+# ::tok Uma comunidade do tempo dos bandeirantes foi destruída em dez minutos .
+(d / destruir.01
+    :ARG1 (c / comunidade
+        :ARG1 (t / tempo
+            :ARG1 (b / bandeirante))))
+
+# ::tok Gosto de renovar as energias , sempre .
+(g / gostar.01
+    :ARG0 (e / eu)
+    :ARG2 (r / renovar.01
+        :ARG1 (e2 / energia))
+    :mod (s / sempre))
+
+# ::tok Aulas de Krav Maga e massagem tântrica.
+(a / aula
+    :ARG1 (p / person
+        :name (n / name
+            :op1 "Krav")
+        :op (m / massagem
+            :op (e / e)
+            :mod (t / tântrico))))
+
+# ::tok As pessoas querem ter no que acreditar .
+(q / querer.01
+    :ARG0 (p / pessoa)
+    :ARG2 (t / ter.01))
+
+# ::tok Ramos de Azevedo , s/nº , São Paulo .
+(p / person
+    :name (n / name
+        :op1 "Ramos"))
+
+# ::tok Ele sabe disso e vai falando .
+(s / saber.01
+    :ARG0 (e / ele)
+    :op (f / falar.01
+        :op (e2 / e)))
+
+# ::tok O maoismo é o poste do inferno ” .
+(p / poste
+    :ARG0 (m / maoismo)
+    :ARG1 (i / inferno
+        :mod (x / ”)))
+
+# ::tok Naief Haddad é jornalista da Folha .
+(j / jornalista
+    :ARG0 (p / person
+        :name (n / name
+            :op1 "Naief"))
+    :ARG0 (p2 / person
+        :name (n2 / name
+            :op1 "Haddad"))
+    :ARG1 (p3 / person
+        :name (n3 / name
+            :op1 "Folha")))
+
+# ::tok Deus e sua nova linha de crédito.
+(p / person
+    :name (n / name
+        :op1 "Deus")
+    :op (l / linha
+        :op (e / e)
+        :mod (n2 / novo)
+        :ARG1 (c / crédito)))
+
+# ::tok Marte é um lugar lindo , mas inóspito .
+(c / contrast-01)
+
+# ::tok Para onde o bicho vai fugir ?
+(f / fugir.01
+    :mod (o / onde
+        :mode amr-unknown)
+    :ARG0 (b / bicho))
+
+# ::tok E vivo com isso todos os dias '' .
+(v / vivar.01
+    :ARG0 (e2 / eu)
+    :op (e / e))
+
+# ::tok Pode até criar problema emocional e retração social .
+(p / poder.01
+    :ARG0 (e / ele)
+    :ARG2 (c / criar.01
+        :mod (a / até)
+        :ARG1 (p2 / problema
+            :mod (e2 / emocional)
+            :op (r / retração
+                :op (e3 / e)
+                :mod (s / social)))))
+
+# ::tok O espetáculo está programado para começar às 10h30 .
+(p / programado
+    :ARG0 (e / espetáculo))
+
+# ::tok Ao redor , muitos smartphones conectados .
+(s / smartphone
+    :ARG1 (r / redor)
+    :mod (m / muito)
+    :mod (c / conectado))
+
+# ::tok Você também traz coisas demais de uma viagem ?
+(t2 / trazer.01
+    :ARG0 (v / você)
+    :mod (t / também)
+    :ARG1 (c / coisa
+        :mod (d / demais)))
+
+# ::tok Não gostou ?
+(g / gostar.01
+    :polarity -
+    :ARG0 (e / ele))
+
+# ::tok A torcida organizada Gaviões da Fiel decidiu agir contra os arrastões em os estádios de futebol .
+(d / decidir.01
+    :ARG0 (t / torcida
+        :mod (o / organizado)
+        :ARG1 (p / person
+            :name (n / name
+                :op1 "Gaviões")))
+    :ARG2 (a / agir.01))
+
+# ::tok Eles estão em prisão especial porque têm curso superior e aguardam julgamento de recurso .
+(p / prisão
+    :ARG0 (e / ele)
+    :mod (e3 / especial))
+
+# ::tok Ieltsin adotou outras medidas simbólicas para mostrar a perda de poderes de o Parlamento .
+(a / adotar.01
+    :ARG0 (p / person
+        :name (n / name
+            :op1 "Ieltsin"))
+    :ARG1 (m / medida
+        :mod (s / simbólico)))
+
+# ::tok Ao todo , serão usados cerca de 5.800 computadores .
+(u / usar.01
+    :ARG1 (c2 / computador))
+
+# ::tok Evandro disse que as pessoas não devem adquirir armas para se defender .
+(d / dizer.01
+    :ARG0 (p / person
+        :name (n / name
+            :op1 "Evandro")))
+
+# ::tok A política é um jogo interativo afetado por as circunstâncias .
+(j / jogo
+    :ARG0 (p / política)
+    :mod (i / interativo))
+
+# ::tok Eu sou um homem que age por impulso .
+(h / homem
+    :ARG0 (e / eu))
+
+# ::tok Não precisaria agir assim .
+(p / precisar.01
+    :polarity -
+    :ARG0 (e / ele)
+    :ARG2 (a / agir.01
+        :mod (a2 / assim)))
+
+# ::tok « Eu quero viver ! ».
+(q / querer.01
+    :ARG0 (e / eu)
+    :ARG2 (v / viver.01))
+
+# ::tok Canal maluco !
+(c / canal
+    :mod (m / maluco))
+
+# ::tok Em vez de parques temáticos e fábricas de chocolate , mato .
+(m / matar.01
+    :ARG0 (e2 / eu))
+
+# ::tok Vamos acabar com a indústria da multa ” , disse Bolsonaro .
+(d / dizer.01
+    :ARG0 (p / person
+        :name (n / name
+            :op1 "Bolsonaro")))
+
+# ::tok E ele teve uma atuação muito boa como general .
+(t / ter.01
+    :op (e / e)
+    :ARG0 (e2 / ele)
+    :ARG1 (a / atuação
+        :mod (b / bom
+            :mod (m / muito))
+        :ARG1 (g / general)))
+
+# ::tok Cerca de 322,7 mil advogados estavam aptos a votar .
+(a2 / apto
+    :ARG0 (a / advogado))
+
+# ::tok Eu acho chato os dois lados [ esquerda e direita ] .
+(a / achar.01
+    :ARG0 (e / eu)
+    :ARG2 (c / chato)
+    :ARG1 (l / lado))
+
+# ::tok Só na década de 1720 Händel estreou cerca de 40 óperas .
+(e / estrear.01
+    :ARG0 (p / person
+        :name (n / name
+            :op1 "Händel"))
+    :ARG1 (ó / ópera))
+
+# ::tok Tentarei aqui questionar o que essa falta de cuidado representa .
+(t / tentar.01
+    :ARG0 (e / eu)
+    :mod (a / aqui)
+    :ARG2 (q / questionar.01))
+
+# ::tok Como eu também não tenho .
+(t2 / ter.01
+    :polarity -
+    :ARG0 (e / eu)
+    :mod (t / também))
+
+# ::tok Não faz sentido .
+(f / fazer.01
+    :polarity -
+    :ARG0 (e / ele)
+    :ARG1 (s / sentido))
+
+# ::tok Poderia , no futuro .
+(p / poder.01
+    :ARG0 (e / ele))
+
+# ::tok Demorou menos de 15 minutos .
+(d / demorar.01
+    :ARG0 (e / ele)
+    :ARG1 (m2 / minuto))
+
+# ::tok Como poderia melhorar ?
+(p / possible.01
+    :ARG0 (e / ele)
+    :mod (c / como
+        :mode amr-unknown)
+    :ARG2 (m / melhorar.01))
+
+# ::tok Não estou defendendo o Alckmin .
+(d / defender.01
+    :polarity -
+    :ARG1 (p / person
+        :name (n / name
+            :op1 "Alckmin")))
+
+# ::tok Como classifica o governo Bolsonaro ?
+(c2 / classificar.01
+    :ARG0 (e / ele)
+    :mod (c / como
+        :mode amr-unknown)
+    :ARG1 (g / governo
+        :ARG1 (p / person
+            :name (n / name
+                :op1 "Bolsonaro"))))
+
+# ::tok Haddad é nada comunista .
+(c / comunista
+    :ARG0 (p / person
+        :name (n / name
+            :op1 "Haddad")))
+
+# ::tok Lamentavelmente também ele .
+(e / ele
+    :mod (l / lamentavelmente)
+    :mod (t / também))
+
+# ::tok Aconselhando , talvez ?
+(a / aconselhar.01
+    :mod (t / talvez))
+
+# ::tok As figuras foram sumindo .
+(s / sumir.01
+    :ARG0 (f / figura))
+
+# ::tok Quem está impondo como valores ?
+(i / impor.01
+    :ARG0 (q / quem
+        :mode amr-unknown))
+
+# ::tok Geraldo sim , Geraldo não .
+(p / person
+    :name (n / name
+        :op1 "Geraldo")
+    :mod (s / sim)
+    :op (p2 / person
+        :name (n2 / name
+            :op1 "Geraldo")))
+
+# ::tok Acabei até sugerindo um nome .
+(a / acabar.01
+    :ARG0 (e / eu)
+    :ARG2 (s / sugerir.01
+        :mod (a2 / até)
+        :ARG1 (n / nome)))
+
+# ::tok Não tem direito de sentir ?
+(t / ter.01
+    :polarity -
+    :ARG0 (e / ele)
+    :ARG1 (d / direito))
+
+# ::tok Pelo amor de Deus !
+(a / amor
+    :ARG1 (p / person
+        :name (n / name
+            :op1 "Deus")))
+
+# ::tok Não é assim .
+(a / assim
+    :polarity -)
+
+# ::tok Não vai haver nada diferente .
+(h / haver.01
+    :polarity -)
+
+# ::tok Leia mais notas do Painel .
+(l / ler.01
+    :ARG0 (e / ele)
+    :ARG1 (n / nota
+        :ARG1 (p / person
+            :name (n2 / name
+                :op1 "Painel"))))
+
+# ::tok Dele , surgiu Jair Bolsonaro .
+(s / surgir.01
+    :ARG0 (p / person
+        :name (n / name
+            :op1 "Jair")))
+
+# ::tok Termina a Primeira Guerra Mundial .
+(t / terminar.01
+    :ARG0 (p / person
+        :name (n / name
+            :op1 "Primeira")))
+
+# ::tok O Bolsonaro ocupou .
+(o / ocupar.01
+    :ARG0 (p / person
+        :name (n / name
+            :op1 "Bolsonaro")))
+
+# ::tok O produto final foi positivo .
+(p2 / positivo
+    :ARG0 (p / produto
+        :mod (f / final)))
+
+# ::tok Eu acompanhei a coisa .
+(a / acompanhar.01
+    :ARG0 (e / eu)
+    :ARG1 (c / coisa))
+
+# ::tok E o país era ingovernável ?
+(i / ingovernável
+    :op (e / e)
+    :ARG0 (p / país))
+
+# ::tok Serra também foi acusado .
+(a / acusar.01
+    :ARG1 (c / city
+        :name (n / name
+            :op1 "Serra"))
+    :mod (t / também))
+
+# ::tok Corrupção nas estatais ?
+(c / corrupção
+    :ARG1 (e / estatal))
+
+# ::tok Também tem consequências .
+(t2 / ter.01
+    :ARG0 (e / ele)
+    :mod (t / também)
+    :ARG1 (c / consequência))
+
+# ::tok Nada disso é criminoso .
+(c / criminoso)
+
+# ::tok Como está o Lula ?
+(c / como
+    :mode amr-unknown
+    :ARG0 (p / person
+        :name (n / name
+            :op1 "Lula")))
+
+# ::tok Ninguém prestou a menor atenção .
+(p / prestar.01
+    :ARG0 (n / ninguém)
+    :ARG1 (a / atenção
+        :mod (m / menor)))
+
+# ::tok Não tenho capacidade para julgar .
+(t / ter.01
+    :polarity -
+    :ARG0 (e / eu)
+    :ARG1 (c / capacidade))
+
+# ::tok Há algo antidemocrático profundo .
+(h / haver.01
+    :ARG1 (a / algo
+        :mod (a2 / antidemocrático)
+        :mod (p / profundo)))
+
+# ::tok Marcos da Costa , 54.
+(p / person
+    :name (n / name
+        :op1 "Marcos"))
+
+# ::tok Operação de Luz – Danielle Meireles.
+(p / person
+    :name (n / name
+        :op1 "Operação"))
+
+# ::tok A série do Curta !
+(s / série
+    :ARG1 (p / person
+        :name (n / name
+            :op1 "Curta")))
+
+# ::tok Direção : Charles Sturridge.
+(d / direção
+    :ARG1 (p / person
+        :name (n / name
+            :op1 "Charles")))
+
+# ::tok Foi uma aula de cinema .
+(a / aula
+    :ARG1 (c / cinema))
+
+# ::tok Simples e excelente .
+(s / simples
+    :op (e2 / excelente
+        :op (e / e)))
+
+# ::tok Direção : Bailley Walsh.
+(d / direção
+    :ARG1 (p / person
+        :name (n / name
+            :op1 "Bailley")))
+
+# ::tok Sugestões , críticas ou dúvidas ?
+(s / sugestão
+    :op (c / crítica)
+    :op (d / dúvida
+        :op (o / ou)))
+
+# ::tok Um exemplo é a Cia .
+(p / person
+    :name (n / name
+        :op1 "Cia")
+    :ARG0 (e / exemplo))
+
+# ::tok Quintas , Sextas e Sábados 21h.
+(q / quinto
+    :op (p / person
+        :name (n / name
+            :op1 "Sextas"))
+    :op (p2 / person
+        :name (n2 / name
+            :op1 "Sábados")
+        :op (e / e))
+    :ARG1 (x / 21h))
+
+# ::tok Atingir os píncaros da excelência .
+(a / atingir.01
+    :ARG1 (p / píncaro
+        :ARG1 (e / excelência)))
+
+# ::tok Já teve sua época .
+(t / ter.01
+    :ARG0 (e / ele)
+    :mod (j / já)
+    :ARG1 (é / época))
+
+# ::tok Uma amiga perdeu a mãe .
+(p / perder.01
+    :ARG0 (a / amigo)
+    :ARG1 (m / mãe))
+
+# ::tok Até por satisfação pessoal .
+(s / satisfação
+    :mod (a / até)
+    :mod (p / pessoal))
+
+# ::tok E os pais ?
+(p / pai
+    :op (e / e))
+
+# ::tok Queremos saber mais sobre você !
+(q / querer.01
+    :ARG0 (n / nós)
+    :ARG2 (s / saber.01
+        :mod (m / mais)))
+
+# ::tok E como isso estaria ocorrendo ?
+(o / ocorrer.01
+    :op (e / e)
+    :mod (c / como
+        :mode amr-unknown)
+    :ARG0 (i / isso))
+
+# ::tok Você agradecia por eu ser tricolor.
+(a / agradecer.01
+    :ARG0 (v / você))
+
+# ::tok Não adianta fugir !
+(a / adiantar.01
+    :polarity -
+    :ARG0 (e / ele))
+
+# ::tok Galfano descansava na padaria.
+(d / descansar.01
+    :ARG0 (p / person
+        :name (n / name
+            :op1 "Galfano")))
+
+# ::tok A circulação já está normalizada .
+(n / normalizado
+    :ARG0 (c / circulação)
+    :mod (j / já))
+
+# ::tok As partículas se soltam .
+(s2 / soltar.01
+    :ARG0 (p / partícula))
+
+# ::tok No vestiário , passou mal .
+(p / passar.01
+    :ARG0 (e / ele)
+    :mod (m / mal))
+
+# ::tok Mas precisa ficar claro .
+(c2 / contrast-01)
+
+# ::tok Mistério é a hora da perda.
+(h / hora
+    :ARG0 (m / mistério)
+    :ARG1 (p / perda))
+
+# ::tok Não , não acredito .
+(a / acreditar.01
+    :polarity -
+    :polarity -
+    :ARG0 (e / eu))
+
+# ::tok Que esperem !
+(e / esperar.01
+    :ARG0 (e2 / eles))
+
+# ::tok Módena .
+(p / person
+    :name (n / name
+        :op1 "Módena"))
+
+# ::tok Linguiças .
+(l / linguiça)
+
+# ::tok R $ 1.450.
+(r / r)
+
+# ::tok Tenho de admitir .
+(o / obligate.01
+    :ARG0 (e / eu)
+    :ARG2 (a / admitir.01))
+
+# ::tok Belo Horizonte.
+(p / person
+    :name (n / name
+        :op1 "Belo"))
+
+# ::tok Yonatan Gat.
+(p / person
+    :name (n / name
+        :op1 "Yonatan"))
+
+# ::tok E continua .
+(c / continuar.01
+    :ARG0 (e2 / ele)
+    :op (e / e))
+
+# ::tok Fernanda D’Umbra.
+(p / person
+    :name (n / name
+        :op1 "Fernanda"))
+
+# ::tok Toda hora .
+(h / hora)
+
+# ::tok Não consegui .
+(c / conseguir.01
+    :polarity -
+    :ARG0 (e / eu))
+
+# ::tok Tem razão .
+(t / ter.01
+    :ARG0 (e / ele)
+    :ARG1 (r / razão))
+
+# ::tok Comecei bem .
+(c / começar.01
+    :ARG0 (e / eu)
+    :mod (b / bem))
+
+# ::tok Bobagem .
+(b / bobagem)
+
+# ::tok Nada menos .
+(m / menos)
+
+# ::tok Isso não está claro .
+(c / claro
+    :polarity -
+    :ARG0 (i / isso))
+
+# ::tok Isso simplesmente não acontece .
+(a / acontecer.01
+    :polarity -
+    :ARG0 (i / isso)
+    :mod (s / simplesmente))
+
+# ::tok São duas sendas paralelas .
+(s2 / senda
+    :mod (p / paralelo))
+
+# ::tok Pelo contrário ” .
+(x / ”.01)
+
+# ::tok Há vândalos infiltrados .
+(h / haver.01
+    :ARG1 (v / vândalo
+        :mod (i / infiltrado)))
+
+# ::tok O que Trump alega ?
+(a / alegar.01
+    :ARG0 (p / person
+        :name (n / name
+            :op1 "Trump")))
+
+# ::tok Há algumas explicações para isso .
+(h / haver.01
+    :ARG1 (e / explicação
+        :ARG1 (i / isso)))
+
+# ::tok Reuters e Associated Press.
+(p / person
+    :name (n / name
+        :op1 "Reuters")
+    :op (p2 / person
+        :name (n2 / name
+            :op1 "Associated")
+        :op (e / e)))
+
+# ::tok Mas existe um salário mínimo ?
+(c / contrast-01)
+
+# ::tok mexicano Enrique Peña Nieto .
+(m / mexicano
+    :ARG1 (p / person
+        :name (n / name
+            :op1 "Enrique")))
+
+# ::tok O que é União Europeia ?
+(q / que
+    :mode amr-unknown)
+
+# ::tok O que foi acordado ?
+(a / acordar.01)
+
+# ::tok Luanda era nossa segunda escala .
+(e / escala
+    :ARG0 (c / city
+        :name (n / name
+            :op1 "Luanda"))
+    :mod (s2 / segundo))
+
+# ::tok Não será com a Lucille .
+(p / person
+    :name (n / name
+        :op1 "Lucille"))
+
+# ::tok Não será com a Lucille .
+(p / person
+    :name (n / name
+        :op1 "Lucille"))
+
+# ::tok Entra em cena a comida .
+(e / entrar.01
+    :ARG0 (c2 / comida))
+
+# ::tok O de emergência não abriu .
+(a / abrir.01
+    :polarity -)
+
+# ::tok No pequeno jardim , ficam as bicicletas .
+(f / ficar.01
+    :ARG0 (b / bicicleta))
+
+# ::tok Teve chance suficiente para se salvar .
+(t / ter.01
+    :ARG0 (e / ele)
+    :ARG1 (c / chance
+        :mod (s / suficiente)))
+
+# ::tok Nos últimos anos , houve reveses .
+(h / haver.01
+    :ARG1 (r / revés))
+
+# ::tok A vingança dos Bush viria em 2000 .
+(v2 / vir.01
+    :ARG0 (v / vingança
+        :ARG1 (p / person
+            :name (n / name
+                :op1 "Bush"))))
+
+# ::tok Por muito tempo , manteve boa forma física .
+(m2 / manter.01
+    :ARG0 (e / ele)
+    :ARG1 (f / forma
+        :mod (b / bom)
+        :mod (f2 / físico)))
+
+# ::tok Na indústria , há maratonas para cumprir metas .
+(h / haver.01
+    :ARG1 (m / maratona))
+
+# ::tok Assim , La Coruña virou oficialmente A Coruña .
+(v / virar.01
+    :mod (a / assim)
+    :ARG0 (p / person
+        :name (n / name
+            :op1 "La")))
+
+# ::tok Homossexualidade é assunto inexistente no país .
+(a / assunto
+    :ARG0 (h / homossexualidade)
+    :mod (i / inexistente))
+
+# ::tok São 5 edifícios e 14 mil metros quadrados .
+(s / ser)
+
+# ::tok As mariposas sempre retornavam para o front .
+(r / retornar.01
+    :ARG0 (m / mariposa)
+    :mod (s / sempre))
+
+# ::tok O endereço é avenida Rotary , 624 , Ferrazópolis.
+(a / avenida
+    :ARG0 (e / endereço)
+    :ARG1 (p / person
+        :name (n / name
+            :op1 "Rotary")))
+
+# ::tok Muitos cientistas ficaram chocados , nos Estados Unidos .
+(f / ficar.01
+    :ARG0 (c / cientista
+        :mod (m / muito))
+    :ARG2 (c2 / chocado))
+
+# ::tok Quem será esse João Filgueiras Lima ?
+(p / person
+    :name (n / name
+        :op1 "João")
+    :ARG0 (q / quem
+        :mode amr-unknown))
+
+# ::tok A história do Hamilton é interessante .
+(i / interessante
+    :ARG0 (h / história
+        :ARG1 (c / city
+            :name (n / name
+                :op1 "Hamilton"))))
+
+# ::tok Corte de ministérios preocupa produtores e ambientalistas.
+(p / preocupar.01
+    :ARG0 (c / corte
+        :ARG1 (m / ministério))
+    :ARG1 (p2 / produtor
+        :op (a / ambientalista
+            :op (e / e))))
+
+# ::tok Jornalista e consultora de qualidade de texto .
+(j / jornalista
+    :op (c / consultor
+        :op (e / e)
+        :ARG1 (q / qualidade
+            :ARG1 (t / texto))))
+
+# ::tok Corte de ministérios preocupa produtores e ambientalistas.
+(p / preocupar.01
+    :ARG0 (c / corte
+        :ARG1 (m / ministério))
+    :ARG1 (p2 / produtor
+        :op (a / ambientalista
+            :op (e / e))))
+
+# ::tok Mas não sabia o que o aguardava .
+(c / contrast-01)
+
+# ::tok Houve conflitos e preferimos encerrar a parceria . ”.
+(h / haver.01
+    :ARG1 (c / conflito)
+    :op (p / preferir.01
+        :ARG0 (n / nós)
+        :op (e / e)
+        :ARG2 (e2 / encerrar.01
+            :ARG1 (p2 / parceria))))
+
+# ::tok Conseguiram .
+(c / conseguir.01
+    :ARG0 (e / eles))
+
+# ::tok E acabou .
+(a / acabar.01
+    :ARG0 (e2 / ele)
+    :op (e / e))
+
+# ::tok Site : www.ekrbrasil.com.
+(s / site
+    :ARG1 (w / www.ekrbrasil.com))
+
+# ::tok Lucas Veloso.
+(p / person
+    :name (n / name
+        :op1 "Lucas"))
+
+# ::tok Sem agrotóxico ?
+(a / agrotóxico)
+
+# ::tok coluna.obituario@grupofolha.com.br.
+(c / coluna.obituario@grupofolha.com.br)
+
+# ::tok Internet das coisas.
+(i / internet
+    :ARG1 (c / coisa))
+
+# ::tok Ele não .
+(e / ele)
+
+# ::tok Especialmente Domínguez .
+(p / person
+    :name (n / name
+        :op1 "Domínguez")
+    :mod (e / especialmente))
+
+# ::tok Ninguém sabe .
+(s / saber.01
+    :ARG0 (n / ninguém))
+
+# ::tok Não entendo .
+(e / entender.01
+    :polarity -
+    :ARG0 (e2 / eu))
+
+# ::tok Não quer .
+(q / querer.01
+    :polarity -
+    :ARG0 (e / ele))
+
+# ::tok Novo ciclo .
+(c / ciclo
+    :mod (n / novo))
+
+# ::tok Todo mundo .
+(m / mundo)
+
+# ::tok Não .
+# ::tok Quais ?
+(q / qual
+    :mode amr-unknown)
+
+# ::tok Foi tudo .
+(t / tudo)
+
+# ::tok Pelo contrário .
+(c / contrário)
+
+# ::tok Carne ?
+(c / carne)
+
+# ::tok Fotógrafo aéreo.
+(f / fotógrafo
+    :mod (a / aéreo))
+
+# ::tok Recessão econômica ?
+(r / recessão
+    :mod (e / econômico))
+
+# ::tok Esquerda e direita.
+(e / esquerda
+    :op (d / direita
+        :op (e2 / e)))
+
+# ::tok Tivemos vitórias importantíssimas no conselho .
+(t / ter.01
+    :ARG0 (n / nós)
+    :ARG1 (v / vitória
+        :mod (i / importantíssimo)))
+
+# ::tok Não quero chutes de três .
+(q / querer.01
+    :polarity -
+    :ARG0 (e / eu)
+    :ARG1 (c / chute
+        :ARG1 (t / três)))
+
+# ::tok Felipão fez duas alterações .
+(f / fazer.01
+    :ARG0 (p / person
+        :name (n / name
+            :op1 "Felipão"))
+    :ARG1 (a / alteração))
+
+# ::tok A que atribui esse sucesso ?
+(a / atribuir.01
+    :ARG0 (e / ele)
+    :ARG1 (s / sucesso))
+
+# ::tok Secretário Municipal de Esportes e Lazer.
+(p / person
+    :name (n / name
+        :op1 "Secretário"))
+
+# ::tok Foram feitos apenas oito acordos .
+(f / fazer.01
+    :ARG1 (a2 / acordo))
+
+# ::tok Ele também tem por mim .
+(t2 / ter.01
+    :ARG0 (e / ele)
+    :mod (t / também))
+
+# ::tok Depoimento a Walter Porto .
+(d / depoimento
+    :ARG1 (p / person
+        :name (n / name
+            :op1 "Walter")))
+
+# ::tok Kim Ki-Taek é poeta coreano .
+(p3 / poeta
+    :ARG0 (p / person
+        :name (n / name
+            :op1 "Kim"))
+    :mod (c / coreano))
+
+# ::tok O que eu não faria.
+(q / que)
+
+# ::tok E a Câmara ?
+(p / person
+    :name (n / name
+        :op1 "Câmara")
+    :op (e / e))
+
+# ::tok Hoje , existe um cenário propício ?
+(e / existir.01
+    :mod (h / hoje)
+    :ARG0 (c / cenário
+        :mod (p / propício)))
+
+# ::tok A tendência é continuar nesse padrão ?
+(c / continuar.01
+    :ARG0 (t / tendência))
+
+# ::tok Foi isso o que aconteceu nessa primeira denúncia .
+(s / ser)
+
+# ::tok Mas não da forma que eles estão fazendo .
+(c / contrast-01)
+
+# ::tok Não sirvo para esse negócio de ser burocrata .
+(s / servir.01
+    :polarity -
+    :ARG0 (e / eu))
+
+# ::tok Ele não quis fazer [ a coalizão ] .
+(q / querer.01
+    :polarity -
+    :ARG0 (e / ele)
+    :ARG2 (f / fazer.01
+        :ARG1 (c / coalizão)))
+
+# ::tok A Polícia Federal infelizmente está com pouco efetivo .
+(e2 / efetivo
+    :ARG0 (p / person
+        :name (n / name
+            :op1 "Polícia"))
+    :mod (i / infelizmente)
+    :mod (p3 / pouco))
+
+# ::tok De Haddad , não sai nada .
+(s / sair.01
+    :polarity -)
+
+# ::tok O Rio era nosso , apesar de tudo .
+(n2 / nosso
+    :ARG0 (p / person
+        :name (n / name
+            :op1 "Rio"))
+    :mod (a / apesar))
+
+# ::tok Um amigo veio aqui e o trouxe .
+(v / vir.01
+    :ARG0 (a / amigo)
+    :mod (a2 / aqui)
+    :op (t / trazer.01
+        :ARG0 (e2 / ele)
+        :op (e / e)))
+
+# ::tok Quando mexerem nisso , vai ter gritaria .
+(t / ter.01
+    :ARG1 (g / gritaria))
+
+# ::tok Isso valeria para alguns crimes de colarinho branco.
+(v / valer.01
+    :ARG0 (i / isso))
+
+# ::tok O presidente não tem espaço na mídia ?
+(t / ter.01
+    :polarity -
+    :ARG0 (p / presidente)
+    :ARG1 (e / espaço
+        :ARG1 (m / mídia)))
+
+# ::tok As principais organizadas dos dois clubes são aliadas .
+(a / aliado
+    :ARG0 (o / organizada
+        :mod (p / principal)
+        :ARG1 (c / clube)))
+
+# ::tok Desde 2010 , o empresário investe nos EUA .
+(i / investir.01
+    :ARG0 (e / empresário))
+
+# ::tok A Chapecoense não quis fazer parte deste processo .
+(q / querer.01
+    :polarity -
+    :ARG0 (p / person
+        :name (n / name
+            :op1 "Chapecoense"))
+    :ARG2 (f / fazer.01
+        :ARG1 (p2 / parte)))
+
+# ::tok Infantino deixou o Monumental de cara amarrada .
+(d / deixar.01
+    :ARG0 (p / person
+        :name (n / name
+            :op1 "Infantino"))
+    :ARG1 (p2 / person
+        :name (n2 / name
+            :op1 "Monumental")))
+
+# ::tok O clube ainda tem 25 jogadores emprestados .
+(t / ter.01
+    :ARG0 (c / clube)
+    :mod (a / ainda)
+    :ARG1 (j / jogador))
+
+# ::tok Não há prazo para a resolução .
+(h / haver.01
+    :polarity -
+    :ARG1 (p / prazo
+        :ARG1 (r / resolução)))
+
+# ::tok No Brasil , a Finview tem uma representação .
+(t / ter.01
+    :ARG0 (p / person
+        :name (n2 / name
+            :op1 "Finview"))
+    :ARG1 (r / representação))
+
+# ::tok Dirão ainda que é o futebol raiz .
+(d / dizer.01
+    :ARG0 (e / eles)
+    :mod (a / ainda))
+
+# ::tok Na ocasião , a empresa tinha cinco funcionários .
+(t / ter.01
+    :ARG0 (e / empresa)
+    :ARG1 (f / funcionário))
+
+# ::tok Não existem garantias trabalhistas , nem previdenciárias .
+(e / existir.01
+    :polarity -
+    :ARG0 (g / garantia
+        :mod (t / trabalhista
+            :op (p / previdenciário
+                :op (n / nem)))))
+
+# ::tok Kevin foi avaliado na quinta ( 29 ) .
+(a / avaliar.01
+    :ARG1 (p / person
+        :name (n / name
+            :op1 "Kevin")))
+
+# ::tok Por décadas , a expectativa de vida nos EUA foi crescente .
+(c / crescente
+    :ARG0 (e / expectativa
+        :ARG1 (v / vida)
+        :ARG1 (p / person
+            :name (n / name
+                :op1 "EUA"))))
+
+# ::tok As expedições para levar presentes aos sentinelas foram canceladas pelo governo .
+(c / cancelar.01
+    :ARG1 (e / expedição))
+
+# ::tok Estamos deixando a União Europeia , não a Europa .
+(d / deixar.01
+    :ARG1 (p / person
+        :name (n / name
+            :op1 "União")
+        :op (c / continent
+            :name (n3 / name
+                :op1 "Europa"))))
+
+# ::tok Frequentou excelentes escolas , e se formou em economia por Yale .
+(f / frequentar.01
+    :ARG0 (e / ele)
+    :ARG1 (e3 / escola
+        :mod (e2 / excelente))
+    :op (f2 / formar.01
+        :ARG0 (e5 / ele)
+        :op (e4 / e)))
+
+# ::tok Pandit acredita , no entanto , que a fama é injusta .
+(a / acreditar.01
+    :ARG0 (p / person
+        :name (n / name
+            :op1 "Pandit")))
+
+# ::tok Nós vamos retirar justamente para evitar comentários ” , diz .
+(d / dizer.01
+    :ARG0 (e2 / ele))
+
+# ::tok Fiz um preço especial ” , disse Louie Bugarin , 62 .
+(d / dizer.01
+    :ARG0 (p2 / person
+        :name (n / name
+            :op1 "Louie")))
+
+# ::tok Araújo , “ como Trump ” , desacredita no aquecimento global .
+(d / desacreditar.01
+    :ARG0 (p / person
+        :name (n / name
+            :op1 "Araújo")))
+
+# ::tok Não há orientação do regime sobre o número de filhos .
+(h / haver.01
+    :polarity -
+    :ARG1 (o / orientação
+        :ARG1 (r / regime)
+        :ARG1 (n / número
+            :ARG1 (f / filho))))
+
+# ::tok Não há um órgão específico para supervisionar os juízes .
+(h / haver.01
+    :polarity -
+    :ARG1 (ó / órgão
+        :mod (e / específico)))
+
+# ::tok Destaco uma : “ A realidade é a única verdade ” .
+(d / destacar.01
+    :ARG0 (e / eu))
+
+# ::tok Aos 14 anos entram para a Liga da Juventude .
+(e / entrar.01
+    :ARG0 (e2 / eles))
+
+# ::tok Em áreas rurais , o vento alimentou focos de incêndio .
+(a / alimentar.01
+    :ARG0 (v / vento)
+    :ARG1 (f / foco
+        :ARG1 (i / incêndio)))
+
+# ::tok Haddad falou ainda sobre o risco à democracia no país .
+(f / falar.01
+    :ARG0 (p / person
+        :name (n / name
+            :op1 "Haddad"))
+    :mod (a / ainda))
+
+# ::tok Haddad falou ainda sobre a cobrança de uma autocrítica do PT .
+(f / falar.01
+    :ARG0 (p / person
+        :name (n / name
+            :op1 "Haddad"))
+    :mod (a / ainda))
+
+# ::tok E ninguém quer um mundo obscurantista ” , afirmou .
+(a / afirmar.01
+    :ARG0 (e2 / ele))
+
+# ::tok Esquema semelhante existe na Cooperativa Jangchon , no subúrbio de Pyangyong .
+(e2 / existir.01
+    :ARG0 (e / esquema
+        :mod (s / semelhante)))
+
+# ::tok Em 1981 , ocorreu o Primeiro Encontro Feminista Latino-Americano e Caribenho .
+(o / ocorrer.01
+    :ARG0 (p2 / person
+        :name (n2 / name
+            :op1 "Encontro")
+        :mod (p / person
+            :name (n / name
+                :op1 "Primeiro"))))
+
+# ::tok Os encontros entre arquitetos e atingidos acontecem desde 30 de maio .
+(a3 / acontecer.01
+    :ARG0 (e / encontro
+        :ARG1 (a / arquiteto
+            :op (a2 / atingido
+                :op (e2 / e)))))
+
+# ::tok Trujillo foi assassinado no ano seguinte e veio a democratização .
+(a / assassinar.01
+    :ARG1 (c / city
+        :name (n / name
+            :op1 "Trujillo"))
+    :op (v / vir.01
+        :op (e / e)
+        :ARG0 (d / democratização)))
+
+# ::tok Sua linha como psicólogo é existencialista , de Sartre .
+(e / existencialista
+    :ARG0 (l / linha
+        :ARG1 (p / psicólogo))
+    :ARG1 (p2 / person
+        :name (n / name
+            :op1 "Sartre")))
+
+# ::tok Isso não necessariamente demonstra uma realidade uniforme no país .
+(d / demonstrar.01
+    :polarity -
+    :ARG0 (i / isso)
+    :mod (n / necessariamente)
+    :ARG1 (r / realidade
+        :mod (u / uniforme)
+        :ARG1 (p / país)))
+
+# ::tok Se ele não for renovado , várias escolas brasileiras vão parar .
+(p / parar.01
+    :ARG0 (e2 / escola
+        :mod (b / brasileiro)))
+
+# ::tok Leandro Beguoci é diretor editorial de Nova Escola ( novaescola.org.br ) .
+(d / diretor
+    :ARG0 (p / person
+        :name (n / name
+            :op1 "Leandro"))
+    :mod (e / editorial)
+    :ARG1 (p3 / person
+        :name (n3 / name
+            :op1 "Nova")))
+
+# ::tok Para qualquer médico português ou espanhol isso não conta . ”.
+(c / contar.01
+    :polarity -
+    :ARG0 (i / isso))
+
+# ::tok Meu pai sempre foi presente ” , admite Lucas .
+(a / admitir.01
+    :ARG0 (p3 / person
+        :name (n / name
+            :op1 "Lucas")))
+
+# ::tok Do contrário , podem tornar-se os estupradores e abusadores de amanhã .
+(p / possible.01
+    :ARG0 (e / eles)
+    :ARG2 (t / tornar.01
+        :ARG2 (e2 / estuprador
+            :op (a / abusador
+                :op (e3 / e))
+            :mod (a2 / amanhã))))
+
+# ::tok Então os chamaremos ou abriremos outro edital ” , afirma .
+(a2 / afirmar.01
+    :ARG0 (e3 / ele))
+
+# ::tok Essa foi a avaliação de professores do curso e colégio Objetivo .
+(a / avaliação
+    :ARG0 (e / esse)
+    :ARG1 (p / professor
+        :ARG1 (c / curso
+            :op (c2 / colégio
+                :op (e2 / e)
+                :ARG1 (p2 / person
+                    :name (n / name
+                        :op1 "Objetivo"))))))
+
+# ::tok No entanto , sua revolução foi muito mais profunda .
+(p / profundo
+    :ARG0 (r / revolução)
+    :mod (m2 / mais
+        :mod (m / muito)))
+
+# ::tok Outra pergunta , por favor '' , respondeu o presidente eleito .
+(r / responder.01
+    :ARG0 (p2 / presidente))
+
+# ::tok Vários pesquisadores consideraram o ato uma `` loucura '' .
+(c / considerar.01
+    :ARG0 (p / pesquisador)
+    :ARG1 (a / ato)
+    :ARG2 (l / loucura))
+
+# ::tok Muito pouca gente havia tido acesso ao livro .
+(t / ter.01
+    :ARG0 (g / gente
+        :mod (p / pouco
+            :mod (m / muito)))
+    :ARG1 (a / acesso
+        :ARG1 (l / livro)))
+
+# ::tok Deixava as formas se definirem pelos próprios materiais .
+(d / deixar.01
+    :ARG0 (e / ele)
+    :ARG1 (f / forma)
+    :ARG2 (d2 / definir.01
+        :ARG0 (e2 / eles)))
+
+# ::tok A equipe também vem do mundo inteiro .
+(v / vir.01
+    :ARG0 (e / equipe)
+    :mod (t / também))
+
+# ::tok Alguns desses experimentos estão na mostra .
+(m / mostra
+    :ARG0 (a / algum
+        :ARG1 (e2 / experimento)))
+
+# ::tok Mas a questão não é só numérica .
+(c / contrast-01)
+
+# ::tok O personagem é feito de pulsões .
+(f / fazer.01
+    :ARG1 (p / personagem))
+
+# ::tok Isso , sim , é censura .
+(c / censura
+    :ARG0 (i / isso)
+    :mod (s / sim))
+
+# ::tok Não é um plano imediato , no entanto .
+(p / plano
+    :polarity -
+    :mod (i / imediato))
+
+# ::tok Os anos 1960 foram difíceis para Matarazzo .
+(d / difícil
+    :ARG0 (a / ano
+        :ARG1 (x / 1960)))
+
+# ::tok Ora , é só ir para o laboratório .
+(i / ir.01
+    :mod (s2 / só))
+
+# ::tok O caso ainda está sob investigação .
+(i / investigação
+    :ARG0 (c / caso)
+    :mod (a / ainda))
+
+# ::tok Chama-se `` Sal Gordura Ácido Calor '' .
+(c / chamar.01
+    :ARG0 (e / ele)
+    :ARG1 (p / person
+        :name (n / name
+            :op1 "Sal")))
+
+# ::tok A Microsoft valia US $ 822,90 bilhões .
+(v / valer.01
+    :ARG0 (p / person
+        :name (n / name
+            :op1 "Microsoft"))
+    :ARG1 (b / bilhão
+        :ARG1 (p2 / person
+            :name (n2 / name
+                :op1 "US"))
+        :ARG1 (x / $)))
+
+# ::tok Depende de onde vem o produto .
+(d / depender.01
+    :ARG0 (e / ele))
+
+# ::tok A maioria das causas de ginecomastia é fisiológica .
+(f / fisiológico
+    :ARG0 (m / maioria
+        :ARG1 (c / causa
+            :ARG1 (g / ginecomastia))))
+
+# ::tok A guia chama-se Yumi e fala português .
+(c / chamar.01
+    :ARG0 (g / guia)
+    :ARG2 (p / person
+        :name (n / name
+            :op1 "Yumi"))
+    :op (f / falar.01
+        :ARG0 (e2 / ele)
+        :op (e / e)
+        :ARG1 (p2 / português)))
+
+# ::tok Estadia em quarto duplo com café da manhã .
+(p / person
+    :name (n / name
+        :op1 "Estadia"))
+
+# ::tok O evento acontece das 10h às 18h .
+(a / acontecer.01
+    :ARG0 (e / evento))
+
+# ::tok Primeiro , o dono da peça a valoriza .
+(v / valorizar.01
+    :mod (p / primeiro)
+    :ARG0 (d / dono
+        :ARG1 (p2 / peça)))
+
+# ::tok Compartilhe .
+(c / compartilhar.01
+    :ARG0 (e / ele))
+
+# ::tok Spoiler : não vai acontecer .
+(s / spoiler)
+
+# ::tok Leve à geladeira .
+(l / levar.01
+    :ARG0 (e / ele))
+
+# ::tok Tudo será feito de maneira a garantir os direitos adquiridos em o atual sistema .
+(f / fazer.01
+    :ARG1 (t / tudo))
+
+# ::tok A empresa considera os equipamentos ultrapassados e quer adquirir modelos modernos .
+(c / considerar.01
+    :ARG0 (e / empresa)
+    :ARG1 (e2 / equipamento)
+    :ARG2 (u / ultrapassado)
+    :op (q / querer.01
+        :ARG0 (e4 / ele)
+        :op (e3 / e)
+        :ARG2 (a / adquirir.01
+            :ARG1 (m / modelo
+                :mod (m2 / moderno)))))
+
+# ::tok A Folha preferiu aguardar em uma posição de distanciamento crítico .
+(p2 / preferir.01
+    :ARG0 (p / person
+        :name (n / name
+            :op1 "Folha"))
+    :ARG2 (a / aguardar.01))
+
+# ::tok Um outro relatório mostra que o 'ret ' defeituoso afeta rins e intestino de animais .
+(m / mostrar.01
+    :ARG0 (r / relatório))
+
+# ::tok Ele não treinava como devia , o que não admito .
+(t / treinar.01
+    :polarity -
+    :ARG0 (e / ele))
+
+# ::tok Ele afirma ter negros e judeus entre seus correligionários .
+(a / afirmar.01
+    :ARG0 (e / ele)
+    :ARG2 (t / ter.01
+        :ARG1 (n / negro
+            :op (j / judeu
+                :op (e2 / e)))))
+
+# ::tok Foi afastado de a Comissão de Arbitragem .
+(a / afastar.01)
+
+# ::tok A quem podemos nos aliar ?
+(p / poder.01
+    :ARG0 (n / nós)
+    :ARG2 (a / aliar.01))
+
+# ::tok Rússia veta documento sobre a Bósnia.
+(v / vetar.01
+    :ARG0 (c / country
+        :name (n / name
+            :op1 "Rússia"))
+    :ARG1 (d / documento
+        :ARG1 (p / person
+            :name (n2 / name
+                :op1 "Bósnia"))))
+
+# ::tok Saúde !
+(s / saúde)
+
+# ::tok Ela nos modifica .
+(m / modificar.01
+    :ARG0 (e / ele))
+
+# ::tok Não gostou ?
+(g / gostar.01
+    :polarity -
+    :ARG0 (e / ele))
+
+# ::tok A melhor maneira de chegar a Pedra Azul é de carro .
+(c2 / carro
+    :ARG0 (m2 / maneira
+        :mod (m / melhor)))
+
+# ::tok No valesdauvagoethe.com.br é possível agendar um tour pelos vinhedos da região .
+(p / possível)
+
+# ::tok The Wall Street Journal , traduzido do inglês por Paulo Migliacci.
+(p / person
+    :name (n / name
+        :op1 "The"))
+
+# ::tok Ele era técnico , profissional , dedicado e muito sério .
+(t / técnico
+    :ARG0 (e / ele)
+    :op (p / profissional)
+    :op (d / dedicado)
+    :op (s2 / sério
+        :op (e2 / e)
+        :mod (m / muito)))
+
+# ::tok A empresa mencionada é a MC3 , de Paladino .
+(m2 / mc3
+    :ARG0 (e / empresa)
+    :ARG1 (p / person
+        :name (n / name
+            :op1 "Paladino")))
+
+# ::tok O PL 9054/17 tem pontos muito problemáticos '' , disse Moro .
+(d / dizer.01
+    :ARG0 (p4 / person
+        :name (n2 / name
+            :op1 "Moro")))
+
+# ::tok E a resposta foi [ a eleição de Donald ] Trump .
+(e2 / eleição
+    :op (e / e)
+    :ARG0 (r / resposta)
+    :ARG1 (p / person
+        :name (n / name
+            :op1 "Donald")))
+
+# ::tok Dados os limites de espaço , vou utilizar referências suficientes .
+(u / utilizar.01
+    :ARG1 (r / referência
+        :mod (s / suficiente)))
+
+# ::tok E o mais importante : ovos fritos são mais gostosos .
+(e / e)
+
+# ::tok Kilner , que pratica há seis anos , confirma .
+(c / confirmar.01
+    :ARG0 (p / person
+        :name (n / name
+            :op1 "Kilner")))
+
+# ::tok Podemos chamar o fenômeno de " efeito Coca-Cola " .
+(p / possible.01
+    :ARG0 (n / nós)
+    :ARG2 (c / chamar.01
+        :ARG1 (f / fenômeno)))
+

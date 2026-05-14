@@ -1,0 +1,3442 @@
+# ::id 1
+# ::snt Tem que voltar já .
+(1 / obligate.01)
+
+# ::id 2
+# ::snt Não se trata de liberdade ?
+(3 / tratar.01)
+
+# ::id 3
+# ::snt Até me ameaçaram de morte .
+(3 / ameaçar.01)
+
+# ::id 4
+# ::snt Sei todas as dificuldades .
+(1 / saber.01)
+
+# ::id 5
+# ::snt Mas não com essa dimensão .
+(5 / dimensão)
+
+# ::id 6
+# ::snt Por que não ?
+# ::id 7
+# ::snt Boa parte está na mídia .
+(6 / mídia)
+
+# ::id 8
+# ::snt Outros com processo caminhando .
+(1 / outro)
+
+# ::id 9
+# ::snt Mas há algo de semelhante .
+(2 / haver.01)
+
+# ::id 10
+# ::snt Lula nunca foi comunista .
+(4 / comunista)
+
+# ::id 11
+# ::snt Esse é um ponto .
+(4 / ponto)
+
+# ::id 12
+# ::snt Isso foi tudo .
+(3 / tudo)
+
+# ::id 13
+# ::snt Por que não agora ?
+(4 / agora)
+
+# ::id 14
+# ::snt Aquilo não tinha coordenação nenhuma .
+(3 / ter.01)
+
+# ::id 15
+# ::snt Seu papel mudou .
+(3 / mudar.01)
+
+# ::id 16
+# ::snt Edson Fachin reconheceu a ironia .
+(3 / reconhecer.01)
+
+# ::id 17
+# ::snt Ao todo , 367 responderam .
+(6 / responder.01)
+
+# ::id 18
+# ::snt Quem não envelhece morre .
+(4 / morrer.01)
+
+# ::id 19
+# ::snt Tem que ser assim .
+(1 / obligate.01)
+
+# ::id 20
+# ::snt Não , preguiça .
+(3 / preguiça)
+
+# ::id 21
+# ::snt Não pode , pô .
+(2 / poder.01)
+
+# ::id 22
+# ::snt Sou de Santos .
+(3 / city)
+
+# ::id 23
+# ::snt Tem baixa capacidade de sustentação .
+(1 / ter.01)
+
+# ::id 24
+# ::snt Ela será feita ?
+(3 / fazer.01)
+
+# ::id 25
+# ::snt Nós temos independência funcional .
+(2 / ter.01)
+
+# ::id 26
+# ::snt Mas não temos dinheiro ?
+(3 / ter.01)
+
+# ::id 27
+# ::snt E um mundo problemático . ''.
+(3 / mundo)
+
+# ::id 28
+# ::snt Não seria novidade .
+(3 / novidade)
+
+# ::id 29
+# ::snt Isso é tudo .
+(3 / tudo)
+
+# ::id 30
+# ::snt Pode ter voto .
+(1 / possible.01)
+
+# ::id 31
+# ::snt Eu apostava nele .
+(2 / apostar.01)
+
+# ::id 32
+# ::snt E a partir de agora ?
+(3 / partir.01)
+
+# ::id 33
+# ::snt Por que não eu ?
+(4 / eu)
+
+# ::id 34
+# ::snt Passou para regime domiciliar .
+(1 / passar.01)
+
+# ::id 35
+# ::snt Assad está solto desde outubro .
+(3 / solto)
+
+# ::id 36
+# ::snt A greve acabou .
+(3 / acabar.01)
+
+# ::id 37
+# ::snt Não é um projeto pessoal .
+(4 / projeto)
+
+# ::id 38
+# ::snt A advocacia perdeu protagonismo ?
+(3 / perder.01)
+
+# ::id 39
+# ::snt São críticas eleitoreiras ?
+(2 / crítico)
+
+# ::id 40
+# ::snt Foi a OAB-SP .
+(3 / person)
+
+# ::id 41
+# ::snt Foi o Fernando , FHC .
+(3 / person)
+
+# ::id 42
+# ::snt Havia o vazio na Alemanha .
+(1 / haver.01)
+
+# ::id 43
+# ::snt Você é virtualmente um genocida .
+(5 / genocida)
+
+# ::id 44
+# ::snt Antes de tudo isso .
+(1 / antes)
+
+# ::id 45
+# ::snt A sociedade que precisa resolver .
+(2 / sociedade)
+
+# ::id 46
+# ::snt Acha que não é verdade ?
+(1 / achar.01)
+
+# ::id 47
+# ::snt No PSDB foi assim .
+(5 / assim)
+
+# ::id 48
+# ::snt E o MDB ?
+(3 / person)
+
+# ::id 49
+# ::snt Seria o PT ?
+(3 / person)
+
+# ::id 50
+# ::snt Vejo um quadro rigorosamente diferente .
+(1 / ver.01)
+
+# ::id 51
+# ::snt Não temos nenhuma intelectualidade pronta .
+(2 / ter.01)
+
+# ::id 52
+# ::snt Não diga em reticências .
+(2 / dizer.01)
+
+# ::id 53
+# ::snt Certamente não era um reacionário .
+(5 / reacionário)
+
+# ::id 54
+# ::snt Conversamos por duas horas .
+(1 / conversar.01)
+
+# ::id 55
+# ::snt E qual é a próxima ?
+# ::id 56
+# ::snt Músico : Ricardo Pesce.
+(1 / músico)
+
+# ::id 57
+# ::snt Operação de Som – Viviane Barbosa.
+(1 / person)
+
+# ::id 58
+# ::snt Cartas de amor aos livros.
+(1 / carta)
+
+# ::id 59
+# ::snt Av . Paulista , 1578.
+(1 / av)
+
+# ::id 60
+# ::snt Vão me acusar de incoerência .
+(3 / acusar.01)
+
+# ::id 61
+# ::snt No virado à paulista .
+(3 / virado)
+
+# ::id 62
+# ::snt Dá um trabalhão .
+(1 / dar.01)
+
+# ::id 63
+# ::snt Dia Nacional do Samba.
+(1 / person)
+
+# ::id 64
+# ::snt DUAS dicas para enfrentar 2019.
+(2 / dica)
+
+# ::id 65
+# ::snt UM drink para encerrar 2018.
+(2 / drink)
+
+# ::id 66
+# ::snt A turnê segue até fevereiro .
+(3 / seguir.01)
+
+# ::id 67
+# ::snt Seus pais preferem Abraham .
+(3 / preferir.01)
+
+# ::id 68
+# ::snt Por que acreditar em mim ?
+(3 / acreditar.01)
+
+# ::id 69
+# ::snt Palestras prometidas eram canceladas .
+(4 / cancelar.01)
+
+# ::id 70
+# ::snt Mas ainda não era eu .
+(5 / eu)
+
+# ::id 71
+# ::snt Outros dois morreram .
+(3 / morrer.01)
+
+# ::id 72
+# ::snt Academias especializadas estão na moda .
+(6 / moda)
+
+# ::id 73
+# ::snt Devo mesmo dizer alguma coisa ?
+(1 / dever.01)
+
+# ::id 74
+# ::snt Jornalista e roteirista de TV .
+(1 / jornalista)
+
+# ::id 75
+# ::snt Isso não é revolucionário ?
+(4 / revolucionário)
+
+# ::id 76
+# ::snt Elisabeth morreu em 2004 .
+(2 / morrer.01)
+
+# ::id 77
+# ::snt Não foi um estudo randomizado .
+(4 / estudo)
+
+# ::id 78
+# ::snt A equação não é fácil .
+(5 / fácil)
+
+# ::id 79
+# ::snt Foram brutalmente assassinadas .
+(3 / assassinar.01)
+
+# ::id 80
+# ::snt Veja os anúncios de mortes.
+(1 / ver.01)
+
+# ::id 81
+# ::snt Não houve sobreviventes .
+(2 / haver.01)
+
+# ::id 82
+# ::snt Leia a coluna completa aqui .
+(1 / ler.01)
+
+# ::id 83
+# ::snt Fazenda de SP pratica agricultura regenerativa.
+(4 / praticar.01)
+
+# ::id 84
+# ::snt Mas hoje faria mais rápido .
+(3 / fazer.01)
+
+# ::id 85
+# ::snt Agrotóxico é perigoso .
+(3 / perigoso)
+
+# ::id 86
+# ::snt Não é bem assim .
+(4 / assim)
+
+# ::id 87
+# ::snt Lucas Veloso é correspondente de Guaianases.
+(4 / correspondente)
+
+# ::id 88
+# ::snt Outros dois morreram .
+(3 / morrer.01)
+
+# ::id 89
+# ::snt Após amistoso no super star soccer.
+(2 / amistoso)
+
+# ::id 90
+# ::snt Veja mais fotos do casório :
+(1 / ver.01)
+
+# ::id 91
+# ::snt Mas de humanidades ?
+(3 / humanidade)
+
+# ::id 92
+# ::snt Veja os anúncios de missas.
+(1 / ver.01)
+
+# ::id 93
+# ::snt Isso era previsível .
+(3 / previsível)
+
+# ::id 94
+# ::snt Tradução de Paulo Migliacci.
+(1 / tradução)
+
+# ::id 95
+# ::snt Inclui traslados .
+(1 / incluir.01)
+
+# ::id 96
+# ::snt Valor por pessoa.
+(1 / valor)
+
+# ::id 97
+# ::snt Sem passagem aérea.
+(2 / passagem)
+
+# ::id 98
+# ::snt Preço por pessoa.
+(1 / preço)
+
+# ::id 99
+# ::snt Nada demais ?
+# ::id 100
+# ::snt Arranje !
+(1 / arranjar.01)
+
+# ::id 101
+# ::snt R $ 9.931.
+(1 / r)
+
+# ::id 102
+# ::snt Não há entrega no Brasil .
+(2 / haver.01)
+
+# ::id 103
+# ::snt ele escreveu .
+(2 / escrever.01)
+
+# ::id 104
+# ::snt Karol Conka.
+(1 / person)
+
+# ::id 105
+# ::snt folha.lineup@gmail.com.
+(1 / folha.lineup@gmail.com)
+
+# ::id 106
+# ::snt Aventura clássica.
+(1 / aventura)
+
+# ::id 107
+# ::snt Maria Fernanda Cândido.
+(1 / person)
+
+# ::id 108
+# ::snt Concerto histórico.
+(1 / concerto)
+
+# ::id 109
+# ::snt folha.lineup@gmail.com.
+(1 / folha.lineup@gmail.com)
+
+# ::id 110
+# ::snt E bebe-se .
+(2 / beber.01)
+
+# ::id 111
+# ::snt Albin Michel .
+(1 / person)
+
+# ::id 112
+# ::snt Konstantin Kilimnik.
+(1 / person)
+
+# ::id 113
+# ::snt Escócia.
+(1 / person)
+
+# ::id 114
+# ::snt Singapur.
+(1 / person)
+
+# ::id 115
+# ::snt Ou médio ?
+(2 / médio)
+
+# ::id 116
+# ::snt Imaginem .
+(1 / imaginar.01)
+
+# ::id 117
+# ::snt Nada disso .
+# ::id 118
+# ::snt Editora Cobogó .
+(1 / person)
+
+# ::id 119
+# ::snt Não sabemos .
+(2 / saber.01)
+
+# ::id 120
+# ::snt Grátis .
+(1 / grátis)
+
+# ::id 121
+# ::snt a dívida.
+(2 / dívida)
+
+# ::id 122
+# ::snt Mas não só .
+(3 / só)
+
+# ::id 123
+# ::snt Nada disso se provou verdadeiro .
+(5 / provar.01)
+
+# ::id 124
+# ::snt Primeiro os pobres . ”.
+(3 / pobre)
+
+# ::id 125
+# ::snt Trata-se de uma declaração política .
+(1 / tratar.01)
+
+# ::id 126
+# ::snt Reuters e Associated Press.
+(1 / person)
+
+# ::id 127
+# ::snt Bolsonaro a devorou .
+(3 / devorar.01)
+
+# ::id 128
+# ::snt O que é 'brexit ' ?
+# ::id 129
+# ::snt Judith Chesang , 22 , Quênia.
+(1 / person)
+
+# ::id 130
+# ::snt Trump é um dos suspeitos ?
+# ::id 131
+# ::snt Duas pessoas foram presas .
+(4 / prender.01)
+
+# ::id 132
+# ::snt Não me sinto triste .
+(3 / sentir.01)
+
+# ::id 133
+# ::snt Espero que arranjem trabalho logo .
+(1 / esperar.01)
+
+# ::id 134
+# ::snt Houve briga e pedradas .
+(1 / haver.01)
+
+# ::id 135
+# ::snt Populismo e liberalismo raramente combinam .
+(5 / combinar.01)
+
+# ::id 136
+# ::snt Trump é um dos suspeitos ?
+# ::id 137
+# ::snt Como tudo começou ?
+(3 / começar.01)
+
+# ::id 138
+# ::snt Quem cuida da investigação ?
+(2 / cuidar.01)
+
+# ::id 139
+# ::snt O que está sob investigação ?
+(5 / investigação)
+
+# ::id 140
+# ::snt Moram nele hoje 280 trabalhadoras .
+(1 / morar.01)
+
+# ::id 141
+# ::snt De quanto é ?
+(2 / quanto)
+
+# ::id 142
+# ::snt Há várias opções gastronômicas .
+(1 / haver.01)
+
+# ::id 143
+# ::snt Não tinha supermercado .
+(2 / ter.01)
+
+# ::id 144
+# ::snt Os horários são locais .
+(4 / local)
+
+# ::id 145
+# ::snt Envolve milho e ervilha .
+(1 / envolver.01)
+
+# ::id 146
+# ::snt Preço para duas pessoas .
+(1 / preço)
+
+# ::id 147
+# ::snt Esta ficará preservada .
+(2 / ficar.01)
+
+# ::id 148
+# ::snt Luanda era nossa segunda escala .
+(5 / escala)
+
+# ::id 149
+# ::snt O de emergência não abriu .
+(5 / abrir.01)
+
+# ::id 150
+# ::snt Mas isso nunca acontece nos tribunais . ”.
+(4 / acontecer.01)
+
+# ::id 151
+# ::snt Não há foro privilegiado para juízes e desembargadores .
+(2 / haver.01)
+
+# ::id 152
+# ::snt Não se fala de sexo com crianças .
+(3 / falar.01)
+
+# ::id 153
+# ::snt Alguns são indicados para membros do partido .
+(3 / indicar.01)
+
+# ::id 154
+# ::snt Há jardins semanais em todo distrito .
+(1 / haver.01)
+
+# ::id 155
+# ::snt E se perderem , podem ganhar outro ?
+(5 / possible.01)
+
+# ::id 156
+# ::snt Só voltam para casa aos domingos .
+(2 / voltar.01)
+
+# ::id 157
+# ::snt Mas poucos acompanham rigorosamente seus resultados .
+(3 / acompanhar.01)
+
+# ::id 158
+# ::snt Harmanto nunca mudou sua visão linha dura .
+(3 / mudar.01)
+
+# ::id 159
+# ::snt E não têm fama de navegantes .
+(3 / ter.01)
+
+# ::id 160
+# ::snt Trabalhamos juntos em anos de muitas mudanças .
+(1 / trabalhar.01)
+
+# ::id 161
+# ::snt Realizou dezenas de missões como piloto no Pacífico .
+(1 / realizar.01)
+
+# ::id 162
+# ::snt Mais de 40 foram presos nos EUA .
+(5 / prender.01)
+
+# ::id 163
+# ::snt Hoje ela está fora do jogo . ”.
+(4 / fora)
+
+# ::id 164
+# ::snt Reuters , Associated Press , e AFP.
+(1 / person)
+
+# ::id 165
+# ::snt Há ainda a questão do espaço .
+(1 / haver.01)
+
+# ::id 166
+# ::snt Todos são médicos sem CRM ” .
+(3 / médico)
+
+# ::id 167
+# ::snt Com eles escrevi meu primeiro livro .
+(3 / escrever.01)
+
+# ::id 168
+# ::snt Trujillo comemorou o feito de seus agentes .
+(2 / comemorar.01)
+
+# ::id 169
+# ::snt Foram presas diversas vezes , torturadas .
+(2 / prender.01)
+
+# ::id 170
+# ::snt O município não é atendido pelo Mais Médicos .
+(5 / atender.01)
+
+# ::id 171
+# ::snt A porção sai por R $ 7 .
+(3 / sair.01)
+
+# ::id 172
+# ::snt O trono pet fica disponível até dia 24 .
+(4 / ficar.01)
+
+# ::id 173
+# ::snt Alguns pontos , porém , extrapolaram essa porcentagem .
+(6 / extrapolar.01)
+
+# ::id 174
+# ::snt O que ela fez de tão radical ?
+(4 / fazer.01)
+
+# ::id 175
+# ::snt As maquetes dos projetos já estão prontas .
+(8 / pronto)
+
+# ::id 176
+# ::snt A cobrança em Jambeiro , não sofreu modificações .
+(7 / sofrer.01)
+
+# ::id 177
+# ::snt O Comandante-Geral da PM está na região .
+(9 / região)
+
+# ::id 178
+# ::snt O treino é dividido em duas partes .
+(4 / dividir.01)
+
+# ::id 179
+# ::snt Os dois bebês seriam os primeiros geneticamente modificados .
+# ::id 180
+# ::snt Pessoas e veículos de vários estados .
+(1 / pessoa)
+
+# ::id 181
+# ::snt Eles trabalharam juntos em Catanduvas ( PR ) .​.
+(2 / trabalhar.01)
+
+# ::id 182
+# ::snt Aquele mesmo .
+(1 / aquele)
+
+# ::id 183
+# ::snt Eu sei .
+(2 / saber.01)
+
+# ::id 184
+# ::snt Como assim ?
+(2 / assim)
+
+# ::id 185
+# ::snt Mentira .
+(1 / mentira)
+
+# ::id 186
+# ::snt lucasveloso@agenciamural.org.br.
+(1 / lucasveloso@agenciamural.org.br)
+
+# ::id 187
+# ::snt O motivo ?
+(2 / motivo)
+
+# ::id 188
+# ::snt CONFLITOS E DECADÊNCIA.
+(1 / conflito)
+
+# ::id 189
+# ::snt coluna.obituario@grupofolha.com.br.
+(1 / coluna.obituario@grupofolha.com.br)
+
+# ::id 190
+# ::snt MÚSICA.
+(1 / música)
+
+# ::id 191
+# ::snt Setor agrícola.
+(1 / setor)
+
+# ::id 192
+# ::snt SÃO PAULO.
+(1 / person)
+
+# ::id 193
+# ::snt Ele entendeu .
+(2 / entender.01)
+
+# ::id 194
+# ::snt Não entendo .
+(2 / entender.01)
+
+# ::id 195
+# ::snt Parabéns !
+(1 / parabéns)
+
+# ::id 196
+# ::snt Um avanço !
+(2 / avanço)
+
+# ::id 197
+# ::snt João Farias.
+(1 / person)
+
+# ::id 198
+# ::snt 42 % !
+(2 / %)
+
+# ::id 199
+# ::snt Isso aconteceu ?
+(2 / acontecer.01)
+
+# ::id 200
+# ::snt Brasil x Canadá.
+(1 / country)
+
+# ::id 201
+# ::snt Não existe .
+(2 / existir.01)
+
+# ::id 202
+# ::snt José Dirceu.
+(1 / person)
+
+# ::id 203
+# ::snt Meio ambiente ?
+(1 / meio)
+
+# ::id 204
+# ::snt Não cumpriu .
+(2 / cumprir.01)
+
+# ::id 205
+# ::snt Quem é ?
+(1 / quem)
+
+# ::id 206
+# ::snt Agora acabou .
+(2 / acabar.01)
+
+# ::id 207
+# ::snt Sim .
+(1 / sim)
+
+# ::id 208
+# ::snt Palavras dele .
+(1 / palavra)
+
+# ::id 209
+# ::snt O Bolsonaro .
+(2 / person)
+
+# ::id 210
+# ::snt Teve voto .
+(1 / ter.01)
+
+# ::id 211
+# ::snt Não sei .
+(2 / saber.01)
+
+# ::id 212
+# ::snt Joesley Batista .
+(1 / person)
+
+# ::id 213
+# ::snt Não pretendo .
+(2 / pretender.01)
+
+# ::id 214
+# ::snt Tá ok ?
+(2 / ok)
+
+# ::id 215
+# ::snt E hoje ?
+(2 / hoje)
+
+# ::id 216
+# ::snt Nenhuma .
+(1 / nenhum)
+
+# ::id 217
+# ::snt Constatando .
+(1 / constatar.01)
+
+# ::id 218
+# ::snt E acabou .
+(2 / acabar.01)
+
+# ::id 219
+# ::snt Digo com o coração .
+(1 / dizer.01)
+
+# ::id 220
+# ::snt Hoffenheim 2 x 3 Donetsk.
+(1 / person)
+
+# ::id 221
+# ::snt O número atual é assustador .
+(5 / assustador)
+
+# ::id 222
+# ::snt Também não elogia .
+(3 / elogiar.01)
+
+# ::id 223
+# ::snt Disse que sim .
+(1 / dizer.01)
+
+# ::id 224
+# ::snt Merecem ser convocados .
+(1 / merecer.01)
+
+# ::id 225
+# ::snt São 54 no total .
+(2 / 54)
+
+# ::id 226
+# ::snt Confundem simplicidade com fácil execução .
+(1 / confundir.01)
+
+# ::id 227
+# ::snt CSKA 1 x 2 Vitoria Pilsen.
+(1 / person)
+
+# ::id 228
+# ::snt Juventus 1 x 0 Valência.
+(1 / person)
+
+# ::id 229
+# ::snt Roma 0 x 2 Real Madrid.
+(1 / person)
+
+# ::id 230
+# ::snt Esse partido é o Jobbik .
+(5 / person)
+
+# ::id 231
+# ::snt E Olavo sabe disso .
+(3 / saber.01)
+
+# ::id 232
+# ::snt Cínicos e safados .
+(1 / cínico)
+
+# ::id 233
+# ::snt Impulsos nada resolvem .
+(3 / resolver.01)
+
+# ::id 234
+# ::snt Mencionei Tainá Medina .
+(1 / mencionar.01)
+
+# ::id 235
+# ::snt Era uma vingança .
+(3 / vingança)
+
+# ::id 236
+# ::snt Não foi um caso isolado .
+(4 / caso)
+
+# ::id 237
+# ::snt Isso gerou um certo desconforto '' , resumiu .
+(9 / resumir.01)
+
+# ::id 238
+# ::snt Os crimes teriam acontecido a partir de 2008 .
+(4 / acontecer.01)
+
+# ::id 239
+# ::snt Citá-lo só atrai simpatias '' , diz .
+(9 / dizer.01)
+
+# ::id 240
+# ::snt Ele teria força para conter essa onda .
+(2 / ter.01)
+
+# ::id 241
+# ::snt Tem mantido contato com o presidente eleito ?
+(2 / manter.01)
+
+# ::id 242
+# ::snt O novo ministro apoia o Escola sem Partido .
+(4 / apoiar.01)
+
+# ::id 243
+# ::snt Pretende aconselhá-lo de alguma forma sobre a questão ?
+(1 / pretender.01)
+
+# ::id 244
+# ::snt Como o sr. classificaria Jair Bolsonaro ?
+(4 / classificar.01)
+
+# ::id 245
+# ::snt Agora ele pode fazer muito mais coisas .
+(3 / possible.01)
+
+# ::id 246
+# ::snt Na tribuna , fiz por pura intuição .
+(5 / fazer.01)
+
+# ::id 247
+# ::snt Eles querem dizer que a sociedade é homofóbica .
+(2 / querer.01)
+
+# ::id 248
+# ::snt A própria campanha do Bolsonaro foi um caos .
+(9 / caos)
+
+# ::id 249
+# ::snt O senhor não acredita aquecimento global ?
+(4 / acreditar.01)
+
+# ::id 250
+# ::snt O sr. disse que liberalismo virou extrema direita .
+(3 / dizer.01)
+
+# ::id 251
+# ::snt Malta , contudo , declinou o convite .
+(5 / declinar.01)
+
+# ::id 252
+# ::snt Creio que assumir esses desafios seja importantíssimo .
+(1 / crer.01)
+
+# ::id 253
+# ::snt Foram gastos R $ 21,8 mil .
+(2 / gastar.01)
+
+# ::id 254
+# ::snt Isso foi entre 2013 e 2015 .
+(4 / 2013)
+
+# ::id 255
+# ::snt Vim a São Paulo pensando em como ajudá-lo .
+(1 / vir.01)
+
+# ::id 256
+# ::snt O que houve foi uma revolução de verdade .
+(6 / revolução)
+
+# ::id 257
+# ::snt Terceiro lugar , lei e ordem .
+(2 / lugar)
+
+# ::id 258
+# ::snt Por isso , o clima pacífico .
+(5 / clima)
+
+# ::id 259
+# ::snt O relatório montado pelos dirigentes tem 46 páginas .
+(7 / ter.01)
+
+# ::id 260
+# ::snt Na primeira temporada , foram 25 reforços .
+(8 / reforço)
+
+# ::id 261
+# ::snt Ao recebê-los , Oliveira se surpreendeu .
+(8 / surpreender.01)
+
+# ::id 262
+# ::snt Tite responde : “ As duas coisas . ”.
+(2 / responder.01)
+
+# ::id 263
+# ::snt Neste ano , a frase mudou , felizmente .
+(7 / mudar.01)
+
+# ::id 264
+# ::snt Vidros foram quebrados por pedras e garrafas .
+(3 / quebrar.01)
+
+# ::id 265
+# ::snt Tapia deverá estar presente na reunião .
+(2 / obligate.01)
+
+# ::id 266
+# ::snt Atletas precisam de orientação e cuidado .
+(2 / precisar.01)
+
+# ::id 267
+# ::snt Isso pode prejudicar sua formação ” , conclui .
+(8 / concluir.01)
+
+# ::id 268
+# ::snt A Conmebol o puniu com um jogo .
+(4 / punir.01)
+
+# ::id 269
+# ::snt Se não contratar reforços , nada adianta .
+(7 / adiantar.01)
+
+# ::id 270
+# ::snt Mas tem alguma graça futebol sem torcida ?
+(2 / ter.01)
+
+# ::id 271
+# ::snt A partida , então , foi adiada novamente .
+(7 / adiar.01)
+
+# ::id 272
+# ::snt Houve uma série de coincidências muito positivas .
+(1 / haver.01)
+
+# ::id 273
+# ::snt Mas o Palmeiras é gigante e sempre sobreviveu .
+(5 / gigante)
+
+# ::id 274
+# ::snt Felipão tem histórico positivo nas duas competições .
+(2 / ter.01)
+
+# ::id 275
+# ::snt Há reuniões periódicas para discutir tarefas e fazer autocríticas e reparações .
+(1 / haver.01)
+
+# ::id 276
+# ::snt Vai contra a lei , a moral e a religião .
+(1 / ir.01)
+
+# ::id 277
+# ::snt O clima é de cansaço , espera e tensão .
+(5 / cansaço)
+
+# ::id 278
+# ::snt Que há uma onda populista em curso não dá para negar .
+(9 / dar.01)
+
+# ::id 279
+# ::snt Antes de Franco , o galego vivia um momento de renascimento .
+(7 / viver.01)
+
+# ::id 280
+# ::snt Desde a faculdade , ela decidiu usar só a língua local .
+(6 / decidir.01)
+
+# ::id 281
+# ::snt A epidemia de overdose não afeta todo o país .
+(6 / afetar.01)
+
+# ::id 282
+# ::snt Hoje há ainda mais caos que antes ” , afirma ela .
+(10 / afirmar.01)
+
+# ::id 283
+# ::snt A estatal Taedonggang é uma das cervejarias mais populares .
+# ::id 284
+# ::snt Com amigos , tirava fotos em frente aos equipamentos .
+(4 / tirar.01)
+
+# ::id 285
+# ::snt Segundo a guia , estavam trocando a água naquele dia .
+(6 / trocar.01)
+
+# ::id 286
+# ::snt No México , o mandato presidencial é de seis anos .
+(11 / ano)
+
+# ::id 287
+# ::snt O acordo tem um item longo sobre as mulheres .
+(3 / ter.01)
+
+# ::id 288
+# ::snt Em 1918 , a expectativa de vida era de 39 anos .
+(11 / ano)
+
+# ::id 289
+# ::snt Foi a eleição que marcou o fim da ditadura .
+(3 / eleição)
+
+# ::id 290
+# ::snt O atraso complicará a agenda de Merkel no G20 .
+(3 / complicar.01)
+
+# ::id 291
+# ::snt E logo se viram lutando contra as tribos locais .
+(4 / viram.01)
+
+# ::id 292
+# ::snt Por que o Reino Unido está deixando o bloco ?
+(7 / deixar.01)
+
+# ::id 293
+# ::snt O banheiro é fedorento , com chuveiros alagados ao ar livre .
+(4 / fedorento)
+
+# ::id 294
+# ::snt As filas ficaram longas e os níveis de ruído cresceram .
+(3 / ficar.01)
+
+# ::id 295
+# ::snt A reportagem original completa pode ser lida no site da organização .
+(5 / possible.01)
+
+# ::id 296
+# ::snt Ele deixou claro que eu não era bem-vindo . ''.
+(2 / deixar.01)
+
+# ::id 297
+# ::snt Nas duas administrações de Reagan , Bush foi discreto vice-presidente .
+(11 / vice-presidente)
+
+# ::id 298
+# ::snt A plena recuperação só ocorreu com Clinton na Casa Branca .
+(5 / ocorrer.01)
+
+# ::id 299
+# ::snt Também deve passar por Nova York e por Miami .
+(2 / obligate.01)
+
+# ::id 300
+# ::snt O governo britânico desenhou diversos cenários para contabilizar todas as variáveis .
+(4 / desenhar.01)
+
+# ::id 301
+# ::snt Para Molina , a possibilidade de rompimento já era esperada .
+(10 / esperar.01)
+
+# ::id 302
+# ::snt E as que estavam ocupadas eram de forma parcial .
+(8 / forma)
+
+# ::id 303
+# ::snt Na última década , o crescimento foi de 21,7 % .
+(11 / %)
+
+# ::id 304
+# ::snt Foi difícil acompanhar com fidelidade os movimentos vistosos do professor .
+(2 / difícil)
+
+# ::id 305
+# ::snt Eles foram ao quartel e trocaram tiros com a polícia .
+(2 / foram.01)
+
+# ::id 306
+# ::snt Segundo o Corpo de Bombeiros , não há sobreviventes .
+(8 / haver.01)
+
+# ::id 307
+# ::snt com BRUNA NARCIZO , BRUNO B. SORAGGI e VICTORIA AZEVEDO.
+(2 / person)
+
+# ::id 308
+# ::snt O processo inclui ainda burburinhos sobre as casas dos outros .
+(3 / incluir.01)
+
+# ::id 309
+# ::snt O filme aponta uma recente conquista social que se mostra ameaçada .
+(3 / apontar.01)
+
+# ::id 310
+# ::snt No espaço , cabem até 45 pessoas por vez .
+(5 / caber.01)
+
+# ::id 311
+# ::snt O consumidor tem o direito de saber que ele é tóxico .
+(3 / ter.01)
+
+# ::id 312
+# ::snt Muitos terão que fazer as duas coisas : trabalhar e estudar .
+(2 / obligate.01)
+
+# ::id 313
+# ::snt Quanto vale um galinheiro e quanto vale uma piscina ?
+(2 / valer.01)
+
+# ::id 314
+# ::snt A também empresária Costanza Pascolato e a atriz Carolina Ferraz compareceram .
+(11 / comparecer.01)
+
+# ::id 315
+# ::snt Nas próximas semanas , os moradores começam a visitar os lotes .
+(8 / começar.01)
+
+# ::id 316
+# ::snt Desarmadas e num território desconhecido , não conseguiram escapar .
+(9 / conseguir.01)
+
+# ::id 317
+# ::snt Essa inversão permitiu a entrada dos Cuidados Paliativos nos Estados Unidos .
+(3 / permitir.01)
+
+# ::id 318
+# ::snt O que ela fez foi uma mudança de paradigma .
+(7 / mudança)
+
+# ::id 319
+# ::snt Viu o irmão do meio ser entregue aos alemães .
+(1 / ver.01)
+
+# ::id 320
+# ::snt Juntas , elas representam 68 empresas e 87 % do mercado .
+(4 / representar.01)
+
+# ::id 321
+# ::snt Nós queríamos menos preço e técnica ” , disse .
+(9 / dizer.01)
+
+# ::id 322
+# ::snt Em São Paulo , virou professora em escolas judaicas .
+(5 / virar.01)
+
+# ::id 323
+# ::snt Mata vespa , lagarta , cigarrinha , pulgão , ácaro .
+(1 / matar.01)
+
+# ::id 324
+# ::snt Não separo as imagens das palavras .
+(2 / separar.01)
+
+# ::id 325
+# ::snt Fiquemos com o modelo básico , sem acessórios .
+(1 / ficar.01)
+
+# ::id 326
+# ::snt A gangorra de músicas novas e antigas prosseguiu .
+(8 / prosseguir.01)
+
+# ::id 327
+# ::snt Os materiais eram prosaicos : industriais e pré-fabricados .
+(4 / prosaico)
+
+# ::id 328
+# ::snt Mas a minha agenda estava enorme .
+(6 / enorme)
+
+# ::id 329
+# ::snt O meu caso acho que é eterno .
+(4 / achar.01)
+
+# ::id 330
+# ::snt O que explica a permanência das duas obras ?
+(3 / explicar.01)
+
+# ::id 331
+# ::snt Direção de Produção – Andrea Caruso Saturnino.
+(1 / person)
+
+# ::id 332
+# ::snt Nada de escrever coisas incômodas ao presidente .
+# ::id 333
+# ::snt Pôs a mão nas escolas e nas universidades .
+(1 / pôr.01)
+
+# ::id 334
+# ::snt uma a uma suas dívidas no ouvido.
+(5 / dívida)
+
+# ::id 335
+# ::snt da caixa que as registra e sorri.
+(3 / caixa)
+
+# ::id 336
+# ::snt A internacional comunista morreu há muito tempo .
+(4 / morrer.01)
+
+# ::id 337
+# ::snt Acho que sou uma privilegiada , mesmo .
+(1 / achar.01)
+
+# ::id 338
+# ::snt E são estas que ele de fato combate .
+(3 / este)
+
+# ::id 339
+# ::snt Sei que é muito importante denunciar .
+(1 / saber.01)
+
+# ::id 340
+# ::snt Na descida , é tudo no automático .
+(6 / tudo)
+
+# ::id 341
+# ::snt O Brasil sempre contribuiu muito na área espacial .
+(4 / contribuir.01)
+
+# ::id 342
+# ::snt O Xingu foi criado em 1961 .
+(4 / criar.01)
+
+# ::id 343
+# ::snt O desmatamento e fogo cresceram muito no entorno .
+(5 / crescer.01)
+
+# ::id 344
+# ::snt Retire os sachês depois de dois dias .
+(1 / retirar.01)
+
+# ::id 345
+# ::snt Nem todas as empresas do ramo planejam competir .
+(8 / planejar.01)
+
+# ::id 346
+# ::snt Foi a primeira vez que isso aconteceu .
+(4 / vez)
+
+# ::id 347
+# ::snt O preço da segurança é a privacidade .
+(8 / privacidade)
+
+# ::id 348
+# ::snt A principal recomendação é a ingestão moderada .
+(6 / ingestão)
+
+# ::id 349
+# ::snt O quadro clínico é conhecido como selenose .
+(5 / conhecer.01)
+
+# ::id 350
+# ::snt O entusiasmo dos investidores tem motivo .
+(6 / ter.01)
+
+# ::id 351
+# ::snt Seguindo o script , joguei lá embaixo .
+(5 / jogar.01)
+
+# ::id 352
+# ::snt Leia mais na revista Volta ao Mundo.
+(1 / ler.01)
+
+# ::id 353
+# ::snt estados de São Paulo e do Rio .
+(1 / estado)
+
+# ::id 354
+# ::snt Nova Veneza tem ainda um atrativo quase exclusivo .
+(3 / ter.01)
+
+# ::id 355
+# ::snt Com passagens a partir de São Paulo.
+(2 / passagem)
+
+# ::id 356
+# ::snt De Gravatal a Nova Veneza são 80 km .
+(8 / quilômetro)
+
+# ::id 357
+# ::snt Compartilhe .
+(1 / compartilhar.01)
+
+# ::id 358
+# ::snt Boa leitura !
+(2 / leitura)
+
+# ::id 359
+# ::snt Ia ser lindo .
+(3 / lindo)
+
+# ::id 360
+# ::snt Jogar online também .
+(1 / jogar.01)
+
+# ::id 361
+# ::snt Da fazenda à mesa ?
+(3 / fazenda)
+
+# ::id 362
+# ::snt O que é orgânico ?
+# ::id 363
+# ::snt Precavido , Murici já adotou todas as medidas para afastar qualquer suspeita inicial .
+(5 / adotar.01)
+
+# ::id 364
+# ::snt Ambos diziam ontem que nenhuma medida adotada até agora por Fernando Henrique Cardoso teve caráter eleitoreiro .
+(2 / dizer.01)
+
+# ::id 365
+# ::snt Ele contou que conseguiu adquirir 20 entradas porque ofereceu Cr $ 5.000 a o bilheteiro .
+(2 / contar.01)
+
+# ::id 366
+# ::snt ' Ele não devia ter agido assim ' , disse .
+(10 / dizer.01)
+
+# ::id 367
+# ::snt Ao todo , 13 cidades de a Grande São Paulo devem ser afetadas com a greve .
+(12 / obligate.01)
+
+# ::id 368
+# ::snt Os diferentes sobrepesos de as cargas tributárias afetam diretamente a competitividade .
+(8 / afetar.01)
+
+# ::id 369
+# ::snt Atualmente , a estabilidade é adquirida depois de dois anos .
+(6 / adquirir.01)
+
+# ::id 370
+# ::snt A maneira como Emerson administra sua imagem pública sempre me impressionou .
+(11 / impressionar.01)
+
+# ::id 371
+# ::snt Vamos verificar o que houve com essas matérias-primas . ».
+(2 / verificar.01)
+
+# ::id 372
+# ::snt Murici espera que o Inter não tenha a mesma atitude .
+(2 / esperar.01)
+
+# ::id 373
+# ::snt Eles ficaram aguardando o resultado de a negociação .
+(2 / ficar.01)
+
+# ::id 374
+# ::snt Preços sobem 3,12 % em Belo Horizonte.
+(2 / subir.01)
+
+# ::id 375
+# ::snt Aguardem o próximo lançamento .
+(1 / aguardar.01)
+
+# ::id 376
+# ::snt Norte-iemenitas tomam base do sul.
+(2 / tomar.01)
+
+# ::id 377
+# ::snt Cingapura acusa mais um americano.
+(2 / acusar.01)
+
+# ::id 378
+# ::snt Palmeiras e Corinthians treinam hoje.
+(4 / treinar.01)
+
+# ::id 379
+# ::snt Seria demais .
+(2 / demais)
+
+# ::id 380
+# ::snt Sustentável ?
+(1 / sustentável)
+
+# ::id 381
+# ::snt Mas como funciona ?
+(3 / funcionar.01)
+
+# ::id 382
+# ::snt Nada funcionou .
+(2 / funcionar.01)
+
+# ::id 383
+# ::snt Gostou ?
+(1 / gostar.01)
+
+# ::id 384
+# ::snt Esses são os que as pessoas gostam de levar !
+# ::id 385
+# ::snt A família chegou a Pedra Azul no final dos anos 1980 .
+(3 / chegar.01)
+
+# ::id 386
+# ::snt Camarões , lulas , mexilhões , siri , bacalhau .
+(1 / camarão)
+
+# ::id 387
+# ::snt O YouTube Premium custa R $ 20,90 por mês no Brasil .
+(4 / custar.01)
+
+# ::id 388
+# ::snt Fazia 15 anos que ele não atuava em um folhetim .
+(1 / fazer.01)
+
+# ::id 389
+# ::snt A agenda de Bolsonaro no Rio ainda não foi divulgada .
+(11 / divulgar.01)
+
+# ::id 390
+# ::snt O PSDB tem uma corresponsabilidade muito grande por esse quadro negativo .
+(3 / ter.01)
+
+# ::id 391
+# ::snt Outros três mandatários já haviam sido presos no exercício do cargo .
+(7 / prender.01)
+
+# ::id 392
+# ::snt Muito mais gentil do que esse Rio de hoje .
+(3 / gentil)
+
+# ::id 393
+# ::snt A Satiagraha brasileira foi uma ação espetaculosa que deu em nada .
+(6 / ação)
+
+# ::id 394
+# ::snt Quero comemorar meus 90 anos sabendo qual é o projeto .
+(1 / querer.01)
+
+# ::id 395
+# ::snt A forma de ler o mundo é sempre muito subjetiva .
+(10 / subjetivo)
+
+# ::id 396
+# ::snt Li algumas críticas de nariz torcido para os dois filmes .
+(1 / ler.01)
+
+# ::id 397
+# ::snt Pão na chapa é um café da manhã bem mequetrefe .
+(7 / café)
+
+# ::id 398
+# ::snt Ele fala de um menino em busca de sua identidade . ”.
+(2 / falar.01)
+
+# ::id 399
+# ::snt Ela alega que não pode falar sobre seus clientes .
+(2 / alegar.01)
+
+# ::id 400
+# ::snt Quero mudar o ritmo de jogo ” , afirmou .
+(9 / afirmar.01)
+
+# ::id 401
+# ::snt O primeiro texto da série pode ser conferido aqui .
+(7 / possible.01)
+
+# ::id 402
+# ::snt Sinto isso .
+(1 / sentir.01)
+
+# ::id 403
+# ::snt A ordem é independente .
+(4 / independente)
+
+# ::id 404
+# ::snt Culpa pessoal do Alckmin ?
+(1 / culpa)
+
+# ::id 405
+# ::snt Eu mesmo fiz .
+(3 / fazer.01)
+
+# ::id 406
+# ::snt O Brasil precisa acumular experiência .
+(3 / precisar.01)
+
+# ::id 407
+# ::snt Essa é uma ideia pueril .
+(4 / ideia)
+
+# ::id 408
+# ::snt Claro que são doidos .
+(1 / claro)
+
+# ::id 409
+# ::snt Ou não percebem ?
+(3 / perceber.01)
+
+# ::id 410
+# ::snt O povo precisa acumular experiência .
+(3 / precisar.01)
+
+# ::id 411
+# ::snt Vai ser diferente .
+(3 / diferente)
+
+# ::id 412
+# ::snt Por que não assume ?
+(4 / assumir.01)
+
+# ::id 413
+# ::snt Não quer ” .
+(2 / querer.01)
+
+# ::id 414
+# ::snt Eu rejeitei os dois .
+(2 / rejeitar.01)
+
+# ::id 415
+# ::snt Há maioria para fechar acordo .
+(1 / haver.01)
+
+# ::id 416
+# ::snt E o vazio se ocupa .
+(5 / ocupar.01)
+
+# ::id 417
+# ::snt Ele ficou literalmente só .
+(2 / ficar.01)
+
+# ::id 418
+# ::snt Era uma agenda de ninguém .
+(3 / agenda)
+
+# ::id 419
+# ::snt A temperatura sobe e desce .
+(3 / subir.01)
+
+# ::id 420
+# ::snt Quero preservar o Meio Ambiente .
+(1 / querer.01)
+
+# ::id 421
+# ::snt Com Lula , venceríamos .
+(4 / vencer.01)
+
+# ::id 422
+# ::snt Mas esse discurso voltou .
+(4 / voltar.01)
+
+# ::id 423
+# ::snt Não há periculosidade nessa pessoa .
+(2 / haver.01)
+
+# ::id 424
+# ::snt O STF pode barrá-lo .
+(3 / possible.01)
+
+# ::id 425
+# ::snt O vazio se ocupa .
+(4 / ocupar.01)
+
+# ::id 426
+# ::snt Não há debate interno .
+(2 / haver.01)
+
+# ::id 427
+# ::snt Coloca em suspeição suas decisões ?
+(1 / colocar.01)
+
+# ::id 428
+# ::snt Nem o Lula .
+(3 / person)
+
+# ::id 429
+# ::snt Leia mais notas do Painel .
+(1 / ler.01)
+
+# ::id 430
+# ::snt A Ordem tem transparência .
+(3 / ter.01)
+
+# ::id 431
+# ::snt Não especificamente a favor dele .
+(4 / favor)
+
+# ::id 432
+# ::snt Isso me preocupa .
+(3 / preocupar.01)
+
+# ::id 433
+# ::snt Estaria sendo leviano .
+(3 / leviano)
+
+# ::id 434
+# ::snt Não sei nada do Bolsonaro .
+(2 / saber.01)
+
+# ::id 435
+# ::snt O que aconteceu ?
+(3 / acontecer.01)
+
+# ::id 436
+# ::snt A opinião conservadora foi banida .
+(5 / banir.01)
+
+# ::id 437
+# ::snt Sonoplastia : André Luis Omote.
+(1 / sonoplastia)
+
+# ::id 438
+# ::snt A manteiga queima .
+(3 / queimar.01)
+
+# ::id 439
+# ::snt E fui que fui . ''.
+(4 / ir.01)
+
+# ::id 440
+# ::snt QUATRO músicas para ouvir na virada.
+(2 / música)
+
+# ::id 441
+# ::snt Auditório do Masp – SP.
+(1 / auditório)
+
+# ::id 442
+# ::snt Por que filmar GH ?
+(3 / filmar.01)
+
+# ::id 443
+# ::snt Direção : Sacha Gervasi .
+(1 / direção)
+
+# ::id 444
+# ::snt Sigo com essa opinião .
+(1 / seguir.01)
+
+# ::id 445
+# ::snt Direção de Arte : Bianca Turner.
+(1 / direção)
+
+# ::id 446
+# ::snt Rodrigo não é psicanalista .
+(4 / psicanalista)
+
+# ::id 447
+# ::snt Esse pacote foi um sucesso .
+(5 / sucesso)
+
+# ::id 448
+# ::snt Por que diferença estratosférica ?
+(3 / diferença)
+
+# ::id 449
+# ::snt A resposta foi imediata .
+(4 / imediato)
+
+# ::id 450
+# ::snt Falo sobre acordar às nove.
+(1 / falar.01)
+
+# ::id 451
+# ::snt Isso há já alguns anos .
+(1 / isso)
+
+# ::id 452
+# ::snt Academias especializadas estão na moda .
+(6 / moda)
+
+# ::id 453
+# ::snt Da comunidade de Bento .
+(3 / comunidade)
+
+# ::id 454
+# ::snt Nem adianta chorar . ”.
+(2 / adiantar.01)
+
+# ::id 455
+# ::snt Ele deixa duas filhas .
+(2 / deixar.01)
+
+# ::id 456
+# ::snt Eu sofro de depressão .
+(2 / sofrer.01)
+
+# ::id 457
+# ::snt Eram pura tenacidade .
+(3 / tenacidade)
+
+# ::id 458
+# ::snt De quem é a culpa ?
+(5 / culpa)
+
+# ::id 459
+# ::snt Não há previsão do próximo .
+(2 / haver.01)
+
+# ::id 460
+# ::snt Não podem fazer eufemismo .
+(2 / possible.01)
+
+# ::id 461
+# ::snt $ 754.
+(1 / $)
+
+# ::id 462
+# ::snt Sem aéreo.
+(2 / aéreo)
+
+# ::id 463
+# ::snt San Sebastián .
+(1 / person)
+
+# ::id 464
+# ::snt São Paulo.
+(1 / person)
+
+# ::id 465
+# ::snt Alvise Camozzi.
+(1 / person)
+
+# ::id 466
+# ::snt Está certíssimo .
+(2 / certíssimo)
+
+# ::id 467
+# ::snt Sem violência.
+(2 / violência)
+
+# ::id 468
+# ::snt Todo dia .
+(2 / dia)
+
+# ::id 469
+# ::snt Russos.
+(1 / russo)
+
+# ::id 470
+# ::snt Tolice .
+(1 / person)
+
+# ::id 471
+# ::snt Instituto Goethe .
+(1 / person)
+
+# ::id 472
+# ::snt Amém .
+(1 / amém)
+
+# ::id 473
+# ::snt O que aconteceu desde então ?
+(3 / acontecer.01)
+
+# ::id 474
+# ::snt Não há nada a esconder .
+(2 / haver.01)
+
+# ::id 475
+# ::snt Vamos compartilhar algumas dessas histórias .
+(2 / compartilhar.01)
+
+# ::id 476
+# ::snt Quem foi acusado ?
+(3 / acusar.01)
+
+# ::id 477
+# ::snt Marie-Amélie Vaillat , 36 , França.
+(1 / person)
+
+# ::id 478
+# ::snt Jornalista e colunista .
+(1 / jornalista)
+
+# ::id 479
+# ::snt Come-se , canta-se e dança-se .
+(1 / comer.01)
+
+# ::id 480
+# ::snt O que vai acontecer agora ?
+(4 / acontecer.01)
+
+# ::id 481
+# ::snt Pais , nem um dia .
+(5 / dia)
+
+# ::id 482
+# ::snt Mas o movimento exibe resiliência .
+(4 / exibir.01)
+
+# ::id 483
+# ::snt Foram 20 mil em 2017 .
+(1 / be-03)
+
+# ::id 484
+# ::snt A missão ficou mais difícil .
+(3 / ficar.01)
+
+# ::id 485
+# ::snt Outro problema tem fundo político .
+(3 / ter.01)
+
+# ::id 486
+# ::snt Não há totem no aeroporto .
+(2 / haver.01)
+
+# ::id 487
+# ::snt Churrasco dispensa formalidades e salamaleques .
+(2 / dispensar.01)
+
+# ::id 488
+# ::snt Não tem coragem ?
+(2 / ter.01)
+
+# ::id 489
+# ::snt Carne não poderia faltar .
+(3 / possible.01)
+
+# ::id 490
+# ::snt A ideologia é menos importante que a lealdade .
+(5 / importante)
+
+# ::id 491
+# ::snt A imprensa circula livremente no acampamento .
+(3 / circular.01)
+
+# ::id 492
+# ::snt Ainda há os arranjados , mas são minoria .
+(2 / haver.01)
+
+# ::id 493
+# ::snt Não vamos ‘ soltar ’ ninguém nos EUA .
+(4 / soltar.01)
+
+# ::id 494
+# ::snt Eles não visitam áreas próximas e causam problemas .
+(3 / visitar.01)
+
+# ::id 495
+# ::snt Ele veio com a mulher e três filhos .
+(2 / vir.01)
+
+# ::id 496
+# ::snt O som dos acordeão soa longe e claro.
+(6 / soar.01)
+
+# ::id 497
+# ::snt Camaradas , vamos todos cantar em uníssono.
+(5 / cantar.01)
+
+# ::id 498
+# ::snt Entre homens , 51 % foram para republicanos .
+(6 / foram.01)
+
+# ::id 499
+# ::snt Diante da morte , somos todos aprendizes ” .
+(8 / aprendiz)
+
+# ::id 500
+# ::snt A advocacia está de luto ” , diz .
+(8 / dizer.01)
+
+# ::id 501
+# ::snt Para Heidegger a morte dá sentido à vida .
+(5 / dar.01)
+
+# ::id 502
+# ::snt As temperaturas variam entre 18°C e 23°C .
+(3 / variar.01)
+
+# ::id 503
+# ::snt Os alemães vão matar vocês todos !
+(4 / matar.01)
+
+# ::id 504
+# ::snt A situação foi vista por Lins no bairro .
+(4 / ver.01)
+
+# ::id 505
+# ::snt Conheça a história de vida de Elisabeth Kübler-Ross.
+(1 / conhecer.01)
+
+# ::id 506
+# ::snt A média de preços é de R $ 100.
+(7 / r)
+
+# ::id 507
+# ::snt A cobrança em Jambeiro , não sofreu modificações .
+(7 / sofrer.01)
+
+# ::id 508
+# ::snt Havia uma poética madura e profundidade ” .
+(1 / haver.01)
+
+# ::id 509
+# ::snt por inocente engano.
+(3 / engano)
+
+# ::id 510
+# ::snt Giacomo Vicenzo.
+(1 / person)
+
+# ::id 511
+# ::snt Muito ?
+(1 / muito)
+
+# ::id 512
+# ::snt REGIÃO CENTRAL.
+(1 / região)
+
+# ::id 513
+# ::snt giacomovicenzo@agenciamural.org.br.
+(1 / giacomovicenzo@agenciamural.org.br)
+
+# ::id 514
+# ::snt pensando ser doze.
+(1 / pensar.01)
+
+# ::id 515
+# ::snt https://ekrbrasil.com/historia-de-vida/.
+(1 / https://ekrbrasil.com/historia-de-vida)
+
+# ::id 516
+# ::snt Centenas .
+(1 / centena)
+
+# ::id 517
+# ::snt E conseguiu .
+(2 / conseguir.01)
+
+# ::id 518
+# ::snt Não conseguiu .
+(2 / conseguir.01)
+
+# ::id 519
+# ::snt República Dominicana.
+(1 / person)
+
+# ::id 520
+# ::snt Canadá.
+(1 / country)
+
+# ::id 521
+# ::snt Depende dele .
+(1 / depender.01)
+
+# ::id 522
+# ::snt Assuma .
+(1 / assumir.01)
+
+# ::id 523
+# ::snt Cuidado , Moro.
+(1 / cuidado)
+
+# ::id 524
+# ::snt Perdeu .
+(1 / perder.01)
+
+# ::id 525
+# ::snt Há espaço .
+(1 / haver.01)
+
+# ::id 526
+# ::snt Concordamos .
+(1 / concordar.01)
+
+# ::id 527
+# ::snt Lula quer .
+(2 / querer.01)
+
+# ::id 528
+# ::snt Venezuela.
+(1 / country)
+
+# ::id 529
+# ::snt Engano .
+(1 / engano)
+
+# ::id 530
+# ::snt O quê ?
+# ::id 531
+# ::snt Foi algo inédito !
+(2 / algo)
+
+# ::id 532
+# ::snt Lyon 2 x 2 Manchester City.
+(1 / city)
+
+# ::id 533
+# ::snt Poderia não ter sido assim .
+(1 / poder.01)
+
+# ::id 534
+# ::snt Mudo de assunto .
+(1 / mudar.01)
+
+# ::id 535
+# ::snt Começou com Paulo Nobre .
+(1 / começar.01)
+
+# ::id 536
+# ::snt Renato Gaúcho continua no Grêmio .
+(3 / continuar.01)
+
+# ::id 537
+# ::snt Ficamos amigos muito rápido .
+(1 / ficar.01)
+
+# ::id 538
+# ::snt O ano era 1938 .
+(4 / 1938)
+
+# ::id 539
+# ::snt Qual foi a saída ?
+(4 / saída)
+
+# ::id 540
+# ::snt Infelizmente , acho que não .
+(3 / achar.01)
+
+# ::id 541
+# ::snt Onyx vai ser o comandante dessa área .
+(5 / comandante)
+
+# ::id 542
+# ::snt Como é sua a relação com ele ?
+(3 / seu)
+
+# ::id 543
+# ::snt O que aconteceu foi colaboração popular espontânea .
+(5 / colaboração)
+
+# ::id 544
+# ::snt Ditadura e democracia eram conceitos bem definidos .
+(5 / conceito)
+
+# ::id 545
+# ::snt A reforma política foi o nosso maior problema .
+(8 / problema)
+
+# ::id 546
+# ::snt Se pudesse fazer sozinho já teria feito .
+(7 / fazer.01)
+
+# ::id 547
+# ::snt Evidente que só psicopata fará um negócio desse .
+(1 / evidente)
+
+# ::id 548
+# ::snt O caso aguarda análise no Supremo .
+(3 / aguardar.01)
+
+# ::id 549
+# ::snt Valeu pessoal , o Brasil é nosso . ''.
+(1 / valeu)
+
+# ::id 550
+# ::snt Nem lembro mais do que conversamos .
+(2 / lembrar.01)
+
+# ::id 551
+# ::snt Eu respeito as subjetividades '' , concluiu .
+(8 / concluir.01)
+
+# ::id 552
+# ::snt Essa é minha visão de fora .
+(4 / visão)
+
+# ::id 553
+# ::snt O presidente eleito já escolheu 19 ministros .
+(5 / escolher.01)
+
+# ::id 554
+# ::snt Mas a temporada ainda não acabou .
+(6 / acabar.01)
+
+# ::id 555
+# ::snt A cidade favorita é Doha , no Qatar .
+(5 / city)
+
+# ::id 556
+# ::snt O lucro fica com o Palmeiras .
+(3 / ficar.01)
+
+# ::id 557
+# ::snt Trabalhávamos junto com os diretores do Palmeiras .
+(1 / trabalhar.01)
+
+# ::id 558
+# ::snt Primeiro , a violência nos gramados .
+(4 / violência)
+
+# ::id 559
+# ::snt Duas equipes locais completavam o quadrangular .
+(4 / completar.01)
+
+# ::id 560
+# ::snt Quero ver o Palmeiras campeão mundial .
+(1 / querer.01)
+
+# ::id 561
+# ::snt Quando : segunda ( 3 ) , às 20h.
+(1 / quando)
+
+# ::id 562
+# ::snt Algo semelhante aconteceu no sub-17 e sub-20 .
+(3 / acontecer.01)
+
+# ::id 563
+# ::snt Ambos disputavam uma bola pelo alto .
+(2 / disputar.01)
+
+# ::id 564
+# ::snt Quando a Folha visitou a fábrica , ninguém usava o local .
+(9 / usar.01)
+
+# ::id 565
+# ::snt Também só haverá uma novata no Senado do lado conservador .
+(3 / haver.01)
+
+# ::id 566
+# ::snt Na realidade , a economia cresceu 2,8 % no período .
+(7 / crescer.01)
+
+# ::id 567
+# ::snt A cerimônia oficial de assinatura demorou uma hora e meia .
+(6 / demorar.01)
+
+# ::id 568
+# ::snt A crise na Venezuela foi um assunto que permeou as reuniões .
+(8 / assunto)
+
+# ::id 569
+# ::snt Autos judiciais e processos em andamento também são abertos ao público .
+(9 / aberto)
+
+# ::id 570
+# ::snt Segundo os norte-coreanos ouvidos pela Folha , ele vem caindo .
+(11 / cair.01)
+
+# ::id 571
+# ::snt Ficou no cargo de janeiro a agosto , quando renunciou .
+(1 / ficar.01)
+
+# ::id 572
+# ::snt A paixão por Buenos Aires foi à primeira vista .
+(10 / vista)
+
+# ::id 573
+# ::snt O que o Brasil ganharia se de fato saísse do acordo ?
+(5 / ganhar.01)
+
+# ::id 574
+# ::snt Na fábrica de calçados Ryuwon , essas forças-tarefa duram dez dias .
+(10 / durar.01)
+
+# ::id 575
+# ::snt O que vai acontecer se o parlamento rejeitar o acordo ?
+(4 / acontecer.01)
+
+# ::id 576
+# ::snt Eu não estava tentando esconder nada ” , acrescentou .
+(9 / acrescentar.01)
+
+# ::id 577
+# ::snt E ele se saiu tremendamente bem ao longo do caminho ”.
+(4 / sair.01)
+
+# ::id 578
+# ::snt Voltar não é opção para o hondurenho Edgardo Garcia , 44 .
+(4 / opção)
+
+# ::id 579
+# ::snt Shannon evitou comentar as credenciais direitistas do presidente eleito do Brasil .
+(2 / evitar.01)
+
+# ::id 580
+# ::snt As mariposas inspiraram a resistência nacional e a insistência internacional .
+(3 / inspirar.01)
+
+# ::id 581
+# ::snt No meio do trajeto , a aeronave perdeu contato e caiu .
+(10 / perder.01)
+
+# ::id 582
+# ::snt Alexandra Loras promove a 1ª edição do Fórum Diversifique .
+(3 / promover.01)
+
+# ::id 583
+# ::snt A lista é divulgada no dia 10 de dezembro .
+(4 / divulgar.01)
+
+# ::id 584
+# ::snt O anúncio dos nascimentos recebeu muitas críticas em todo o mundo .
+(6 / receber.01)
+
+# ::id 585
+# ::snt Deixá-los assumir esse compromisso parece ser o atual vestibular dos pais .
+(6 / parecer.01)
+
+# ::id 586
+# ::snt Ele afirma não ter dados de quantos médicos pediram para continuar .
+(2 / afirmar.01)
+
+# ::id 587
+# ::snt Ao longo dos anos , a coleção foi ganhando corpo .
+(11 / ganhar.01)
+
+# ::id 588
+# ::snt E como fica o Mais Médicos com a saída dos cubanos ?
+(3 / ficar.01)
+
+# ::id 589
+# ::snt O vestibular da Fuvest traz uma novidade neste ano .
+(6 / trazer.01)
+
+# ::id 590
+# ::snt Em geral , isso ocorre em situações de emergência ou simbólicas .
+(5 / ocorrer.01)
+
+# ::id 591
+# ::snt Marielle e as Mirabal estarão eternamente presentes porque as perpetuaremos .
+(7 / presente)
+
+# ::id 592
+# ::snt Conheça seis propriedades que se destacam por suas práticas sustentáveis .
+(1 / conhecer.01)
+
+# ::id 593
+# ::snt Uma comunidade do tempo dos bandeirantes foi destruída em dez minutos .
+(10 / destruir.01)
+
+# ::id 594
+# ::snt Gosto de renovar as energias , sempre .
+(1 / gostar.01)
+
+# ::id 595
+# ::snt Aulas de Krav Maga e massagem tântrica.
+(1 / aula)
+
+# ::id 596
+# ::snt As pessoas querem ter no que acreditar .
+(3 / querer.01)
+
+# ::id 597
+# ::snt Ramos de Azevedo , s/nº , São Paulo .
+(1 / person)
+
+# ::id 598
+# ::snt Ele sabe disso e vai falando .
+(2 / saber.01)
+
+# ::id 599
+# ::snt O maoismo é o poste do inferno ” .
+(5 / poste)
+
+# ::id 600
+# ::snt Naief Haddad é jornalista da Folha .
+(4 / jornalista)
+
+# ::id 601
+# ::snt Deus e sua nova linha de crédito.
+(1 / person)
+
+# ::id 602
+# ::snt Marte é um lugar lindo , mas inóspito .
+(4 / lugar)
+
+# ::id 603
+# ::snt Para onde o bicho vai fugir ?
+(6 / fugir.01)
+
+# ::id 604
+# ::snt E vivo com isso todos os dias '' .
+(2 / vivar.01)
+
+# ::id 605
+# ::snt Pode até criar problema emocional e retração social .
+(1 / poder.01)
+
+# ::id 606
+# ::snt O espetáculo está programado para começar às 10h30 .
+(4 / programado)
+
+# ::id 607
+# ::snt Ao redor , muitos smartphones conectados .
+(6 / smartphone)
+
+# ::id 608
+# ::snt Você também traz coisas demais de uma viagem ?
+(3 / trazer.01)
+
+# ::id 609
+# ::snt Não gostou ?
+(2 / gostar.01)
+
+# ::id 610
+# ::snt A torcida organizada Gaviões da Fiel decidiu agir contra os arrastões em os estádios de futebol .
+(8 / decidir.01)
+
+# ::id 611
+# ::snt Eles estão em prisão especial porque têm curso superior e aguardam julgamento de recurso .
+(4 / prisão)
+
+# ::id 612
+# ::snt Ieltsin adotou outras medidas simbólicas para mostrar a perda de poderes de o Parlamento .
+(2 / adotar.01)
+
+# ::id 613
+# ::snt Ao todo , serão usados cerca de 5.800 computadores .
+(6 / usar.01)
+
+# ::id 614
+# ::snt Evandro disse que as pessoas não devem adquirir armas para se defender .
+(2 / dizer.01)
+
+# ::id 615
+# ::snt A política é um jogo interativo afetado por as circunstâncias .
+(5 / jogo)
+
+# ::id 616
+# ::snt Eu sou um homem que age por impulso .
+(4 / homem)
+
+# ::id 617
+# ::snt Não precisaria agir assim .
+(2 / precisar.01)
+
+# ::id 618
+# ::snt « Eu quero viver ! ».
+(3 / querer.01)
+
+# ::id 619
+# ::snt Canal maluco !
+(1 / canal)
+
+# ::id 620
+# ::snt Em vez de parques temáticos e fábricas de chocolate , mato .
+(11 / matar.01)
+
+# ::id 621
+# ::snt Vamos acabar com a indústria da multa ” , disse Bolsonaro .
+(11 / dizer.01)
+
+# ::id 622
+# ::snt E ele teve uma atuação muito boa como general .
+(3 / ter.01)
+
+# ::id 623
+# ::snt Cerca de 322,7 mil advogados estavam aptos a votar .
+(7 / apto)
+
+# ::id 624
+# ::snt Eu acho chato os dois lados [ esquerda e direita ] .
+(2 / achar.01)
+
+# ::id 625
+# ::snt Só na década de 1720 Händel estreou cerca de 40 óperas .
+(8 / estrear.01)
+
+# ::id 626
+# ::snt Tentarei aqui questionar o que essa falta de cuidado representa .
+(1 / tentar.01)
+
+# ::id 627
+# ::snt Como eu também não tenho .
+(5 / ter.01)
+
+# ::id 628
+# ::snt Não faz sentido .
+(2 / fazer.01)
+
+# ::id 629
+# ::snt Poderia , no futuro .
+(1 / poder.01)
+
+# ::id 630
+# ::snt Demorou menos de 15 minutos .
+(1 / demorar.01)
+
+# ::id 631
+# ::snt Como poderia melhorar ?
+(2 / possible.01)
+
+# ::id 632
+# ::snt Não estou defendendo o Alckmin .
+(3 / defender.01)
+
+# ::id 633
+# ::snt Como classifica o governo Bolsonaro ?
+(2 / classificar.01)
+
+# ::id 634
+# ::snt Haddad é nada comunista .
+(4 / comunista)
+
+# ::id 635
+# ::snt Lamentavelmente também ele .
+(3 / ele)
+
+# ::id 636
+# ::snt Aconselhando , talvez ?
+(1 / aconselhar.01)
+
+# ::id 637
+# ::snt As figuras foram sumindo .
+(4 / sumir.01)
+
+# ::id 638
+# ::snt Quem está impondo como valores ?
+(3 / impor.01)
+
+# ::id 639
+# ::snt Geraldo sim , Geraldo não .
+(1 / person)
+
+# ::id 640
+# ::snt Acabei até sugerindo um nome .
+(1 / acabar.01)
+
+# ::id 641
+# ::snt Não tem direito de sentir ?
+(2 / ter.01)
+
+# ::id 642
+# ::snt Pelo amor de Deus !
+(3 / amor)
+
+# ::id 643
+# ::snt Não é assim .
+(3 / assim)
+
+# ::id 644
+# ::snt Não vai haver nada diferente .
+(3 / haver.01)
+
+# ::id 645
+# ::snt Leia mais notas do Painel .
+(1 / ler.01)
+
+# ::id 646
+# ::snt Dele , surgiu Jair Bolsonaro .
+(4 / surgir.01)
+
+# ::id 647
+# ::snt Termina a Primeira Guerra Mundial .
+(1 / terminar.01)
+
+# ::id 648
+# ::snt O Bolsonaro ocupou .
+(3 / ocupar.01)
+
+# ::id 649
+# ::snt O produto final foi positivo .
+(5 / positivo)
+
+# ::id 650
+# ::snt Eu acompanhei a coisa .
+(2 / acompanhar.01)
+
+# ::id 651
+# ::snt E o país era ingovernável ?
+(5 / ingovernável)
+
+# ::id 652
+# ::snt Serra também foi acusado .
+(4 / acusar.01)
+
+# ::id 653
+# ::snt Corrupção nas estatais ?
+(1 / corrupção)
+
+# ::id 654
+# ::snt Também tem consequências .
+(2 / ter.01)
+
+# ::id 655
+# ::snt Nada disso é criminoso .
+(5 / criminoso)
+
+# ::id 656
+# ::snt Como está o Lula ?
+(1 / como)
+
+# ::id 657
+# ::snt Ninguém prestou a menor atenção .
+(2 / prestar.01)
+
+# ::id 658
+# ::snt Não tenho capacidade para julgar .
+(2 / ter.01)
+
+# ::id 659
+# ::snt Há algo antidemocrático profundo .
+(1 / haver.01)
+
+# ::id 660
+# ::snt Marcos da Costa , 54.
+(1 / person)
+
+# ::id 661
+# ::snt Operação de Luz – Danielle Meireles.
+(1 / person)
+
+# ::id 662
+# ::snt A série do Curta !
+(2 / série)
+
+# ::id 663
+# ::snt Direção : Charles Sturridge.
+(1 / direção)
+
+# ::id 664
+# ::snt Foi uma aula de cinema .
+(3 / aula)
+
+# ::id 665
+# ::snt Simples e excelente .
+(1 / simples)
+
+# ::id 666
+# ::snt Direção : Bailley Walsh.
+(1 / direção)
+
+# ::id 667
+# ::snt Sugestões , críticas ou dúvidas ?
+(1 / sugestão)
+
+# ::id 668
+# ::snt Um exemplo é a Cia .
+(5 / person)
+
+# ::id 669
+# ::snt Quintas , Sextas e Sábados 21h.
+(1 / quinto)
+
+# ::id 670
+# ::snt Atingir os píncaros da excelência .
+(1 / atingir.01)
+
+# ::id 671
+# ::snt Já teve sua época .
+(2 / ter.01)
+
+# ::id 672
+# ::snt Uma amiga perdeu a mãe .
+(3 / perder.01)
+
+# ::id 673
+# ::snt Até por satisfação pessoal .
+(3 / satisfação)
+
+# ::id 674
+# ::snt E os pais ?
+(3 / pai)
+
+# ::id 675
+# ::snt Queremos saber mais sobre você !
+(1 / querer.01)
+
+# ::id 676
+# ::snt E como isso estaria ocorrendo ?
+(5 / ocorrer.01)
+
+# ::id 677
+# ::snt Você agradecia por eu ser tricolor.
+(2 / agradecer.01)
+
+# ::id 678
+# ::snt Não adianta fugir !
+(2 / adiantar.01)
+
+# ::id 679
+# ::snt Galfano descansava na padaria.
+(2 / descansar.01)
+
+# ::id 680
+# ::snt A circulação já está normalizada .
+(5 / normalizado)
+
+# ::id 681
+# ::snt As partículas se soltam .
+(4 / soltar.01)
+
+# ::id 682
+# ::snt No vestiário , passou mal .
+(5 / passar.01)
+
+# ::id 683
+# ::snt Mas precisa ficar claro .
+(2 / precisar.01)
+
+# ::id 684
+# ::snt Mistério é a hora da perda.
+(4 / hora)
+
+# ::id 685
+# ::snt Não , não acredito .
+(4 / acreditar.01)
+
+# ::id 686
+# ::snt Que esperem !
+(2 / esperar.01)
+
+# ::id 687
+# ::snt Módena .
+(1 / person)
+
+# ::id 688
+# ::snt Linguiças .
+(1 / linguiça)
+
+# ::id 689
+# ::snt R $ 1.450.
+(1 / r)
+
+# ::id 690
+# ::snt Tenho de admitir .
+(1 / obligate.01)
+
+# ::id 691
+# ::snt Belo Horizonte.
+(1 / person)
+
+# ::id 692
+# ::snt Yonatan Gat.
+(1 / person)
+
+# ::id 693
+# ::snt E continua .
+(2 / continuar.01)
+
+# ::id 694
+# ::snt Fernanda D’Umbra.
+(1 / person)
+
+# ::id 695
+# ::snt Toda hora .
+(2 / hora)
+
+# ::id 696
+# ::snt Não consegui .
+(2 / conseguir.01)
+
+# ::id 697
+# ::snt Tem razão .
+(1 / ter.01)
+
+# ::id 698
+# ::snt Comecei bem .
+(1 / começar.01)
+
+# ::id 699
+# ::snt Bobagem .
+(1 / bobagem)
+
+# ::id 700
+# ::snt Nada menos .
+(2 / menos)
+
+# ::id 701
+# ::snt Isso não está claro .
+(4 / claro)
+
+# ::id 702
+# ::snt Isso simplesmente não acontece .
+(4 / acontecer.01)
+
+# ::id 703
+# ::snt São duas sendas paralelas .
+(3 / senda)
+
+# ::id 704
+# ::snt Pelo contrário ” .
+(4 / ”.01)
+
+# ::id 705
+# ::snt Há vândalos infiltrados .
+(1 / haver.01)
+
+# ::id 706
+# ::snt O que Trump alega ?
+(4 / alegar.01)
+
+# ::id 707
+# ::snt Há algumas explicações para isso .
+(1 / haver.01)
+
+# ::id 708
+# ::snt Reuters e Associated Press.
+(1 / person)
+
+# ::id 709
+# ::snt Mas existe um salário mínimo ?
+(2 / existir.01)
+
+# ::id 710
+# ::snt mexicano Enrique Peña Nieto .
+(1 / mexicano)
+
+# ::id 711
+# ::snt O que é União Europeia ?
+# ::id 712
+# ::snt O que foi acordado ?
+(4 / acordar.01)
+
+# ::id 713
+# ::snt Luanda era nossa segunda escala .
+(5 / escala)
+
+# ::id 714
+# ::snt Não será com a Lucille .
+(5 / person)
+
+# ::id 715
+# ::snt Não será com a Lucille .
+(5 / person)
+
+# ::id 716
+# ::snt Entra em cena a comida .
+(1 / entrar.01)
+
+# ::id 717
+# ::snt O de emergência não abriu .
+(5 / abrir.01)
+
+# ::id 718
+# ::snt No pequeno jardim , ficam as bicicletas .
+(6 / ficar.01)
+
+# ::id 719
+# ::snt Teve chance suficiente para se salvar .
+(1 / ter.01)
+
+# ::id 720
+# ::snt Nos últimos anos , houve reveses .
+(6 / haver.01)
+
+# ::id 721
+# ::snt A vingança dos Bush viria em 2000 .
+(6 / vir.01)
+
+# ::id 722
+# ::snt Por muito tempo , manteve boa forma física .
+(5 / manter.01)
+
+# ::id 723
+# ::snt Na indústria , há maratonas para cumprir metas .
+(5 / haver.01)
+
+# ::id 724
+# ::snt Assim , La Coruña virou oficialmente A Coruña .
+(5 / virar.01)
+
+# ::id 725
+# ::snt Homossexualidade é assunto inexistente no país .
+(3 / assunto)
+
+# ::id 726
+# ::snt São 5 edifícios e 14 mil metros quadrados .
+(1 / ser)
+
+# ::id 727
+# ::snt As mariposas sempre retornavam para o front .
+(4 / retornar.01)
+
+# ::id 728
+# ::snt O endereço é avenida Rotary , 624 , Ferrazópolis.
+(4 / avenida)
+
+# ::id 729
+# ::snt Muitos cientistas ficaram chocados , nos Estados Unidos .
+(3 / ficar.01)
+
+# ::id 730
+# ::snt Quem será esse João Filgueiras Lima ?
+(4 / person)
+
+# ::id 731
+# ::snt A história do Hamilton é interessante .
+(7 / interessante)
+
+# ::id 732
+# ::snt Corte de ministérios preocupa produtores e ambientalistas.
+(4 / preocupar.01)
+
+# ::id 733
+# ::snt Jornalista e consultora de qualidade de texto .
+(1 / jornalista)
+
+# ::id 734
+# ::snt Corte de ministérios preocupa produtores e ambientalistas.
+(4 / preocupar.01)
+
+# ::id 735
+# ::snt Mas não sabia o que o aguardava .
+(3 / saber.01)
+
+# ::id 736
+# ::snt Houve conflitos e preferimos encerrar a parceria . ”.
+(1 / haver.01)
+
+# ::id 737
+# ::snt Conseguiram .
+(1 / conseguir.01)
+
+# ::id 738
+# ::snt E acabou .
+(2 / acabar.01)
+
+# ::id 739
+# ::snt Site : www.ekrbrasil.com.
+(1 / site)
+
+# ::id 740
+# ::snt Lucas Veloso.
+(1 / person)
+
+# ::id 741
+# ::snt Sem agrotóxico ?
+(2 / agrotóxico)
+
+# ::id 742
+# ::snt coluna.obituario@grupofolha.com.br.
+(1 / coluna.obituario@grupofolha.com.br)
+
+# ::id 743
+# ::snt Internet das coisas.
+(1 / internet)
+
+# ::id 744
+# ::snt Ele não .
+# ::id 745
+# ::snt Especialmente Domínguez .
+(2 / person)
+
+# ::id 746
+# ::snt Ninguém sabe .
+(2 / saber.01)
+
+# ::id 747
+# ::snt Não entendo .
+(2 / entender.01)
+
+# ::id 748
+# ::snt Não quer .
+(2 / querer.01)
+
+# ::id 749
+# ::snt Novo ciclo .
+(2 / ciclo)
+
+# ::id 750
+# ::snt Todo mundo .
+(2 / mundo)
+
+# ::id 751
+# ::snt Não .
+# ::id 752
+# ::snt Quais ?
+(1 / qual)
+
+# ::id 753
+# ::snt Foi tudo .
+(2 / tudo)
+
+# ::id 754
+# ::snt Pelo contrário .
+(3 / contrário)
+
+# ::id 755
+# ::snt Carne ?
+(1 / carne)
+
+# ::id 756
+# ::snt Fotógrafo aéreo.
+(1 / fotógrafo)
+
+# ::id 757
+# ::snt Recessão econômica ?
+(1 / recessão)
+
+# ::id 758
+# ::snt Esquerda e direita.
+(1 / esquerda)
+
+# ::id 759
+# ::snt Tivemos vitórias importantíssimas no conselho .
+(1 / ter.01)
+
+# ::id 760
+# ::snt Não quero chutes de três .
+(2 / querer.01)
+
+# ::id 761
+# ::snt Felipão fez duas alterações .
+(2 / fazer.01)
+
+# ::id 762
+# ::snt A que atribui esse sucesso ?
+(3 / atribuir.01)
+
+# ::id 763
+# ::snt Secretário Municipal de Esportes e Lazer.
+(1 / person)
+
+# ::id 764
+# ::snt Foram feitos apenas oito acordos .
+(2 / fazer.01)
+
+# ::id 765
+# ::snt Ele também tem por mim .
+(3 / ter.01)
+
+# ::id 766
+# ::snt Depoimento a Walter Porto .
+(1 / depoimento)
+
+# ::id 767
+# ::snt Kim Ki-Taek é poeta coreano .
+(4 / poeta)
+
+# ::id 768
+# ::snt O que eu não faria.
+# ::id 769
+# ::snt E a Câmara ?
+(3 / person)
+
+# ::id 770
+# ::snt Hoje , existe um cenário propício ?
+(3 / existir.01)
+
+# ::id 771
+# ::snt A tendência é continuar nesse padrão ?
+(4 / continuar.01)
+
+# ::id 772
+# ::snt Foi isso o que aconteceu nessa primeira denúncia .
+# ::id 773
+# ::snt Mas não da forma que eles estão fazendo .
+(5 / forma)
+
+# ::id 774
+# ::snt Não sirvo para esse negócio de ser burocrata .
+(2 / servir.01)
+
+# ::id 775
+# ::snt Ele não quis fazer [ a coalizão ] .
+(3 / querer.01)
+
+# ::id 776
+# ::snt A Polícia Federal infelizmente está com pouco efetivo .
+(8 / efetivo)
+
+# ::id 777
+# ::snt De Haddad , não sai nada .
+(5 / sair.01)
+
+# ::id 778
+# ::snt O Rio era nosso , apesar de tudo .
+(4 / nosso)
+
+# ::id 779
+# ::snt Um amigo veio aqui e o trouxe .
+(3 / vir.01)
+
+# ::id 780
+# ::snt Quando mexerem nisso , vai ter gritaria .
+(7 / ter.01)
+
+# ::id 781
+# ::snt Isso valeria para alguns crimes de colarinho branco.
+(2 / valer.01)
+
+# ::id 782
+# ::snt O presidente não tem espaço na mídia ?
+(4 / ter.01)
+
+# ::id 783
+# ::snt As principais organizadas dos dois clubes são aliadas .
+(9 / aliado)
+
+# ::id 784
+# ::snt Desde 2010 , o empresário investe nos EUA .
+(6 / investir.01)
+
+# ::id 785
+# ::snt A Chapecoense não quis fazer parte deste processo .
+(4 / querer.01)
+
+# ::id 786
+# ::snt Infantino deixou o Monumental de cara amarrada .
+(2 / deixar.01)
+
+# ::id 787
+# ::snt O clube ainda tem 25 jogadores emprestados .
+(4 / ter.01)
+
+# ::id 788
+# ::snt Não há prazo para a resolução .
+(2 / haver.01)
+
+# ::id 789
+# ::snt No Brasil , a Finview tem uma representação .
+(7 / ter.01)
+
+# ::id 790
+# ::snt Dirão ainda que é o futebol raiz .
+(1 / dizer.01)
+
+# ::id 791
+# ::snt Na ocasião , a empresa tinha cinco funcionários .
+(7 / ter.01)
+
+# ::id 792
+# ::snt Não existem garantias trabalhistas , nem previdenciárias .
+(2 / existir.01)
+
+# ::id 793
+# ::snt Kevin foi avaliado na quinta ( 29 ) .
+(3 / avaliar.01)
+
+# ::id 794
+# ::snt Por décadas , a expectativa de vida nos EUA foi crescente .
+(12 / crescente)
+
+# ::id 795
+# ::snt As expedições para levar presentes aos sentinelas foram canceladas pelo governo .
+(10 / cancelar.01)
+
+# ::id 796
+# ::snt Estamos deixando a União Europeia , não a Europa .
+(2 / deixar.01)
+
+# ::id 797
+# ::snt Frequentou excelentes escolas , e se formou em economia por Yale .
+(1 / frequentar.01)
+
+# ::id 798
+# ::snt Pandit acredita , no entanto , que a fama é injusta .
+(2 / acreditar.01)
+
+# ::id 799
+# ::snt Nós vamos retirar justamente para evitar comentários ” , diz .
+(10 / dizer.01)
+
+# ::id 800
+# ::snt Fiz um preço especial ” , disse Louie Bugarin , 62 .
+(7 / dizer.01)
+
+# ::id 801
+# ::snt Araújo , “ como Trump ” , desacredita no aquecimento global .
+(8 / desacreditar.01)
+
+# ::id 802
+# ::snt Não há orientação do regime sobre o número de filhos .
+(2 / haver.01)
+
+# ::id 803
+# ::snt Não há um órgão específico para supervisionar os juízes .
+(2 / haver.01)
+
+# ::id 804
+# ::snt Destaco uma : “ A realidade é a única verdade ” .
+(1 / destacar.01)
+
+# ::id 805
+# ::snt Aos 14 anos entram para a Liga da Juventude .
+(5 / entrar.01)
+
+# ::id 806
+# ::snt Em áreas rurais , o vento alimentou focos de incêndio .
+(7 / alimentar.01)
+
+# ::id 807
+# ::snt Haddad falou ainda sobre o risco à democracia no país .
+(2 / falar.01)
+
+# ::id 808
+# ::snt Haddad falou ainda sobre a cobrança de uma autocrítica do PT .
+(2 / falar.01)
+
+# ::id 809
+# ::snt E ninguém quer um mundo obscurantista ” , afirmou .
+(9 / afirmar.01)
+
+# ::id 810
+# ::snt Esquema semelhante existe na Cooperativa Jangchon , no subúrbio de Pyangyong .
+(3 / existir.01)
+
+# ::id 811
+# ::snt Em 1981 , ocorreu o Primeiro Encontro Feminista Latino-Americano e Caribenho .
+(4 / ocorrer.01)
+
+# ::id 812
+# ::snt Os encontros entre arquitetos e atingidos acontecem desde 30 de maio .
+(7 / acontecer.01)
+
+# ::id 813
+# ::snt Trujillo foi assassinado no ano seguinte e veio a democratização .
+(3 / assassinar.01)
+
+# ::id 814
+# ::snt Sua linha como psicólogo é existencialista , de Sartre .
+(6 / existencialista)
+
+# ::id 815
+# ::snt Isso não necessariamente demonstra uma realidade uniforme no país .
+(4 / demonstrar.01)
+
+# ::id 816
+# ::snt Se ele não for renovado , várias escolas brasileiras vão parar .
+(11 / parar.01)
+
+# ::id 817
+# ::snt Leandro Beguoci é diretor editorial de Nova Escola ( novaescola.org.br ) .
+(4 / diretor)
+
+# ::id 818
+# ::snt Para qualquer médico português ou espanhol isso não conta . ”.
+(9 / contar.01)
+
+# ::id 819
+# ::snt Meu pai sempre foi presente ” , admite Lucas .
+(8 / admitir.01)
+
+# ::id 820
+# ::snt Do contrário , podem tornar-se os estupradores e abusadores de amanhã .
+(5 / possible.01)
+
+# ::id 821
+# ::snt Então os chamaremos ou abriremos outro edital ” , afirma .
+(10 / afirmar.01)
+
+# ::id 822
+# ::snt Essa foi a avaliação de professores do curso e colégio Objetivo .
+(4 / avaliação)
+
+# ::id 823
+# ::snt No entanto , sua revolução foi muito mais profunda .
+(10 / profundo)
+
+# ::id 824
+# ::snt Outra pergunta , por favor '' , respondeu o presidente eleito .
+(9 / responder.01)
+
+# ::id 825
+# ::snt Vários pesquisadores consideraram o ato uma `` loucura '' .
+(3 / considerar.01)
+
+# ::id 826
+# ::snt Muito pouca gente havia tido acesso ao livro .
+(5 / ter.01)
+
+# ::id 827
+# ::snt Deixava as formas se definirem pelos próprios materiais .
+(1 / deixar.01)
+
+# ::id 828
+# ::snt A equipe também vem do mundo inteiro .
+(4 / vir.01)
+
+# ::id 829
+# ::snt Alguns desses experimentos estão na mostra .
+(8 / mostra)
+
+# ::id 830
+# ::snt Mas a questão não é só numérica .
+(7 / numérico)
+
+# ::id 831
+# ::snt O personagem é feito de pulsões .
+(4 / fazer.01)
+
+# ::id 832
+# ::snt Isso , sim , é censura .
+(6 / censura)
+
+# ::id 833
+# ::snt Não é um plano imediato , no entanto .
+(4 / plano)
+
+# ::id 834
+# ::snt Os anos 1960 foram difíceis para Matarazzo .
+(5 / difícil)
+
+# ::id 835
+# ::snt Ora , é só ir para o laboratório .
+(5 / ir.01)
+
+# ::id 836
+# ::snt O caso ainda está sob investigação .
+(6 / investigação)
+
+# ::id 837
+# ::snt Chama-se `` Sal Gordura Ácido Calor '' .
+(1 / chamar.01)
+
+# ::id 838
+# ::snt A Microsoft valia US $ 822,90 bilhões .
+(3 / valer.01)
+
+# ::id 839
+# ::snt Depende de onde vem o produto .
+(1 / depender.01)
+
+# ::id 840
+# ::snt A maioria das causas de ginecomastia é fisiológica .
+(9 / fisiológico)
+
+# ::id 841
+# ::snt A guia chama-se Yumi e fala português .
+(3 / chamar.01)
+
+# ::id 842
+# ::snt Estadia em quarto duplo com café da manhã .
+(1 / person)
+
+# ::id 843
+# ::snt O evento acontece das 10h às 18h .
+(3 / acontecer.01)
+
+# ::id 844
+# ::snt Primeiro , o dono da peça a valoriza .
+(9 / valorizar.01)
+
+# ::id 845
+# ::snt Compartilhe .
+(1 / compartilhar.01)
+
+# ::id 846
+# ::snt Spoiler : não vai acontecer .
+(1 / spoiler)
+
+# ::id 847
+# ::snt Leve à geladeira .
+(1 / levar.01)
+
+# ::id 848
+# ::snt Tudo será feito de maneira a garantir os direitos adquiridos em o atual sistema .
+(3 / fazer.01)
+
+# ::id 849
+# ::snt A empresa considera os equipamentos ultrapassados e quer adquirir modelos modernos .
+(3 / considerar.01)
+
+# ::id 850
+# ::snt A Folha preferiu aguardar em uma posição de distanciamento crítico .
+(3 / preferir.01)
+
+# ::id 851
+# ::snt Um outro relatório mostra que o 'ret ' defeituoso afeta rins e intestino de animais .
+(4 / mostrar.01)
+
+# ::id 852
+# ::snt Ele não treinava como devia , o que não admito .
+(3 / treinar.01)
+
+# ::id 853
+# ::snt Ele afirma ter negros e judeus entre seus correligionários .
+(2 / afirmar.01)
+
+# ::id 854
+# ::snt Foi afastado de a Comissão de Arbitragem .
+(2 / afastar.01)
+
+# ::id 855
+# ::snt A quem podemos nos aliar ?
+(3 / poder.01)
+
+# ::id 856
+# ::snt Rússia veta documento sobre a Bósnia.
+(2 / vetar.01)
+
+# ::id 857
+# ::snt Saúde !
+(1 / saúde)
+
+# ::id 858
+# ::snt Ela nos modifica .
+(3 / modificar.01)
+
+# ::id 859
+# ::snt Não gostou ?
+(2 / gostar.01)
+
+# ::id 860
+# ::snt A melhor maneira de chegar a Pedra Azul é de carro .
+(11 / carro)
+
+# ::id 861
+# ::snt No valesdauvagoethe.com.br é possível agendar um tour pelos vinhedos da região .
+(5 / possível)
+
+# ::id 862
+# ::snt The Wall Street Journal , traduzido do inglês por Paulo Migliacci.
+(1 / person)
+
+# ::id 863
+# ::snt Ele era técnico , profissional , dedicado e muito sério .
+(3 / técnico)
+
+# ::id 864
+# ::snt A empresa mencionada é a MC3 , de Paladino .
+(6 / mc3)
+
+# ::id 865
+# ::snt O PL 9054/17 tem pontos muito problemáticos '' , disse Moro .
+(11 / dizer.01)
+
+# ::id 866
+# ::snt E a resposta foi [ a eleição de Donald ] Trump .
+(7 / eleição)
+
+# ::id 867
+# ::snt Dados os limites de espaço , vou utilizar referências suficientes .
+(8 / utilizar.01)
+
+# ::id 868
+# ::snt E o mais importante : ovos fritos são mais gostosos .
+# ::id 869
+# ::snt Kilner , que pratica há seis anos , confirma .
+(9 / confirmar.01)
+
+# ::id 870
+# ::snt Podemos chamar o fenômeno de " efeito Coca-Cola " .
+(1 / possible.01)
+
