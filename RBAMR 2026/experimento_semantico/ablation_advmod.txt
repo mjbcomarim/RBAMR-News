@@ -1,7 +1,8 @@
 # ::tok Tem que voltar já .
 (o / obligate.01
     :ARG0 (e / ele)
-    :ARG2 (v / voltar.01))
+    :ARG2 (v / voltar.01
+        :time (j / já)))
 
 # ::tok Não se trata de liberdade ?
 (t / tratar.01
@@ -11,6 +12,7 @@
 # ::tok Até me ameaçaram de morte .
 (a2 / ameaçar.01
     :ARG0 (e / eles)
+    :manner (a / até)
     :ARG1 (m / me))
 
 # ::tok Sei todas as dificuldades .
@@ -145,7 +147,8 @@
 
 # ::tok E a partir de agora ?
 (p / partir.01
-    :op (e / e))
+    :op (e / e)
+    :time (a / agora))
 
 # ::tok Por que não eu ?
 (e / eu
@@ -197,7 +200,8 @@
 
 # ::tok Você é virtualmente um genocida .
 (g / genocida
-    :ARG0 (v / você))
+    :ARG0 (v / você)
+    :manner (v2 / virtualmente))
 
 # ::tok Antes de tudo isso .
 (a / antes)
@@ -227,7 +231,8 @@
 (v / ver.01
     :ARG0 (e / eu)
     :ARG1 (q / quadro
-        :mod (d / diferente)))
+        :mod (d / diferente
+            :manner (r / rigorosamente))))
 
 # ::tok Não temos nenhuma intelectualidade pronta .
 (t / ter.01
@@ -243,7 +248,8 @@
 
 # ::tok Certamente não era um reacionário .
 (r / reacionário
-    :polarity -)
+    :polarity -
+    :manner (c / certamente))
 
 # ::tok Conversamos por duas horas .
 (c / conversar.01
@@ -332,6 +338,7 @@
 # ::tok Devo mesmo dizer alguma coisa ?
 (d / dever.01
     :ARG0 (e / eu)
+    :manner (m / mesmo)
     :ARG2 (d2 / dizer.01
         :ARG1 (c / coisa)))
 
@@ -363,7 +370,8 @@
     :ARG0 (e / equação))
 
 # ::tok Foram brutalmente assassinadas .
-(a / assassinar.01)
+(a / assassinar.01
+    :manner (b / brutalmente))
 
 # ::tok Veja os anúncios de mortes.
 (v / ver.01
@@ -380,7 +388,8 @@
 (l / ler.01
     :ARG0 (e / ele)
     :ARG1 (c / coluna
-        :mod (c2 / completo)))
+        :mod (c2 / completo))
+    :manner (a / aqui))
 
 # ::tok Fazenda de SP pratica agricultura regenerativa.
 (p2 / praticar.01
@@ -400,7 +409,8 @@
 
 # ::tok Não é bem assim .
 (a / assim
-    :polarity -)
+    :polarity -
+    :manner (b / bem))
 
 # ::tok Lucas Veloso é correspondente de Guaianases.
 (c / correspondente
@@ -565,7 +575,8 @@
     :ARG2 (v / verdadeiro))
 
 # ::tok Primeiro os pobres . ”.
-(p2 / pobre)
+(p2 / pobre
+    :manner (p / primeiro))
 
 # ::tok Trata-se de uma declaração política .
 (t / tratar.01
@@ -625,7 +636,8 @@
 (c / combinar.01
     :ARG0 (p / populismo
         :op (l / liberalismo
-            :op (e / e))))
+            :op (e / e)))
+    :manner (r / raramente))
 
 # ::tok Trump é um dos suspeitos ?
 (p / person
@@ -634,6 +646,8 @@
 
 # ::tok Como tudo começou ?
 (c2 / começar.01
+    :manner (c / como
+        :mode amr-unknown)
     :ARG0 (t / tudo))
 
 # ::tok Quem cuida da investigação ?
@@ -646,6 +660,7 @@
 
 # ::tok Moram nele hoje 280 trabalhadoras .
 (m / morar.01
+    :time (h / hoje)
     :ARG0 (t / trabalhador
         :quant (x / 280)))
 
@@ -727,7 +742,8 @@
 
 # ::tok Só voltam para casa aos domingos .
 (v / voltar.01
-    :ARG0 (e / eles))
+    :ARG0 (e / eles)
+    :manner (s / só))
 
 # ::tok Mas poucos acompanham rigorosamente seus resultados .
 (c / contrast-01)
@@ -766,10 +782,12 @@
 
 # ::tok Mais de 40 foram presos nos EUA .
 (p / prender.01
-    :ARG1 (x / 40))
+    :ARG1 (x / 40
+        :degree (m / mais)))
 
 # ::tok Hoje ela está fora do jogo . ”.
 (f / fora
+    :time (h / hoje)
     :ARG0 (e / ele))
 
 # ::tok Reuters , Associated Press , e AFP.
@@ -786,6 +804,7 @@
 
 # ::tok Há ainda a questão do espaço .
 (h / haver.01
+    :manner (a / ainda)
     :ARG1 (q / questão
         :ARG1 (e / espaço)))
 
@@ -842,7 +861,8 @@
 # ::tok As maquetes dos projetos já estão prontas .
 (p2 / pronto
     :ARG0 (m / maquete
-        :ARG1 (p / projeto)))
+        :ARG1 (p / projeto))
+    :time (j / já))
 
 # ::tok A cobrança em Jambeiro , não sofreu modificações .
 (s / sofrer.01
@@ -978,7 +998,8 @@
 
 # ::tok Agora acabou .
 (a2 / acabar.01
-    :ARG0 (e / ele))
+    :ARG0 (e / ele)
+    :time (a / agora))
 
 # ::tok Sim .
 (s / sim)
@@ -1052,7 +1073,8 @@
 # ::tok Também não elogia .
 (e / elogiar.01
     :polarity -
-    :ARG0 (e2 / ele))
+    :ARG0 (e2 / ele)
+    :manner (t / também))
 
 # ::tok Disse que sim .
 (d / dizer.01
@@ -1172,6 +1194,8 @@
 
 # ::tok Como o sr. classificaria Jair Bolsonaro ?
 (c2 / classificar.01
+    :manner (c / como
+        :mode amr-unknown)
     :ARG0 (s / senhor)
     :ARG1 (p / person
         :name (n / name
@@ -1179,6 +1203,7 @@
 
 # ::tok Agora ele pode fazer muito mais coisas .
 (p / possible.01
+    :time (a / agora)
     :ARG0 (e / ele)
     :ARG2 (f / fazer.01
         :ARG1 (c / coisa)))
@@ -1272,7 +1297,8 @@
 
 # ::tok Neste ano , a frase mudou , felizmente .
 (m / mudar.01
-    :ARG0 (f / frase))
+    :ARG0 (f / frase)
+    :manner (f2 / felizmente))
 
 # ::tok Vidros foram quebrados por pedras e garrafas .
 (q / quebrar.01
@@ -1307,13 +1333,16 @@
 
 # ::tok A partida , então , foi adiada novamente .
 (a / adiar.01
-    :ARG1 (p / partida))
+    :ARG1 (p / partida)
+    :manner (e / então)
+    :manner (n / novamente))
 
 # ::tok Houve uma série de coincidências muito positivas .
 (h / haver.01
     :ARG1 (s / série
         :ARG1 (c / coincidência
-            :mod (p / positivo))))
+            :mod (p / positivo
+                :degree (m / muito)))))
 
 # ::tok Mas o Palmeiras é gigante e sempre sobreviveu .
 (c / contrast-01)
@@ -1351,6 +1380,7 @@
 
 # ::tok Antes de Franco , o galego vivia um momento de renascimento .
 (v / viver.01
+    :time (a / antes)
     :ARG0 (g / galego)
     :ARG1 (m / momento
         :ARG1 (r / renascimento)))
@@ -1360,6 +1390,7 @@
     :ARG0 (e / ele)
     :ARG2 (u / usar.01
         :ARG1 (l / língua
+            :manner (s / só)
             :mod (l2 / local))))
 
 # ::tok A epidemia de overdose não afeta todo o país .
@@ -1426,6 +1457,7 @@
 (v / viram.01
     :ARG0 (e2 / eles)
     :op (e / e)
+    :time (l / logo)
     :ARG2 (l2 / lutar.01))
 
 # ::tok Por que o Reino Unido está deixando o bloco ?
@@ -1475,11 +1507,13 @@
 # ::tok A plena recuperação só ocorreu com Clinton na Casa Branca .
 (o / ocorrer.01
     :ARG0 (r / recuperação
-        :mod (p / pleno)))
+        :mod (p / pleno))
+    :manner (s / só))
 
 # ::tok Também deve passar por Nova York e por Miami .
 (o / obligate.01
     :ARG0 (e / ele)
+    :manner (t / também)
     :ARG2 (p / passar.01))
 
 # ::tok O governo britânico desenhou diversos cenários para contabilizar todas as variáveis .
@@ -1491,7 +1525,8 @@
 # ::tok Para Molina , a possibilidade de rompimento já era esperada .
 (e / esperar.01
     :ARG1 (p2 / possibilidade
-        :ARG1 (r / rompimento)))
+        :ARG1 (r / rompimento))
+    :time (j / já))
 
 # ::tok E as que estavam ocupadas eram de forma parcial .
 (f / forma
@@ -1536,6 +1571,7 @@
 # ::tok O processo inclui ainda burburinhos sobre as casas dos outros .
 (i / incluir.01
     :ARG0 (p / processo)
+    :manner (a / ainda)
     :ARG1 (b / burburinho
         :ARG1 (c / casa
             :ARG1 (o / outro))))
@@ -1565,14 +1601,17 @@
 
 # ::tok Quanto vale um galinheiro e quanto vale uma piscina ?
 (v / valer.01
+    :manner (q / quanto)
     :ARG0 (g / galinheiro)
     :op (v2 / valer.01
         :op (e / e)
+        :manner (q2 / quanto)
         :ARG0 (p / piscina)))
 
 # ::tok A também empresária Costanza Pascolato e a atriz Carolina Ferraz compareceram .
 (c2 / comparecer.01
     :ARG0 (e / empresário
+        :manner (t / também)
         :ARG1 (p / person
             :name (n / name
                 :op1 "Costanza"))
@@ -1732,7 +1771,9 @@
 (c2 / contribuir.01
     :ARG0 (c / country
         :name (n / name
-            :op1 "Brasil")))
+            :op1 "Brasil"))
+    :time (s / sempre)
+    :degree (m / muito))
 
 # ::tok O Xingu foi criado em 1961 .
 (c / criar.01
@@ -1744,16 +1785,19 @@
 (c / crescer.01
     :ARG0 (d / desmatamento
         :op (f / fogo
-            :op (e / e))))
+            :op (e / e)))
+    :degree (m / muito))
 
 # ::tok Retire os sachês depois de dois dias .
 (r / retirar.01
     :ARG0 (e / ele)
-    :ARG1 (s / sachê))
+    :ARG1 (s / sachê)
+    :time (d / depois))
 
 # ::tok Nem todas as empresas do ramo planejam competir .
 (p / planejar.01
     :ARG0 (e / empresa
+        :manner (n / nem)
         :ARG1 (r / ramo))
     :ARG2 (c / competir.01))
 
@@ -1785,11 +1829,14 @@
 
 # ::tok Seguindo o script , joguei lá embaixo .
 (j / jogar.01
-    :ARG0 (e / eu))
+    :ARG0 (e / eu)
+    :manner (l / lá)
+    :manner (e2 / embaixo))
 
 # ::tok Leia mais na revista Volta ao Mundo.
 (l / ler.01
-    :ARG0 (e / ele))
+    :ARG0 (e / ele)
+    :degree (m / mais))
 
 # ::tok estados de São Paulo e do Rio .
 (e / estado
@@ -1806,8 +1853,10 @@
     :ARG0 (p / person
         :name (n / name
             :op1 "Nova"))
+    :manner (a / ainda)
     :ARG1 (a2 / atrativo
-        :mod (e / exclusivo)))
+        :mod (e / exclusivo
+            :degree (q / quase))))
 
 # ::tok Com passagens a partir de São Paulo.
 (p / passagem)
@@ -1834,7 +1883,9 @@
 (l / lindo)
 
 # ::tok Jogar online também .
-(j / jogar.01)
+(j / jogar.01
+    :manner (o / online)
+    :manner (t / também))
 
 # ::tok Da fazenda à mesa ?
 (f / fazenda
@@ -1849,11 +1900,13 @@
     :ARG0 (p2 / person
         :name (n / name
             :op1 "Murici"))
+    :time (j / já)
     :ARG1 (m / medida))
 
 # ::tok Ambos diziam ontem que nenhuma medida adotada até agora por Fernando Henrique Cardoso teve caráter eleitoreiro .
 (d / dizer.01
-    :ARG0 (a / ambos))
+    :ARG0 (a / ambos)
+    :time (o / ontem))
 
 # ::tok Ele contou que conseguiu adquirir 20 entradas porque ofereceu Cr $ 5.000 a o bilheteiro .
 (c / contar.01
@@ -1878,15 +1931,19 @@
         :mod (d / diferente)
         :ARG1 (c / carga
             :mod (t / tributário)))
+    :manner (d2 / diretamente)
     :ARG1 (c2 / competitividade))
 
 # ::tok Atualmente , a estabilidade é adquirida depois de dois anos .
 (a2 / adquirir.01
-    :ARG1 (e / estabilidade))
+    :manner (a / atualmente)
+    :ARG1 (e / estabilidade)
+    :time (d / depois))
 
 # ::tok A maneira como Emerson administra sua imagem pública sempre me impressionou .
 (i2 / impressionar.01
     :ARG0 (m / maneira)
+    :time (s2 / sempre)
     :ARG1 (m2 / me))
 
 # ::tok Vamos verificar o que houve com essas matérias-primas . ».
@@ -1938,7 +1995,8 @@
         :op (p2 / person
             :name (n2 / name
                 :op1 "Corinthians")
-            :op (e / e))))
+            :op (e / e)))
+    :time (h / hoje))
 
 # ::tok Seria demais .
 (d / demais)
@@ -1994,7 +2052,8 @@
                 :op1 "Bolsonaro"))
         :ARG1 (p2 / person
             :name (n2 / name
-                :op1 "Rio"))))
+                :op1 "Rio")))
+    :manner (a2 / ainda))
 
 # ::tok O PSDB tem uma corresponsabilidade muito grande por esse quadro negativo .
 (t / ter.01
@@ -2002,17 +2061,21 @@
         :name (n / name
             :op1 "PSDB"))
     :ARG1 (c / corresponsabilidade
-        :mod (g / grande)
+        :mod (g / grande
+            :degree (m / muito))
         :ARG1 (q / quadro
             :mod (n2 / negativo))))
 
 # ::tok Outros três mandatários já haviam sido presos no exercício do cargo .
 (p / prender.01
     :ARG1 (m / mandatário
-        :quant (t / três)))
+        :quant (t / três))
+    :time (j / já))
 
 # ::tok Muito mais gentil do que esse Rio de hoje .
-(g / gentil)
+(g / gentil
+    :degree (m2 / mais
+        :degree (m / muito)))
 
 # ::tok A Satiagraha brasileira foi uma ação espetaculosa que deu em nada .
 (a / ação
@@ -2031,7 +2094,9 @@
 
 # ::tok A forma de ler o mundo é sempre muito subjetiva .
 (s3 / subjetivo
-    :ARG0 (f / forma))
+    :ARG0 (f / forma)
+    :time (s2 / sempre)
+    :degree (m2 / muito))
 
 # ::tok Li algumas críticas de nariz torcido para os dois filmes .
 (l / ler.01
@@ -2047,7 +2112,8 @@
     :ARG0 (p / pão
         :ARG1 (c / chapa))
     :ARG1 (m / manhã)
-    :mod (m2 / mequetrefe))
+    :mod (m2 / mequetrefe
+        :manner (b / bem)))
 
 # ::tok Ele fala de um menino em busca de sua identidade . ”.
 (f / falar.01
@@ -2066,7 +2132,8 @@
     :ARG0 (t / texto
         :mod (p / primeiro)
         :ARG1 (s / série))
-    :ARG2 (c / conferir.01))
+    :ARG2 (c / conferir.01
+        :manner (a / aqui)))
 
 # ::tok Sinto isso .
 (s / sentir.01
@@ -2147,7 +2214,8 @@
 # ::tok Ele ficou literalmente só .
 (f / ficar.01
     :ARG0 (e / ele)
-    :ARG2 (s / só))
+    :ARG2 (s / só
+        :manner (l / literalmente)))
 
 # ::tok Era uma agenda de ninguém .
 (a / agenda
@@ -2227,6 +2295,7 @@
 # ::tok Não especificamente a favor dele .
 (f / favor
     :polarity -
+    :manner (e / especificamente)
     :ARG1 (e2 / ele))
 
 # ::tok Isso me preocupa .
@@ -2336,7 +2405,8 @@
 
 # ::tok Nem adianta chorar . ”.
 (a / adiantar.01
-    :ARG0 (e / ele))
+    :ARG0 (e / ele)
+    :manner (n / nem))
 
 # ::tok Ele deixa duas filhas .
 (d / deixar.01
@@ -2418,7 +2488,8 @@
 (a / amém)
 
 # ::tok O que aconteceu desde então ?
-(a / acontecer.01)
+(a / acontecer.01
+    :manner (e / então))
 
 # ::tok Não há nada a esconder .
 (h / haver.01
@@ -2454,7 +2525,8 @@
         :op (e3 / e)))
 
 # ::tok O que vai acontecer agora ?
-(a / acontecer.01)
+(a / acontecer.01
+    :time (a2 / agora))
 
 # ::tok Pais , nem um dia .
 (d / dia)
@@ -2469,7 +2541,8 @@
 # ::tok A missão ficou mais difícil .
 (f / ficar.01
     :ARG0 (m / missão)
-    :ARG2 (d / difícil))
+    :ARG2 (d / difícil
+        :degree (m2 / mais)))
 
 # ::tok Outro problema tem fundo político .
 (t / ter.01
@@ -2503,11 +2576,13 @@
 
 # ::tok A ideologia é menos importante que a lealdade .
 (i2 / importante
-    :ARG0 (i / ideologia))
+    :ARG0 (i / ideologia)
+    :degree (m / menos))
 
 # ::tok A imprensa circula livremente no acampamento .
 (c / circular.01
-    :ARG0 (i / imprensa))
+    :ARG0 (i / imprensa)
+    :manner (l / livremente))
 
 # ::tok Ainda há os arranjados , mas são minoria .
 (c / contrast-01)
@@ -2534,7 +2609,10 @@
 # ::tok O som dos acordeão soa longe e claro.
 (s2 / soar.01
     :ARG0 (s / som
-        :ARG1 (a / acordeão)))
+        :ARG1 (a / acordeão))
+    :manner (l / longe
+        :op (c / claro
+            :op (e / e))))
 
 # ::tok Camaradas , vamos todos cantar em uníssono.
 (c2 / cantar.01
@@ -2547,6 +2625,7 @@
 
 # ::tok Diante da morte , somos todos aprendizes ” .
 (a / aprendiz
+    :manner (d / diante)
     :mod (x / ”))
 
 # ::tok A advocacia está de luto ” , diz .
@@ -2733,7 +2812,9 @@
 # ::tok Ficamos amigos muito rápido .
 (f / ficar.01
     :ARG0 (n / nós)
-    :ARG1 (a / amigo))
+    :ARG1 (a / amigo)
+    :manner (r / rápido
+        :degree (m / muito)))
 
 # ::tok O ano era 1938 .
 (x / 1938
@@ -2747,7 +2828,8 @@
 # ::tok Infelizmente , acho que não .
 (a / achar.01
     :polarity -
-    :ARG0 (e / eu))
+    :ARG0 (e / eu)
+    :manner (i / infelizmente))
 
 # ::tok Onyx vai ser o comandante dessa área .
 (c / comandante
@@ -2758,6 +2840,8 @@
 
 # ::tok Como é sua a relação com ele ?
 (s2 / seu
+    :manner (c / como
+        :mode amr-unknown)
     :ARG0 (r / relação
         :ARG1 (e / ele)))
 
@@ -2779,7 +2863,8 @@
     :mod (m / maior))
 
 # ::tok Se pudesse fazer sozinho já teria feito .
-(f2 / fazer.01)
+(f2 / fazer.01
+    :time (j / já))
 
 # ::tok Evidente que só psicopata fará um negócio desse .
 (e / evidente)
@@ -2794,7 +2879,9 @@
 
 # ::tok Nem lembro mais do que conversamos .
 (l / lembrar.01
-    :ARG0 (e / eu))
+    :ARG0 (e / eu)
+    :manner (n / nem)
+    :degree (m / mais))
 
 # ::tok Eu respeito as subjetividades '' , concluiu .
 (c / concluir.01
@@ -2802,12 +2889,14 @@
 
 # ::tok Essa é minha visão de fora .
 (v / visão
-    :ARG0 (e / esse))
+    :ARG0 (e / esse)
+    :manner (f / fora))
 
 # ::tok O presidente eleito já escolheu 19 ministros .
 (e2 / escolher.01
     :ARG0 (p / presidente
         :mod (e / eleger.01))
+    :time (j / já)
     :ARG1 (m / ministro
         :quant (x / 19)))
 
@@ -2830,10 +2919,12 @@
 
 # ::tok Trabalhávamos junto com os diretores do Palmeiras .
 (t / trabalhar.01
-    :ARG0 (n / nós))
+    :ARG0 (n / nós)
+    :manner (j / junto))
 
 # ::tok Primeiro , a violência nos gramados .
 (v / violência
+    :manner (p / primeiro)
     :ARG1 (g / gramado))
 
 # ::tok Duas equipes locais completavam o quadrangular .
@@ -2873,6 +2964,8 @@
 
 # ::tok Também só haverá uma novata no Senado do lado conservador .
 (h / haver.01
+    :manner (t / também)
+    :manner (s / só)
     :ARG1 (n / novato))
 
 # ::tok Na realidade , a economia cresceu 2,8 % no período .
@@ -2903,7 +2996,8 @@
         :mod (j / judicial)
         :op (p / processo
             :op (e / e)
-            :ARG1 (a2 / andamento))))
+            :ARG1 (a2 / andamento)))
+    :manner (t / também))
 
 # ::tok Segundo os norte-coreanos ouvidos pela Folha , ele vem caindo .
 (c / cair.01
@@ -2943,7 +3037,9 @@
 # ::tok E ele se saiu tremendamente bem ao longo do caminho ”.
 (s2 / sair.01
     :op (e / e)
-    :ARG0 (e2 / ele))
+    :ARG0 (e2 / ele)
+    :manner (b / bem
+        :manner (t / tremendamente)))
 
 # ::tok Voltar não é opção para o hondurenho Edgardo Garcia , 44 .
 (o / opção
@@ -3030,6 +3126,8 @@
 # ::tok E como fica o Mais Médicos com a saída dos cubanos ?
 (f / ficar.01
     :op (e / e)
+    :manner (c / como
+        :mode amr-unknown)
     :ARG0 (p / person
         :name (n / name
             :op1 "Mais")))
@@ -3054,7 +3152,8 @@
         :op (p2 / person
             :name (n2 / name
                 :op1 "Mirabal")
-            :op (e / e))))
+            :op (e / e)))
+    :manner (e3 / eternamente))
 
 # ::tok Conheça seis propriedades que se destacam por suas práticas sustentáveis .
 (c / conhecer.01
@@ -3072,7 +3171,8 @@
 (g / gostar.01
     :ARG0 (e / eu)
     :ARG2 (r / renovar.01
-        :ARG1 (e2 / energia)))
+        :ARG1 (e2 / energia))
+    :time (s / sempre))
 
 # ::tok Aulas de Krav Maga e massagem tântrica.
 (a / aula
@@ -3131,6 +3231,8 @@
 
 # ::tok Para onde o bicho vai fugir ?
 (f / fugir.01
+    :manner (o / onde
+        :mode amr-unknown)
     :ARG0 (b / bicho))
 
 # ::tok E vivo com isso todos os dias '' .
@@ -3142,6 +3244,7 @@
 (p / poder.01
     :ARG0 (e / ele)
     :ARG2 (c / criar.01
+        :manner (a / até)
         :ARG1 (p2 / problema
             :mod (e2 / emocional)
             :op (r / retração
@@ -3161,7 +3264,9 @@
 # ::tok Você também traz coisas demais de uma viagem ?
 (t2 / trazer.01
     :ARG0 (v / você)
-    :ARG1 (c / coisa))
+    :manner (t / também)
+    :ARG1 (c / coisa
+        :degree (d / demais)))
 
 # ::tok Não gostou ?
 (g / gostar.01
@@ -3193,7 +3298,8 @@
 # ::tok Ao todo , serão usados cerca de 5.800 computadores .
 (u / usar.01
     :ARG1 (c2 / computador
-        :quant (x / 5.800)))
+        :quant (x / 5.800
+            :manner (c / cerca))))
 
 # ::tok Evandro disse que as pessoas não devem adquirir armas para se defender .
 (d / dizer.01
@@ -3214,7 +3320,8 @@
 (p / precisar.01
     :polarity -
     :ARG0 (e / ele)
-    :ARG2 (a / agir.01))
+    :ARG2 (a / agir.01
+        :manner (a2 / assim)))
 
 # ::tok « Eu quero viver ! ».
 (q / querer.01
@@ -3240,13 +3347,15 @@
     :op (e / e)
     :ARG0 (e2 / ele)
     :ARG1 (a / atuação
-        :mod (b / bom)
+        :mod (b / bom
+            :degree (m / muito))
         :ARG1 (g / general)))
 
 # ::tok Cerca de 322,7 mil advogados estavam aptos a votar .
 (a2 / apto
     :ARG0 (a / advogado
-        :quant (x / 322,7)))
+        :quant (x / 322,7
+            :manner (c / cerca))))
 
 # ::tok Eu acho chato os dois lados [ esquerda e direita ] .
 (a / achar.01
@@ -3261,17 +3370,20 @@
         :name (n / name
             :op1 "Händel"))
     :ARG1 (ó / ópera
-        :quant (x2 / 40)))
+        :quant (x2 / 40
+            :manner (c / cerca))))
 
 # ::tok Tentarei aqui questionar o que essa falta de cuidado representa .
 (t / tentar.01
     :ARG0 (e / eu)
+    :manner (a / aqui)
     :ARG2 (q / questionar.01))
 
 # ::tok Como eu também não tenho .
 (t2 / ter.01
     :polarity -
-    :ARG0 (e / eu))
+    :ARG0 (e / eu)
+    :manner (t / também))
 
 # ::tok Não faz sentido .
 (f / fazer.01
@@ -3287,11 +3399,14 @@
 (d / demorar.01
     :ARG0 (e / ele)
     :ARG1 (m2 / minuto
-        :quant (x / 15)))
+        :quant (x / 15
+            :degree (m / menos))))
 
 # ::tok Como poderia melhorar ?
 (p / possible.01
     :ARG0 (e / ele)
+    :manner (c / como
+        :mode amr-unknown)
     :ARG2 (m / melhorar.01))
 
 # ::tok Não estou defendendo o Alckmin .
@@ -3304,6 +3419,8 @@
 # ::tok Como classifica o governo Bolsonaro ?
 (c2 / classificar.01
     :ARG0 (e / ele)
+    :manner (c / como
+        :mode amr-unknown)
     :ARG1 (g / governo
         :ARG1 (p / person
             :name (n / name
@@ -3316,10 +3433,13 @@
             :op1 "Haddad")))
 
 # ::tok Lamentavelmente também ele .
-(e / ele)
+(e / ele
+    :manner (l / lamentavelmente)
+    :manner (t / também))
 
 # ::tok Aconselhando , talvez ?
-(a / aconselhar.01)
+(a / aconselhar.01
+    :manner (t / talvez))
 
 # ::tok As figuras foram sumindo .
 (s / sumir.01
@@ -3334,6 +3454,7 @@
 (p / person
     :name (n / name
         :op1 "Geraldo")
+    :manner (s / sim)
     :op (p2 / person
         :name (n2 / name
             :op1 "Geraldo")))
@@ -3342,6 +3463,7 @@
 (a / acabar.01
     :ARG0 (e / eu)
     :ARG2 (s / sugerir.01
+        :manner (a2 / até)
         :ARG1 (n / nome)))
 
 # ::tok Não tem direito de sentir ?
@@ -3409,7 +3531,8 @@
 (a / acusar.01
     :ARG1 (c / city
         :name (n / name
-            :op1 "Serra")))
+            :op1 "Serra"))
+    :manner (t / também))
 
 # ::tok Corrupção nas estatais ?
 (c / corrupção
@@ -3418,6 +3541,7 @@
 # ::tok Também tem consequências .
 (t2 / ter.01
     :ARG0 (e / ele)
+    :manner (t / também)
     :ARG1 (c / consequência))
 
 # ::tok Nada disso é criminoso .
@@ -3516,6 +3640,7 @@
 # ::tok Já teve sua época .
 (t / ter.01
     :ARG0 (e / ele)
+    :time (j / já)
     :ARG1 (é / época))
 
 # ::tok Uma amiga perdeu a mãe .
@@ -3525,6 +3650,7 @@
 
 # ::tok Até por satisfação pessoal .
 (s / satisfação
+    :manner (a / até)
     :mod (p / pessoal))
 
 # ::tok E os pais ?
@@ -3534,11 +3660,14 @@
 # ::tok Queremos saber mais sobre você !
 (q / querer.01
     :ARG0 (n / nós)
-    :ARG2 (s / saber.01))
+    :ARG2 (s / saber.01
+        :degree (m / mais)))
 
 # ::tok E como isso estaria ocorrendo ?
 (o / ocorrer.01
     :op (e / e)
+    :manner (c / como
+        :mode amr-unknown)
     :ARG0 (i / isso))
 
 # ::tok Você agradecia por eu ser tricolor.
@@ -3558,7 +3687,8 @@
 
 # ::tok A circulação já está normalizada .
 (n / normalizado
-    :ARG0 (c / circulação))
+    :ARG0 (c / circulação)
+    :time (j / já))
 
 # ::tok As partículas se soltam .
 (s2 / soltar.01
@@ -3566,7 +3696,8 @@
 
 # ::tok No vestiário , passou mal .
 (p / passar.01
-    :ARG0 (e / ele))
+    :ARG0 (e / ele)
+    :manner (m / mal))
 
 # ::tok Mas precisa ficar claro .
 (c2 / contrast-01)
@@ -3637,7 +3768,8 @@
 
 # ::tok Comecei bem .
 (c / começar.01
-    :ARG0 (e / eu))
+    :ARG0 (e / eu)
+    :manner (b / bem))
 
 # ::tok Bobagem .
 (b / bobagem)
@@ -3653,7 +3785,8 @@
 # ::tok Isso simplesmente não acontece .
 (a / acontecer.01
     :polarity -
-    :ARG0 (i / isso))
+    :ARG0 (i / isso)
+    :manner (s / simplesmente))
 
 # ::tok São duas sendas paralelas .
 (s2 / senda
@@ -3763,6 +3896,7 @@
 
 # ::tok Assim , La Coruña virou oficialmente A Coruña .
 (v / virar.01
+    :manner (a / assim)
     :ARG0 (p / person
         :name (n / name
             :op1 "La")))
@@ -3777,7 +3911,8 @@
 
 # ::tok As mariposas sempre retornavam para o front .
 (r / retornar.01
-    :ARG0 (m / mariposa))
+    :ARG0 (m / mariposa)
+    :time (s / sempre))
 
 # ::tok O endereço é avenida Rotary , 624 , Ferrazópolis.
 (a / avenida
@@ -3875,7 +4010,8 @@
 # ::tok Especialmente Domínguez .
 (p / person
     :name (n / name
-        :op1 "Domínguez"))
+        :op1 "Domínguez")
+    :manner (e / especialmente))
 
 # ::tok Ninguém sabe .
 (s / saber.01
@@ -3959,11 +4095,13 @@
 # ::tok Foram feitos apenas oito acordos .
 (f / fazer.01
     :ARG1 (a2 / acordo
-        :quant (o / oito)))
+        :quant (o / oito
+            :manner (a / apenas))))
 
 # ::tok Ele também tem por mim .
 (t2 / ter.01
-    :ARG0 (e / ele))
+    :ARG0 (e / ele)
+    :manner (t / também))
 
 # ::tok Depoimento a Walter Porto .
 (d / depoimento
@@ -3989,6 +4127,7 @@
 
 # ::tok Hoje , existe um cenário propício ?
 (e / existir.01
+    :time (h / hoje)
     :ARG0 (c / cenário
         :mod (p / propício)))
 
@@ -4019,6 +4158,7 @@
     :ARG0 (p / person
         :name (n / name
             :op1 "Polícia"))
+    :manner (i / infelizmente)
     :mod (p3 / pouco))
 
 # ::tok De Haddad , não sai nada .
@@ -4029,11 +4169,13 @@
 (n2 / nosso
     :ARG0 (p / person
         :name (n / name
-            :op1 "Rio")))
+            :op1 "Rio"))
+    :manner (a / apesar))
 
 # ::tok Um amigo veio aqui e o trouxe .
 (v / vir.01
     :ARG0 (a / amigo)
+    :manner (a2 / aqui)
     :op (t / trazer.01
         :ARG0 (e2 / ele)
         :op (e / e)))
@@ -4085,6 +4227,7 @@
 # ::tok O clube ainda tem 25 jogadores emprestados .
 (t / ter.01
     :ARG0 (c / clube)
+    :manner (a / ainda)
     :ARG1 (j / jogador
         :quant (x / 25)))
 
@@ -4103,7 +4246,8 @@
 
 # ::tok Dirão ainda que é o futebol raiz .
 (d / dizer.01
-    :ARG0 (e / eles))
+    :ARG0 (e / eles)
+    :manner (a / ainda))
 
 # ::tok Na ocasião , a empresa tinha cinco funcionários .
 (t / ter.01
@@ -4209,13 +4353,15 @@
 (f / falar.01
     :ARG0 (p / person
         :name (n / name
-            :op1 "Haddad")))
+            :op1 "Haddad"))
+    :manner (a / ainda))
 
 # ::tok Haddad falou ainda sobre a cobrança de uma autocrítica do PT .
 (f / falar.01
     :ARG0 (p / person
         :name (n / name
-            :op1 "Haddad")))
+            :op1 "Haddad"))
+    :manner (a / ainda))
 
 # ::tok E ninguém quer um mundo obscurantista ” , afirmou .
 (a / afirmar.01
@@ -4263,6 +4409,7 @@
 (d / demonstrar.01
     :polarity -
     :ARG0 (i / isso)
+    :manner (n / necessariamente)
     :ARG1 (r / realidade
         :mod (u / uniforme)
         :ARG1 (p / país)))
@@ -4299,7 +4446,8 @@
     :ARG2 (t / tornar.01
         :ARG2 (e2 / estuprador
             :op (a / abusador
-                :op (e3 / e)))))
+                :op (e3 / e))
+            :time (a2 / amanhã))))
 
 # ::tok Então os chamaremos ou abriremos outro edital ” , afirma .
 (a2 / afirmar.01
@@ -4318,7 +4466,9 @@
 
 # ::tok No entanto , sua revolução foi muito mais profunda .
 (p / profundo
-    :ARG0 (r / revolução))
+    :ARG0 (r / revolução)
+    :degree (m2 / mais
+        :degree (m / muito)))
 
 # ::tok Outra pergunta , por favor '' , respondeu o presidente eleito .
 (r / responder.01
@@ -4333,7 +4483,8 @@
 # ::tok Muito pouca gente havia tido acesso ao livro .
 (t / ter.01
     :ARG0 (g / gente
-        :mod (p / pouco))
+        :mod (p / pouco
+            :degree (m / muito)))
     :ARG1 (a / acesso
         :ARG1 (l / livro)))
 
@@ -4346,7 +4497,8 @@
 
 # ::tok A equipe também vem do mundo inteiro .
 (v / vir.01
-    :ARG0 (e / equipe))
+    :ARG0 (e / equipe)
+    :manner (t / também))
 
 # ::tok Alguns desses experimentos estão na mostra .
 (m / mostra
@@ -4362,7 +4514,8 @@
 
 # ::tok Isso , sim , é censura .
 (c / censura
-    :ARG0 (i / isso))
+    :ARG0 (i / isso)
+    :manner (s / sim))
 
 # ::tok Não é um plano imediato , no entanto .
 (p / plano
@@ -4375,11 +4528,13 @@
         :ARG1 (x / 1960)))
 
 # ::tok Ora , é só ir para o laboratório .
-(i / ir.01)
+(i / ir.01
+    :manner (s2 / só))
 
 # ::tok O caso ainda está sob investigação .
 (i / investigação
-    :ARG0 (c / caso))
+    :ARG0 (c / caso)
+    :manner (a / ainda))
 
 # ::tok Chama-se `` Sal Gordura Ácido Calor '' .
 (c / chamar.01
@@ -4432,6 +4587,7 @@
 
 # ::tok Primeiro , o dono da peça a valoriza .
 (v / valorizar.01
+    :manner (p / primeiro)
     :ARG0 (d / dono
         :ARG1 (p2 / peça)))
 
@@ -4535,7 +4691,8 @@
     :op (p / profissional)
     :op (d / dedicado)
     :op (s2 / sério
-        :op (e2 / e)))
+        :op (e2 / e)
+        :degree (m / muito)))
 
 # ::tok A empresa mencionada é a MC3 , de Paladino .
 (m2 / mc3
