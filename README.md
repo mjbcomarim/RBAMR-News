@@ -1,461 +1,797 @@
 # RBAMR-News
-RBAMR-News is a symbolic and rule-based AMR parsing project for Brazilian Portuguese news texts. The repository investigates the portability and effectiveness of handcrafted AMR rules originally developed for literary Portuguese, adapting them to the journalistic domain through modern NLP pipelines and dependency-based semantic processing. The project revisits the original RBAMR parser proposed by [Anchiêta and Pardo (2018)](https://github.com/rafaelanchieta/rbamr?tab=readme-ov-file), a rule-based AMR parsing architecture originally developed for the AMR-LittlePrince corpus.
 
-The project is grounded on the research presented in:
+**A symbolic and neuro-symbolic AMR parser for Brazilian Portuguese news texts**
 
-> **Towards RBAMR-News: a Rule-Based AMR Parser for News in Portuguese**
+RBAMR-News is a research project for **Abstract Meaning Representation (AMR) parsing in Brazilian Portuguese**, with a particular focus on the **journalistic domain** and low-resource semantic parsing.
 
----
+The project revisits and extends the original **RBAMR** parser proposed by Anchiêta and Pardo (2018). RBAMR-News reconstructs its symbolic architecture using modern NLP tools, Universal Dependencies, Semantic Role Labeling, and an expanded set of linguistic rules designed for Brazilian Portuguese.
 
-# Abstract
+The current research investigates a central question:
 
-RBAMR-News aims to develop a rule-based Abstract Meaning Representation (AMR) parser for Brazilian Portuguese news texts using contemporary NLP technologies while revisiting the original RBAMR symbolic architecture.
+> **How far can linguistically motivated symbolic rules go in AMR parsing for Brazilian Portuguese, and how much can they benefit from neural semantic information?**
 
-The project explores the possibilities of reenginering the original RBAMR parser pipeline using modern syntactic parsing and semantic processing tools in order to evaluate whether symbolic AMR rules designed for literary texts can generalize to journalistic language.
-
-The parser is evaluated on **AMRNews-PT**, the only manually annotated AMR news corpus currently available for Portuguese.
+RBAMR-News is under active development as part of doctoral research in Computational Linguistics at the **Federal University of São Carlos (UFSCar)** and the **Interinstitutional Center for Computational Linguistics (NILC)**.
 
 ---
 
-# What is AMR?
+## Overview
 
-Abstract Meaning Representation (AMR) is a semantic formalism that represents sentence meaning as rooted directed graphs.
+RBAMR-News converts Brazilian Portuguese sentences into AMR graphs through a modular pipeline:
 
-AMR abstracts away from surface syntax and focuses on semantic structure, including:
+```text
+Brazilian Portuguese text
+          │
+          ▼
+   Syntactic Parsing
+  Universal Dependencies
+          │
+          ▼
+ Semantic Information
+  ├── symbolic heuristics
+  └── neural SRL
+          │
+          ▼
+ Linguistic Processing
+  ├── implicit subjects
+  ├── auxiliary verbs
+  ├── named entities
+  └── lexical normalization
+          │
+          ▼
+   UD/SRL → AMR Rules
+          │
+          ▼
+      AMR Graph
+          │
+          ▼
+ Evaluation / Human Revision
+```
 
-- events;
-- participants;
+The system is designed not only as an AMR parser, but also as an experimental environment for investigating **interpretable semantic parsing**, **rule portability**, and **semi-automatic AMR corpus construction**.
+
+---
+
+## Research Goals
+
+RBAMR-News currently pursues five main goals:
+
+1. **Modernize RBAMR** by reconstructing the original parser in Python 3 and replacing obsolete NLP components.
+
+2. **Adapt symbolic AMR rules to Universal Dependencies**, making the architecture compatible with contemporary Brazilian Portuguese syntactic parsing.
+
+3. **Adapt the parser to journalistic Portuguese**, investigating the portability of rules originally developed for literary texts.
+
+4. **Integrate Semantic Role Labeling**, comparing symbolic and neural semantic information in AMR generation.
+
+5. **Support semi-automatic AMR annotation**, reducing the amount of manual work required to construct larger Brazilian Portuguese AMR corpora.
+
+---
+
+## Background
+
+### What is AMR?
+
+**Abstract Meaning Representation (AMR)** represents sentence meaning as a rooted, directed graph.
+
+For example:
+
+```text
+Maria comprou um carro.
+```
+
+A simplified AMR representation is:
+
+```penman
+(c / comprar-01
+   :ARG0 (p / person
+             :name (n / name
+                      :op1 "Maria"))
+   :ARG1 (c2 / carro))
+```
+
+AMR represents semantic concepts and relations rather than the surface syntactic structure of the sentence.
+
+Typical phenomena represented in AMR include:
+
+- predicate–argument structure;
 - semantic roles;
+- named entities;
 - negation;
 - modality;
+- quantities;
+- temporal information;
 - coordination;
-- temporal relations;
 - coreference;
 - discourse relations.
 
-Example:
+---
 
-Sentence:
+## Why RBAMR-News?
 
-```text
-Mary bought a car yesterday.
-```
+Most modern AMR parsers depend on large annotated datasets and neural architectures.
 
-AMR representation:
+For Brazilian Portuguese, however, AMR remains a **low-resource task**. Available corpora are relatively small and cover only a limited number of textual domains.
 
-```text
-(b / buy-01
-   :ARG0 (p / person :name "Mary")
-   :ARG1 (c / car)
-   :time (d / date-entity :day "yesterday"))
-```
+RBAMR-News therefore investigates an alternative and complementary strategy:
+
+> combining explicit linguistic knowledge with modern syntactic and semantic NLP components.
+
+This makes it possible to inspect exactly **why** a semantic relation was generated and to evaluate individual linguistic rules through controlled experiments.
 
 ---
 
-# Motivation
+## From RBAMR to RBAMR-News
 
-Recent AMR parsers rely heavily on:
+The original RBAMR parser was developed for the Portuguese translation of *The Little Prince*.
 
-- large annotated corpora;
-- transformer architectures;
-- expensive training procedures.
+RBAMR-News revisits this architecture in a substantially different computational environment.
 
-However, Brazilian Portuguese remains a low-resource language for AMR.
-
-Currently available AMR corpora in Portuguese are limited in:
-
-- size;
-- genre diversity;
-- domain coverage.
-
-RBAMR-News addresses this problem through a symbolic and interpretable rule-based approach.
-
----
-
-# Portuguese AMR Resources
-
-| Corpus | Genre | Size |
-|---|---|---|
-| AMR-LittlePrince | Literature | 1,527 |
-| DANTESTocks-AMR | Tweets | 1,128 |
-| AMRNews-PT | News | 870 |
-| OpiSums-PT-AMR | Reviews | 404 |
-| AMRScien-Br-Corpus | Popular science | 200 |
-
----
-
-# Project Goals
-
-The project aims to:
-
-1. Reconstruct the original RBAMR parser using modern NLP tools.
-2. Adapt AMR rules from literary Portuguese to news texts.
-3. Evaluate rule portability across domains.
-4. Support semi-automatic AMR annotation for Portuguese.
-5. Investigate symbolic AMR parsing for low-resource languages.
-6. Build a larger news annotated corpus in the future.
-
----
-
-# Architecture
-
-RBAMR-News follows a pipeline-inspired symbolic architecture.
-
-```text
-Input Text
-   ↓
-Syntactic Parsing
-   ↓
-Semantic Role Labeling
-   ↓
-Rule-Based AMR Generation
-   ↓
-AMR Graph
-```
-
----
-
-# Pipeline Components
-
-## 1. Syntactic Parsing
-
-The project uses:
-
-- **[PortParser v2](https://huggingface.co/spaces/NILC-ICMC-USP/Portparser.v2)**
-- Universal Dependencies (UD)
-- CoNLL-U representations
-
-PortParser was selected due to its high parsing accuracy for Brazilian Portuguese.
-
----
-
-## 2. Semantic Role Labeling (SRL)
-
-The original RBAMR used Brazilis SRL.
-
-RBAMR-News reconstructs SRL using:
-
-- dependency-based heuristics;
-- Verbo-Brasil;
-- UD syntactic relations;
-- semantic argument mappings.
-
-The system identifies:
-
-- predicates;
-- subjects;
-- objects;
-- oblique arguments;
-- implicit subjects.
-
-Fallback semantic frames are generated when predicates are missing from Verbo-Brasil.
-
-Example:
-
-```text
-lemma.01
-```
-
----
-
-## 3. Rule-Based AMR Generation
-
-The core of the project is the symbolic AMR rule engine.
-
-Rules transform dependency structures into AMR graphs.
-
-The rules were adapted from the original RBAMR parser to Universal Dependencies.
-
----
-
-# Rule Categories
-
-## Lexical and Morphosyntactic Rules
-
-These rules handle:
-
-- auxiliary verbs;
-- subject insertion;
-- ordinals;
-- stopword filtering.
-
-Examples:
-
-| Original | Adaptation |
+| RBAMR | RBAMR-News |
 |---|---|
-| PALAVRAS AUX | UD AUX + Hartmann rules |
-| morphology | virtual pronoun insertion |
+| Literary domain | Journalistic domain |
+| Legacy NLP pipeline | Modern Brazilian Portuguese NLP |
+| Original dependency representation | Universal Dependencies |
+| Brazilis SRL | Symbolic and neural SRL experiments |
+| Original handcrafted rules | Revised and expanded AMR rules |
+| Legacy implementation | Python 3 implementation |
+| Literary AMR corpus | AMRNews-PT evaluation |
+
+The goal is therefore not merely to reproduce RBAMR, but to investigate how its symbolic assumptions behave when transferred to a different **domain, syntactic representation, and semantic pipeline**.
 
 ---
 
-## Named Entity Rules
+## Pipeline
 
-Named entities are converted into AMR name structures.
+### 1. Syntactic Parsing
 
-Example:
+Input sentences are represented using **Universal Dependencies (UD)** in CoNLL-U format.
+
+The pipeline uses Brazilian Portuguese dependency parsing as its syntactic foundation.
+
+Relevant UD information includes:
 
 ```text
-(name
-   :op1 "Michael"
-   :op2 "Jackson")
+UPOS
+HEAD
+DEPREL
+FEATS
+LEMMA
+```
+
+These annotations provide the structural information used by subsequent AMR rules.
+
+---
+
+### 2. Semantic Role Labeling
+
+RBAMR-News supports experiments with different sources of semantic information.
+
+#### Symbolic SRL
+
+Semantic roles can be inferred from:
+
+- dependency relations;
+- predicate information;
+- Verbo-Brasil frames;
+- handcrafted argument mappings.
+
+#### Neural SRL
+
+The current experimental pipeline also supports neural Semantic Role Labeling for Brazilian Portuguese.
+
+Neural predictions are incorporated into the intermediate CoNLL-U representation and subsequently used during AMR generation.
+
+This makes it possible to compare:
+
+```text
+Syntactic information only
+        ↓
+Symbolic semantic processing
+        ↓
+Neural semantic processing
+        ↓
+AMR quality
 ```
 
 ---
 
-## Argument Structure Rules
+## Linguistic Processing
 
-These rules map syntactic dependencies into semantic roles.
+Before and during AMR generation, the system performs several normalization and linguistic processing steps.
 
-| UD Relation | AMR Relation |
+These include:
+
+- implicit subject insertion;
+- subject inheritance;
+- auxiliary verb normalization;
+- named entity processing;
+- lexical normalization;
+- number normalization;
+- predicate identification;
+- semantic role mapping.
+
+These modules are particularly important for Brazilian Portuguese phenomena such as **pro-drop subjects** and complex verbal constructions.
+
+---
+
+## UD → AMR Mapping
+
+A central component of RBAMR-News is the mapping between syntactic dependencies and semantic relations.
+
+Examples include:
+
+| UD relation | Default AMR mapping |
 |---|---|
-| nsubj | :ARG0 |
-| obj | :ARG1 |
-| iobj | :ARG2 |
-| xcomp | :ARG2 |
+| `nsubj` | `:ARG0` |
+| `nsubj:pass` | `:ARG1` |
+| `obj` | `:ARG1` |
+| `iobj` | `:ARG2` |
+| `xcomp` | `:ARG2` |
+| `amod` | `:mod` |
+| `nummod` | `:quant` |
+| temporal modifiers | `:time` |
+| emphatic adverbs | `:degree` |
+
+These mappings are not intended as universal equivalences between syntax and semantics. They function as **default hypotheses** that can be modified by lexical, semantic, and construction-specific rules.
 
 ---
 
-## Syntactic-Semantic Rules
+## Supported Phenomena
 
-The parser handles several semantic phenomena:
+The current parser includes rules for phenomena such as:
 
-| Phenomenon | AMR Relation |
-|---|---|
-| adjectival modification | :mod |
-| negation | :polarity - |
-| quantity | :quant |
-| possession | :poss |
-| coordination | :op |
-| contrast | :contrast |
-| time | :time |
-| degree | :degree |
-| manner | :manner |
-
----
-
-# Supported Linguistic Phenomena
-
-RBAMR-News includes support for:
-
-- auxiliary constructions;
-- passive voice;
-- implicit subjects;
-- coordination;
-- negation;
-- modality;
-- copular constructions;
-- quantification;
-- named entities;
-- contrastive discourse markers;
-- interrogatives.
-
----
-
-# Example Rules
-
-## Subject Mapping
+### Predicate–argument structure
 
 ```text
 nsubj → :ARG0
+obj   → :ARG1
+iobj  → :ARG2
 ```
 
-## Direct Object Mapping
-
-```text
-obj → :ARG1
-```
-
-## Negation
+### Negation
 
 ```text
 não / nunca → :polarity -
 ```
 
-## Modality
+### Named entities
+
+```penman
+(p / person
+   :name (n / name
+            :op1 "Maria"))
+```
+
+### Quantification
 
 ```text
-poder → :possible
-dever → :obligate
+nummod → :quant
+```
+
+### Modification
+
+```text
+amod → :mod
+```
+
+### Temporal information
+
+```text
+temporal modifier → :time
+```
+
+### Possession
+
+```text
+possessive construction → :poss
+```
+
+### Coordination
+
+Coordination structures are represented using AMR operand relations such as:
+
+```text
+:op1
+:op2
+...
+```
+
+### Contrast
+
+Contrastive markers such as:
+
+```text
+mas
+porém
+contudo
+todavia
+entretanto
+```
+
+can trigger explicit contrast structures.
+
+### Copular constructions
+
+Special rules investigate the AMR representation of copular predicates, including the use of:
+
+```text
+:domain
+```
+
+### Interrogatives
+
+The system includes rules for interrogative structures and AMR representations involving unknown arguments or confirmation requests.
+
+### Implicit subjects
+
+Because Brazilian Portuguese is a pro-drop language, RBAMR-News includes procedures for recovering implicit subjects and propagating subjects across selected syntactic structures.
+
+---
+
+## Auxiliary Verbs
+
+The parser includes specific treatment of Brazilian Portuguese auxiliary and semi-auxiliary constructions.
+
+Examples include:
+
+```text
+acabar de
+começar a
+continuar a
+deixar de
+dever
+estar para
+haver de
+ir
+poder
+ter de
+ter que
+tornar a
+vir a
+voltar a
+```
+
+These constructions are normalized before or during AMR generation so that auxiliary material does not automatically become an independent semantic predicate.
+
+---
+
+## Named Entities
+
+RBAMR-News converts named entities into AMR-compatible `:name` structures.
+
+The system can combine:
+
+- local geographic resources;
+- capitalization heuristics;
+- entity-type heuristics;
+- optional external entity information.
+
+Example:
+
+```penman
+(c / city
+   :name (n / name
+            :op1 "São"
+            :op2 "Paulo"))
 ```
 
 ---
 
-# Dataset
+## Data
 
-The parser is evaluated on:
+### AMRNews-PT
 
-## AMRNews-PT
+The main evaluation resource is **AMRNews-PT**, a manually annotated AMR corpus for Brazilian Portuguese journalistic texts.
 
-Characteristics:
+The corpus contains approximately **870 sentences** derived from *Folha de S.Paulo* news texts.
 
-- 870 manually annotated sentences;
-- journalistic texts;
-- extracted from Folha de São Paulo;
-- sentences up to 23 tokens;
-- annotated using Verbo-Brasil.
+It provides an important testbed for evaluating whether symbolic rules developed in another domain can be transferred to journalistic Portuguese.
 
-The corpus was manually annotated by researchers in:
+> **Important:** AMRNews-PT is an external research resource and is not redistributed here unless its original licensing conditions explicitly permit redistribution.
 
-- Computational Linguistics;
-- Computer Science.
+---
 
-Inter-annotator agreement:
+## Current Experimental Variants
+
+The project has evolved through several experimental configurations.
+
+| Configuration | Description |
+|---|---|
+| Symbolic | Dependency-based symbolic pipeline |
+| Neural SRL v1 | Initial integration of neural semantic roles |
+| Neural SRL v2 | Revised integration and structural corrections |
+| Neural SRL + entity information | Neural semantic pipeline with expanded entity processing |
+
+This progression allows the contribution of individual components to be evaluated independently.
+
+---
+
+## Current Results
+
+Evaluation is performed with **Smatch**, using aligned gold and automatically generated AMR graphs.
+
+On the current paired evaluation set, development has produced the following progression:
+
+| System | Smatch F1 |
+|---|---:|
+| Symbolic baseline | 52.00 |
+| Neural SRL – first integration | 54.12 |
+| Neural SRL – revised integration | 57.43 |
+| Neural SRL + expanded entity processing | **58.07** |
+
+For the current best configuration:
 
 ```text
-Smatch = 0.73
+Precision: 65.12
+Recall:    52.40
+F1:        58.07
+```
+
+Concept identification reaches approximately:
+
+```text
+Concept F1: 61.65
+```
+
+These numbers correspond to the current experimental setup and should be interpreted as **research results rather than a stable benchmark release**.
+
+---
+
+## Evaluation
+
+RBAMR-News is evaluated at multiple levels.
+
+### Graph-level evaluation
+
+The primary metric is:
+
+```text
+Smatch
+```
+
+Smatch measures overlap between predicted and gold AMR triples.
+
+### Fine-grained analysis
+
+The project also investigates:
+
+- concepts;
+- semantic relations;
+- `:ARG0`;
+- `:ARG1`;
+- `:ARG2`;
+- named entities;
+- `:domain`;
+- structural validity;
+- graph connectivity.
+
+### Error Analysis
+
+Quantitative evaluation is complemented by qualitative analysis of:
+
+- best-performing sentences;
+- worst-performing non-zero sentences;
+- zero-Smatch cases;
+- recurrent linguistic phenomena;
+- SRL-to-AMR propagation errors;
+- lexical mismatches;
+- structural graph errors.
+
+---
+
+## Ablation Experiments
+
+Because RBAMR-News is modular and rule-based, individual components can be disabled to estimate their contribution.
+
+For a component \(r\):
+
+```text
+ΔSmatch = Smatch(full system) − Smatch(system without r)
+```
+
+This methodology makes it possible to distinguish rules that are linguistically plausible from rules that actually improve AMR generation empirically.
+
+---
+
+## Running RBAMR-News
+
+> **Development status:** the software is currently a research prototype. Interfaces and command-line options may change as the parser is developed.
+
+A typical parser execution follows the general pattern:
+
+```bash
+python run_parser.py \
+    --input INPUT.conllu \
+    --output OUTPUT.txt \
+    --srl-mode neural \
+    --strict-graphs
+```
+
+For experiments without external entity processing:
+
+```bash
+python run_parser.py \
+    --input INPUT.conllu \
+    --output OUTPUT.txt \
+    --srl-mode neural \
+    --no-wiki \
+    --strict-graphs
+```
+
+Selected linguistic rules can also be disabled for ablation experiments. For example:
+
+```bash
+python run_parser.py \
+    --input INPUT.conllu \
+    --output OUTPUT.txt \
+    --srl-mode neural \
+    --no-wiki \
+    --strict-graphs \
+    --disable-copula-domain
 ```
 
 ---
 
-# Evaluation
+## Input
 
-RBAMR-News evaluates both:
+The parser currently operates primarily on **CoNLL-U-style representations** containing the syntactic and, depending on the experiment, semantic information required by the pipeline.
 
-- rule-level performance;
-- graph-level semantic quality.
-
----
-
-## Metrics
-
-### Rule-Level Metrics
-
-- support;
-- precision;
-- recall;
-- F1-score.
-
-### Graph-Level Metric
-
-- Smatch.
-
----
-
-# Ablation Study
-
-The project performs systematic ablation experiments.
-
-Each rule is individually removed to measure its contribution.
-
-Formula:
+Example:
 
 ```text
-ΔS = Sfull − Sablated
-ΔP = Pfull − Pablated
-ΔR = Rfull − Rablated
+# sent_id = example
+# text = Maria comprou um carro.
+...
+```
+
+The exact column requirements depend on the selected SRL mode.
+
+---
+
+## Output
+
+The primary output is AMR serialized in PENMAN notation.
+
+Example:
+
+```penman
+(c / comprar-01
+   :ARG0 (p / person
+             :name (n / name
+                      :op1 "Maria"))
+   :ARG1 (c2 / carro))
 ```
 
 ---
 
-# Results
+## Installation
 
-## Overall Performance
+The project is implemented in **Python 3**.
 
-| Metric | Value |
-|---|---|
-| Precision | 0.43 |
-| Recall | 0.64 |
-| Smatch F1 | 0.51 |
+A complete reproducible environment specification is being prepared as the research codebase is consolidated.
 
----
+Recommended workflow:
 
-## Fine-Grained Performance
+```bash
+git clone https://github.com/mjbcomarim/RBAMR-News.git
+cd RBAMR-News
+```
 
-| Category | F1-score |
-|---|---|
-| Concepts | 0.56 |
-| Relations | 0.39 |
+Then create an isolated Python environment before installing the project dependencies.
+
+> A pinned dependency file and fully reproducible installation procedure should be considered part of the next stable repository release.
 
 ---
 
-# Most Important Rules
+## Repository Organization
 
-The ablation study shows that the most impactful rules are:
+The repository is being reorganized toward the following structure:
 
-| Rule | Impact |
-|---|---|
-| Subject → :ARG0 | High |
-| Direct Object → :ARG1 | High |
-| Named Entities | High |
+```text
+RBAMR-News/
+│
+├── src/                  # Parser implementation
+├── data/                 # Data and input examples
+├── resources/            # Lexical and linguistic resources
+├── evaluation/           # Smatch and evaluation scripts
+├── experiments/          # Experimental configurations
+├── docs/                 # Extended documentation
+├── tests/                # Automated tests
+│
+├── run_parser.py         # Main parser entry point
+├── requirements.txt      # Python dependencies
+├── README.md
+├── CITATION.cff
+└── LICENSE
+```
 
-Lower-impact rules include:
-
-- ordinals;
-- possession;
-- copular constructions.
-
----
-
-# Technologies
-
-The project uses:
-
-| Technology | Purpose |
-|---|---|
-| Python | Main implementation |
-| PortParser | Dependency parsing |
-| Universal Dependencies | Syntax representation |
-| Verbo-Brasil | Semantic frames |
-| PENMAN | AMR serialization |
-| Smatch | Evaluation |
+The exact structure may change while the research prototype is consolidated.
 
 ---
 
-# Methodological Perspective
+## Research Roadmap
 
-RBAMR-News adopts a:
+### Parser
 
-## Hybrid Neuro-Symbolic Approach
+- [x] Reconstruct core symbolic RBAMR architecture
+- [x] Migrate processing to Universal Dependencies
+- [x] Implement basic UD → AMR mappings
+- [x] Implement implicit-subject processing
+- [x] Expand auxiliary-verb handling
+- [x] Implement named-entity processing
+- [x] Integrate neural SRL
+- [x] Add rule ablation switches
+- [ ] Consolidate the parser as a stable Python package
+- [ ] Expand automated testing
+- [ ] Improve graph structural validation
 
-Combining:
+### Evaluation
 
-- symbolic linguistic rules;
-- dependency parsing;
-- semantic role heuristics;
-- lexical-semantic resources;
-- interpretable semantic processing.
+- [x] Evaluate against AMRNews-PT
+- [x] Perform Smatch evaluation
+- [x] Compare symbolic and neural-SRL variants
+- [x] Begin systematic qualitative error analysis
+- [ ] Complete rule-level ablation analysis
+- [ ] Expand linguistic phenomenon evaluation
+- [ ] Publish reproducible experiment configurations
 
----
+### Annotation Support
 
-# Applications
-
-Possible applications include:
-
-- semantic parsing;
-- information extraction;
-- summarization;
-- question answering;
-- semantic search;
-- machine translation;
-- corpus annotation support;
-- low-resource NLP research.
-
----
-
-# Citation
-
-If you use this repository, please cite: Hidden Information
-
----
-
-# References
-
-Main references include:
-
-- Banarescu et al. (2013)
-- Anchieta and Pardo (2018; 2022)
-- Sobrevilla Cabezudo and Pardo (2019)
-- Mansouri (2025)
-- Wein and Opitz (2024)
+- [ ] Sentence-level interactive parsing
+- [ ] File-level parsing
+- [ ] Manual AMR graph editing
+- [ ] Export human-corrected AMR
+- [ ] Explicitly distinguish automatic output from human revision
 
 ---
 
-# Author
+## Limitations
 
-Developed and maintained by Hidden Information.
+RBAMR-News is currently an **experimental research parser**, not a production NLP system.
+
+Current limitations include:
+
+- dependence on upstream syntactic and semantic predictions;
+- incomplete lexical coverage;
+- incomplete coverage of Brazilian Portuguese constructions;
+- errors propagated from SRL to AMR;
+- difficulties with complex sentence structures;
+- named-entity typing errors;
+- graph connectivity errors in some constructions;
+- limited AMR training and evaluation resources for Brazilian Portuguese.
+
+A major objective of the project is precisely to identify and quantify these limitations.
 
 ---
 
-# Repository
+## Reproducibility
 
-Hidden Information
+Reproducibility is an ongoing priority of the project.
+
+Stable experimental releases should document:
+
+- parser version;
+- input data version;
+- SRL configuration;
+- enabled and disabled rules;
+- external resources;
+- evaluation subset;
+- Smatch configuration;
+- random seeds when applicable.
+
+Current Smatch experiments use multiple restarts and controlled evaluation settings.
+
+---
+
+## Technologies and Resources
+
+RBAMR-News uses or interacts with:
+
+- **Python 3**
+- **Abstract Meaning Representation (AMR)**
+- **Universal Dependencies**
+- **CoNLL-U**
+- **Semantic Role Labeling**
+- **Verbo-Brasil**
+- **PENMAN**
+- **Smatch**
+- Brazilian Portuguese dependency parsing resources
+
+---
+
+## Related Resources
+
+The project builds upon or interacts with research on:
+
+- RBAMR;
+- AMR-LittlePrince;
+- AMRNews-PT;
+- Verbo-Brasil;
+- Universal Dependencies;
+- Brazilian Portuguese semantic role labeling;
+- multilingual and low-resource AMR parsing.
+
+---
+
+## Research Context
+
+RBAMR-News is part of doctoral research on **automatic methods for AMR corpus annotation in Brazilian Portuguese**.
+
+The broader research agenda includes:
+
+```text
+Brazilian Portuguese corpora
+          │
+          ├── symbolic AMR parsing
+          │
+          ├── neural semantic role labeling
+          │
+          ├── linguistic rule analysis
+          │
+          ├── automatic AMR generation
+          │
+          └── human revision
+                     │
+                     ▼
+          larger gold AMR resources
+```
+
+The long-term goal is not only to improve automatic parsing, but also to investigate how automatic systems can support the creation of **high-quality manually revised AMR corpora** for Brazilian Portuguese.
+
+---
+
+## Citation
+
+If you use RBAMR-News in academic work, please cite the corresponding publication and/or software release.
+
+A machine-readable `CITATION.cff` file will be provided with stable releases.
+
+Related work:
+
+**Towards RBAMR-News: a Rule-Based AMR Parser for News in Portuguese**
+
+Full bibliographic information will be added after publication.
+
+---
+
+## Original RBAMR
+
+RBAMR-News builds upon the original RBAMR architecture developed by **Rafael Anchiêta and Thiago Pardo**.
+
+Original repository:
+
+`rafaelanchieta/rbamr`
+
+RBAMR-News should be understood as a reconstruction, modernization, and research extension of that work rather than as the original RBAMR implementation.
+
+---
+
+## Author
+
+**Maria Julia Bernardo Comarim**
+
+Graduate Program in Linguistics — PPGL/UFSCar  
+Interinstitutional Center for Computational Linguistics — NILC  
+Federal University of São Carlos — UFSCar
+
+Research area: **Computational Semantics · Abstract Meaning Representation · Semantic Parsing · Brazilian Portuguese NLP**
+
+---
+
+## Acknowledgments
+
+This research is developed at the **Federal University of São Carlos (UFSCar)** in connection with the **Interinstitutional Center for Computational Linguistics (NILC)**.
+
+The project builds upon previous research on RBAMR, Brazilian Portuguese AMR resources, Universal Dependencies, Semantic Role Labeling, and Verbo-Brasil.
+
+Research support and funding acknowledgments should follow the requirements applicable to the corresponding research outputs and software releases.
+
+---
+
+## Status
+
+🚧 **Active research project**
+
+RBAMR-News is under active development. Results, interfaces, rules, and experimental configurations may change as the parser and its evaluation are refined.
+
+Issues, reproducibility reports, linguistic observations, and research-oriented contributions are welcome.
