@@ -746,10 +746,19 @@ If you use RBAMR-News in academic work, please cite the corresponding publicatio
 
 Related work:
 
-**Towards RBAMR-News: a Rule-Based AMR Parser for News in Portuguese**
+**Empirical Study Towards RBAMR-News: a Rule-Based AMR Parser for News in Portuguese**
+
 COMARIM, Maria Julia Bernardo; DI-FELIPPO, Ariani. Empirical Study Towards RBAMR-News: a Rule-Based AMR Parser for News in Portuguese. In: SIMPÓSIO BRASILEIRO DE TECNOLOGIA DA INFORMAÇÃO E DA LINGUAGEM HUMANA (STIL), 17. , 2026, Cuiabá/MT. Anais [...]. Porto Alegre: Sociedade Brasileira de Computação, 2026 . p. 86-99. DOI: https://doi.org/10.5753/stil.2026.26504.
 
-Full bibliographic information will be added after publication.
+**Exploração de regras linguísticas na construção de grafos AMR por meio de um parser simbólico**
+
+COMARIM, Maria Julia Bernardo. Exploração de regras linguísticas na construção de grafos AMR por meio de um parser simbólico. In: SEMINÁRIO DE PESQUISA DA PÓS-GRADUAÇÃO EM LINGUÍSTICA, 19.; SEMANA DA LINGUÍSTICA, 7., 2026, São Carlos. **Caderno de Resumos do XIX Seminário de Pesquisa da Pós-Graduação em Linguística e VII Semana da Linguística**. São Carlos: Universidade Federal de São Carlos, 2026. p. 69. Disponível em: https://www.splin.ufscar.br/arquivos/splin-caderno-de-resumos.pdf. Acesso em: 21 out. 2026.
+
+**Exploração de métodos automáticos para anotação de corpus segundo o modelo “Abstract Meaning Representation”**
+
+COMARIM, Maria Julia Bernardo. Exploração de métodos automáticos para anotação de corpus segundo o modelo “Abstract Meaning Representation”. In: SEMINÁRIO DE PESQUISA DA PÓS-GRADUAÇÃO EM LINGUÍSTICA DA UFSCAR, 18., 2025, São Carlos. **Caderno de resumos do XVIII Seminário de Pesquisa da Pós-Graduação em Linguística – SPLin 2025**. São Carlos: Pedro & João Editores, 2025. Disponível em: https://www.splin.ufscar.br/arquivos/anais-e-cadernos-de-resumos/caderno-de-resumos-splin-2025.pdf. Acesso em: 21 out. 2026.
+
+More bibliographic information will be added after publication.
 
 ---
 
