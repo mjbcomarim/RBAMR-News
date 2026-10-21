@@ -744,11 +744,10 @@ The long-term goal is not only to improve automatic parsing, but also to investi
 
 If you use RBAMR-News in academic work, please cite the corresponding publication and/or software release.
 
-A machine-readable `CITATION.cff` file will be provided with stable releases.
-
 Related work:
 
 **Towards RBAMR-News: a Rule-Based AMR Parser for News in Portuguese**
+COMARIM, Maria Julia Bernardo; DI-FELIPPO, Ariani. Empirical Study Towards RBAMR-News: a Rule-Based AMR Parser for News in Portuguese. In: SIMPÓSIO BRASILEIRO DE TECNOLOGIA DA INFORMAÇÃO E DA LINGUAGEM HUMANA (STIL), 17. , 2026, Cuiabá/MT. Anais [...]. Porto Alegre: Sociedade Brasileira de Computação, 2026 . p. 86-99. DOI: https://doi.org/10.5753/stil.2026.26504.
 
 Full bibliographic information will be added after publication.
 
@@ -784,7 +783,7 @@ This research is developed at the **Federal University of São Carlos (UFSCar)**
 
 The project builds upon previous research on RBAMR, Brazilian Portuguese AMR resources, Universal Dependencies, Semantic Role Labeling, and Verbo-Brasil.
 
-Research support and funding acknowledgments should follow the requirements applicable to the corresponding research outputs and software releases.
+Research supported and funded by Fundação de Amparo à Pesquisa do Estado de São Paulo (FAPESP) Process: 2025/13318-6
 
 ---
 
